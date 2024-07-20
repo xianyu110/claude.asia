@@ -13,6 +13,10 @@ https://717ka.com/c/213p5exrs1mm0t1y06l9ebn
 ![](https://files.mdnice.com/user/68592/313e08ac-25b9-4eee-9f65-a840679b9516.png)
 
 
+## Artifacts项目分享
+
+https://github.com/xianyu110/Awesome-Claude-Artifacts-CN
+
 ## 为什么选我们？
 
 使用Claude官网需要20美元一个月，折合人民币至少160元，对于学生群体来说，这个价格偏贵。此外，使用官网还需要Visa卡，大部分人没有美元Visa卡，只能通过淘宝购买虚拟卡。然而，大部分虚拟卡不正规，导致频繁封号，最终钱没了，账号也没了，只能自认倒霉。而淘宝店主则会推卸责任，说是用户自身IP不干净造成的。
