@@ -3,7 +3,12 @@
 今天，我们非常高兴地宣布，Claude中国官网正式上线了！这一平台不仅提供了1:1还原官网的体验，而且实现了国内直连，为广大用户提供了更加便捷和流畅的使用体验。
 
 国内使用地址：
+
 https://claudes.asia
+
+店铺：
+
+https://717ka.com/c/213p5exrs1mm0t1y06l9ebn
 
 ![](https://files.mdnice.com/user/68592/313e08ac-25b9-4eee-9f65-a840679b9516.png)
 
@@ -89,4 +94,3 @@ Claude中国官网的上线，标志着我们向提供优质AI聊天服务迈出
 
 国内访问地址：https://claudes.asia
 
-点击阅读原文访问Claude中国官网
