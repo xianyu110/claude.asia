@@ -4,7 +4,7 @@
 
 国内使用地址：
 
-https://claudes.asia
+https://claude-opus.top/list
 
 店铺：
 
