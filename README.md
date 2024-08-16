@@ -6,8 +6,8 @@
 
 https://claude-opus.top/list
 
-
-
+旧站点：
+https://claude.maynor1024.live/list
 
 ## Artifacts项目分享
 
