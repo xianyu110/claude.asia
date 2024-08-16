@@ -6,11 +6,7 @@
 
 https://claude-opus.top/list
 
-店铺：
 
-https://717ka.com/c/213p5exrs1mm0t1y06l9ebn
-
-![](https://files.mdnice.com/user/68592/313e08ac-25b9-4eee-9f65-a840679b9516.png)
 
 
 ## Artifacts项目分享
