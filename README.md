@@ -5,6 +5,8 @@
 国内使用地址：
 
 https://claude-opus.top/list
+店铺：https://717ka.com/c/n5gmnowpu2x5obz9qpoy0am
+
 
 旧站点：
 https://claude.maynor1024.live/list
