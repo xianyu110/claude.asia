@@ -4,7 +4,7 @@
 
 国内使用地址：
 
-https://claude-opus.top/list
+https://claude-opus.top/list  (需注册）
 
 店铺：
 
