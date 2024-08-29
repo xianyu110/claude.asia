@@ -11,8 +11,6 @@ https://claude-opus.top/list  (需注册）
 https://717ka.com/c/n5gmnowpu2x5obz9qpoy0am
 
 
-旧站点：
-https://claude.maynor1024.live/list
 
 ## Artifacts项目分享
 
