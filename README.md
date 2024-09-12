@@ -4,7 +4,12 @@
 
 国内使用地址：
 
-https://claude-opus.top/list  (需注册）
+ https://claude.maynor1024.live/ (需注册）
+
+备用网址：
+
+https://claude-opus.top/list/
+https://claudes.asia/list/
 
 店铺：
 
@@ -98,5 +103,5 @@ Claude中国官网的上线，标志着我们向提供优质AI聊天服务迈出
 
 国内使用地址：
 
-https://claude-opus.top/list
+https://claude.maynor1024.live/
 
