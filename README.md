@@ -6,11 +6,6 @@
 
  https://claude.maynor1024.live/ (需注册）
 
-备用网址：
-
-https://claude-opus.top/list/
-
-https://claudes.asia/list/
 
 店铺：
 
