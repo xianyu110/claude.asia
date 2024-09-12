@@ -4,7 +4,7 @@
 
 国内使用地址：
 
- https://claude.maynor1024.live/ (需注册）
+ https://claude.maynor1024.live/ 
 
 
 店铺：
