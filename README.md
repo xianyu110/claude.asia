@@ -2,10 +2,15 @@
 
 今天，我们非常高兴地宣布，Claude中国官网正式上线了！这一平台不仅提供了1:1还原官网的体验，而且实现了国内直连，为广大用户提供了更加便捷和流畅的使用体验。
 
+
 国内使用地址：
 
  https://claude.maynor1024.live/ 
 
+如网站打不开可联系我：
+     <a href="#QQ">
+        <img src="https://img.shields.io/badge/QQ:1002569303-green.svg" alt="1002569303" />
+    </a>
 
 店铺：
 
