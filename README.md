@@ -5,11 +5,10 @@
 
 国内使用地址：
 
- https://claude.maynor1024.live/ 
+ https://api.maynor1024.live/ 
 
 如网站打不开可联系我：
-<a href="https://blog.csdn.net/xianyu120"> <img src="https://img.shields.io/badge/csdn-博客-purple.svg" alt="CSDN" /></a> 
-<a href="https://space.bilibili.com/399102586"> <img src="https://img.shields.io/badge/bilibili-%E8%A7%86%E9%A2%91-black.svg" alt="B站" /></a> 
+
      <a href="#QQ">
         <img src="https://img.shields.io/badge/QQ:1002569303-green.svg" alt="1002569303" />
     </a>
@@ -106,5 +105,5 @@ Claude中国官网的上线，标志着我们向提供优质AI聊天服务迈出
 
 国内使用地址：
 
-https://claude.maynor1024.live/
+https://api.maynor1024.live/
 
