@@ -9,9 +9,7 @@
 
 如网站打不开可联系我：
 
-     <a href="#QQ">
-        <img src="https://img.shields.io/badge/QQ:1002569303-green.svg" alt="1002569303" />
-    </a>
+     qq 1002569303
 
 店铺：
 
