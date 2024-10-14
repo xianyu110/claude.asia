@@ -15,6 +15,7 @@
 
 https://717ka.com/c/n5gmnowpu2x5obz9qpoy0am
 
+https://maynorai.taobao.com/ （下单免手续费）
 
 ## Artifacts项目分享
 
