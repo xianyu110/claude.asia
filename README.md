@@ -5,7 +5,7 @@
 
 国内使用地址：
 
- https://api.maynor1024.live/ 
+ [https://vlink.cc/maynorai](https://vlink.cc/maynorai?s=HL955T97z9)
 
 如网站打不开可联系我：
 
