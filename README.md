@@ -5,7 +5,7 @@
 
 国内使用地址：
 
- [https://vlink.cc/maynorai?s=HL955T97z9](https://vlink.cc/maynorai?s=HL955T97z9)
+ [https://vlink.cc](https://vlink.cc/maynorai?s=HL955T97z9)
 
 如网站打不开可联系我：
 
