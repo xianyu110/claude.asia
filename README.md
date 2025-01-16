@@ -5,11 +5,11 @@
 
 国内使用地址：
 
- [https://vlink.cc](https://vlink.cc/maynorai?s=HL955T97z9)
+ [https://vlink.cc/maynorai](https://vlink.cc/maynorai?s=HL955T97z9)
 
 如网站打不开可联系我：
 
-     qq 1002569303
+     vx coder-maynor
 
 店铺：
 
@@ -102,5 +102,5 @@ Claude中国官网的上线，标志着我们向提供优质AI聊天服务迈出
 
 国内使用地址：
 
-https://api.maynor1024.live/
+https://vlink.cc/maynorai
 
