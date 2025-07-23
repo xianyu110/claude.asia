@@ -1,0 +1,43 @@
+# GitHub Pages 配置文件
+theme: jekyll-theme-minimal
+title: Claude中国官网
+description: 1:1还原官网体验，国内直连，更便捷更流畅的AI助手平台
+url: "https://yourusername.github.io"
+baseurl: "/claude.asia-1"
+
+# SEO 优化
+lang: zh-CN
+author: Claude中国团队
+keywords: Claude, AI, 人工智能, 聊天机器人, 中国, 镜像
+
+# 插件配置
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# 包含文件
+include:
+  - _pages
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
