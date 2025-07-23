@@ -1,9 +1,8 @@
 # GitHub Pages 配置文件
-theme: jekyll-theme-minimal
-title: Claude中国官网
-description: 1:1还原官网体验，国内直连，更便捷更流畅的AI助手平台
-url: "https://yourusername.github.io"
-baseurl: "/claude.asia-1"
+title: Claude 4 彻底杀疯了！
+description: 全面碾压 Deepseek V3、GPT-4.1，2025年AI编程界顶流明星
+url: "https://xianyu110.github.io"
+baseurl: "/claude.asia"
 
 # SEO 优化
 lang: zh-CN
