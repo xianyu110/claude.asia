@@ -1,0 +1,38 @@
+# Robots.txt for Multi-language AI Guide Sites
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://xianyu110.github.io/claude.asia/sitemap.xml
+Sitemap: https://xianyu110.github.io/chatgpt.asia/sitemap.xml  
+Sitemap: https://xianyu110.github.io/grok4/sitemap.xml
+Sitemap: https://xianyu110.github.io/gemini2.5pro/sitemap.xml
+
+# Language variants are allowed
+Allow: /?lang=*
+
+# Crawl delay for major search engines
+Crawl-delay: 1
+
+# Block common unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Allow major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

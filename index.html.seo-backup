@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Claude 4 国内使用完全指南，无需翻墙，支持多语言切换">
+    <title>Claude 4 国内直连使用指南</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 data-i18n="header.title">Claude 4 国内直连使用指南</h1>
+            <p data-i18n="header.subtitle">智能AI助手 · 无需翻墙 · 稳定可靠</p>
+            <div class="hero-text" data-i18n="header.heroText">🚀 开启AI新时代</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="features">
+            <div class="container">
+                <h2 data-i18n="features.title">核心优势</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <span data-i18n="features.items.0">无需科学上网工具</span>
+                    </div>
+                    <div class="feature-item">
+                        <span data-i18n="features.items.1">国内直连访问</span>
+                    </div>
+                    <div class="feature-item">
+                        <span data-i18n="features.items.2">多模态对话支持</span>
+                    </div>
+                    <div class="feature-item">
+                        <span data-i18n="features.items.3">编程代码生成</span>
+                    </div>
+                    <div class="feature-item">
+                        <span data-i18n="features.items.4">文档分析处理</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2 data-i18n="pricing.title">价格方案</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3 data-i18n="pricing.monthly">月付方案</h3>
+                        <div class="price">
+                            <span data-i18n="pricing.currency">￥</span>66
+                        </div>
+                        <ul class="features-list">
+                            <li data-i18n="pricing.features.0">Claude 4 完整功能</li>
+                            <li data-i18n="pricing.features.1">无使用次数限制</li>
+                            <li data-i18n="pricing.features.2">24小时技术支持</li>
+                            <li data-i18n="pricing.features.3">多设备同步使用</li>
+                        </ul>
+                        <button class="cta-button" data-i18n="ui.getStarted">立即开始</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="guide">
+            <div class="container">
+                <h2 data-i18n="guide.title">使用指南</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p data-i18n="guide.steps.0">访问官方网站</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p data-i18n="guide.steps.1">选择合适套餐</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p data-i18n="guide.steps.2">完成账号注册</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <p data-i18n="guide.steps.3">开始使用Claude 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 data-i18n="faq.title">常见问题</h2>
+                <div class="faq-container">
+                    <!-- FAQ内容将通过JavaScript动态生成 -->
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2 data-i18n="cta.title">立即体验Claude 4</h2>
+                <p data-i18n="cta.description">加入千万用户的选择，体验最先进的AI助手</p>
+                <button class="cta-button large" data-i18n="cta.button">开始使用</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copyright">© 2025 Claude.Asia. 保留所有权利</p>
+            <div class="footer-links">
+                <a href="#" data-i18n="footer.contact">联系我们</a>
+                <a href="#" data-i18n="footer.privacy">隐私政策</a>
+                <a href="#" data-i18n="footer.terms">服务条款</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
