@@ -1,75 +1,176 @@
 {
   "meta": {
-    "title": "Claude 4 중국 국내 사용 가이드",
-    "description": "VPN 없이 Claude 4를 중국 국내에서 사용하는 완전 가이드, 다국어 지원"
+    "title": "Claude 4 완전 승리! Deepseek V3・GPT-4.1 압도 - 중국 접속 가이드"
   },
-  "header": {
-    "title": "Claude 4 중국 국내 사용 가이드",
-    "subtitle": "스마트 AI 어시스턴트 · VPN 불필요 · 안정적이고 신뢰할 수 있음",
-    "heroText": "🚀 AI 신시대 열기"
-  },
-  "features": {
-    "title": "핵심 우위",
-    "items": [
-      "VPN 도구 불필요",
-      "중국 국내 직접 접속",
-      "멀티모달 대화 지원",
-      "프로그래밍 코드 생성",
-      "문서 분석 처리"
-    ]
-  },
-  "pricing": {
-    "title": "요금제",
-    "monthly": "월간 요금제",
-    "annual": "연간 요금제",
-    "currency": "￥",
+  "hero": {
+    "badge": "🚀 2025년 AI 분야 왕자",
+    "title": "Claude 4 완전 승리!<br>Deepseek V3・GPT-4.1 압도",
+    "subtitle": "여러 차례 테스트 결과, Claude 4는 코드 생성, UI 미학, 처리 속도에서 경쟁사를 완전 압도!",
     "features": [
-      "Claude 4 완전 기능",
-      "사용 횟수 무제한",
-      "24시간 기술 지원",
-      "멀티 디바이스 동기화 사용"
-    ]
+      "🎨 UI 미학 온라인",
+      "⚡ 코드 생성 속도 수십 배 앞서",
+      "🐍 Python 스크립트 초고속 출력"
+    ],
+    "cta": {
+      "primary": "🚀 지금 체험",
+      "secondary": "📊 비교 보기"
+    }
   },
-  "guide": {
-    "title": "사용 가이드",
-    "steps": [
-      "공식 웹사이트 방문",
-      "적합한 요금제 선택",
-      "계정 등록 완료",
-      "Claude 4 사용 시작"
-    ]
+  "experience": {
+    "title": "🌟 중국에서 가장 안정적인 Claude 접속 방안",
+    "plans": {
+      "premium": {
+        "name": "💎 프로페셔널",
+        "price": "￥66",
+        "period": "/월",
+        "features": [
+          "✅ Claude 4 완전 기능",
+          "✅ 중국 직접 접속, VPN 불필요",
+          "✅ 계정 차단 위험 없음",
+          "✅ 24시간 안정 서비스",
+          "✅ 채팅 기록 개인정보 보호"
+        ],
+        "button": "지금 시작"
+      },
+      "trial": {
+        "name": "🎯 체험판",
+        "price": "￥0.99",
+        "period": "/일",
+        "features": [
+          "✅ 기본 Claude 4 접근",
+          "✅ 일일 결제, 유연한 사용",
+          "✅ 미교환 시 만료 없음",
+          "✅ 3시간 내 40회 사용 가능"
+        ],
+        "button": "무료 체험"
+      }
+    }
+  },
+  "comparison": {
+    "title": "🥊 네 가지 모델 실제 대결 결과",
+    "description": "클래식 테스트: 단일 파일 날씨 카드 애니메이션 - CSS & JavaScript 날씨 카드 생성",
+    "table": {
+      "model": "모델",
+      "result": "성능",
+      "description": "설명"
+    },
+    "models": {
+      "claude": {
+        "name": "Claude 4",
+        "result": "챔피언, 승리",
+        "description": "폰트 디자인, 동적 효과 및 UI 미학 전면 승리"
+      },
+      "deepseek": {
+        "name": "Deepseek V3",
+        "result": "❌ 실패",
+        "description": "애니메이션 효과 불량, UI 디자인 평범"
+      },
+      "gpt": {
+        "name": "GPT-4.1",
+        "result": "❌ 실패",
+        "description": "코드 구조 혼란, 미적 감각 부족"
+      },
+      "gemini": {
+        "name": "Gemini 2.5 Pro",
+        "result": "❌ 실패",
+        "description": "기능 불완전, 응답 속도 느림"
+      }
+    }
+  },
+  "advantages": {
+    "title": "🏆 Claude 4가 사랑받는 이유",
+    "speed": {
+      "title": "번개처럼 빠른 코딩 속도",
+      "description": "TechCrunch (2025년 2월): Claude 4의 복잡한 코드 작성 속도는 GPT-4.1을 전면 초월, 정렬 알고리즘이든 백엔드 API든 모두 선도."
+    },
+    "ui": {
+      "title": "무적의 멀티모달 능력과 UI 미학",
+      "description": "코드 작성뿐만 아니라 UI 디자인 스케치 생성, 복잡한 시스템 디버깅 지원도 가능. 연구원 보고서: 멀티모달 능력이 경쟁사보다 30%+ 앞서."
+    },
+    "reasoning": {
+      "title": "초강력 추론 능력",
+      "description": "수학 추론, 과학 논문 분석, 이미지 인식 등 분야에서 뛰어난 성능, 평균 응답 시간 70초 이내 제어."
+    }
+  },
+  "painPoints": {
+    "title": "⚠️ 공식 Claude 사용의 문제점",
+    "cost": "월 20달러 (Claude Pro)",
+    "network": "해외 신용카드 및 과학적 네트워크 필요",
+    "restrictions": "국내 사용자 차단되기 쉬움, 경험 불량"
+  },
+  "solutions": {
+    "title": "💡 우리의 장점",
+    "price": {
+      "title": "💰 가격 우위",
+      "description": "공식 사이트 월 20달러(약 180위안), 우리는 단 66위안/월"
+    },
+    "privacy": {
+      "title": "🔒 개인정보 보장",
+      "description": "채팅 기록 분실 없음, 인증 코드로 안전 이전"
+    },
+    "safety": {
+      "title": "🛡️ 차단 위험 없음",
+      "description": "문제 발생 시 우리가 모든 책임 부담"
+    },
+    "original": {
+      "title": "🔄 공식 원본 미러",
+      "description": "계정 변경 지원, 3시간 내 40회 사용 가능"
+    },
+    "flexible": {
+      "title": "📅 유연한 결제",
+      "description": "일일 결제, 미교환 시 만료 없음, 최소 1일부터"
+    },
+    "easy": {
+      "title": "🎯 간편한 사용",
+      "description": "해외 신용카드 불필요, 과학적 인터넷 불필요, IP 차단 걱정 없음"
+    }
+  },
+  "caseStudy": {
+    "title": "💼 실제 사례",
+    "description": "실리콘밸리 스타트업 CodeZap이 Claude 4로 Python REST API 최적화 후:",
+    "results": {
+      "latency": "결제 시스템 지연 40% 감소",
+      "cost": "5만 달러 개발 비용 절약"
+    },
+    "conclusion": "Claude 4 솔루션은 우아하고 버그가 적으며 속도 향상이 현저해서, 누가 마음이 동하지 않을까?"
   },
   "faq": {
-    "title": "자주 묻는 질문",
+    "title": "❓ 자주 묻는 질문",
     "items": [
       {
         "question": "VPN이 필요한가요?",
-        "answer": "아니요, 중국 국내에서 직접 접속할 수 있는 서비스를 제공합니다"
+        "answer": "아니요, 우리는 중국에서 직접 접속 서비스를 제공합니다"
       },
       {
-        "question": "어떤 기능이 지원되나요?",
+        "question": "어떤 기능들이 지원되나요?",
         "answer": "텍스트 대화, 코드 생성, 문서 분석 등 Claude 4의 모든 기능"
       },
       {
-        "question": "기술 지원은 어떻게 받을 수 있나요?",
-        "answer": "24시간 온라인 고객 서비스와 기술 지원 제공"
+        "question": "기술 지원은 어떻게 받나요?",
+        "answer": "24시간 온라인 고객 서비스 및 기술 지원 제공"
       }
     ]
   },
-  "cta": {
-    "title": "지금 Claude 4 체험하기",
-    "button": "시작하기",
-    "description": "수백만 사용자의 선택에 동참하여 가장 앞선 AI 어시스턴트를 체험"
+  "contact": {
+    "title": "📞 문의하기",
+    "description": "궁금한 점이 있으시면 언제든지 연락하세요:",
+    "wechat": "위챗: claude-support",
+    "email": "QQ: 1002569303",
+    "store": "공식 스토어"
+  },
+  "finalCta": {
+    "title": "🎯 지금 AI 신시대를 열어보세요",
+    "description": "Claude 4는 우아하고 버그가 적으며 강력한 UI와 멀티모달 능력으로 2025년 AI 프로그래밍계의 톱스타에 걸맞습니다.",
+    "primary": "🚀 지금 Claude 4 체험하기",
+    "secondary": "📚 더 많은 사례 보기"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. 모든 권리 보유",
-    "contact": "연락처",
-    "privacy": "개인정보 보호정책",
-    "terms": "서비스 약관"
+    "copyright": "© 2025 Claude.Asia. 고품질 AI 대화 서비스 제공.",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기"
   },
   "ui": {
-    "languageSelector": "언어 선택",
-    "readMore": "더 보기",
-    "getStarted": "시작하기"
+    "languageSelector": "언어 선택"
   }
 }

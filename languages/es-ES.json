@@ -1,75 +1,176 @@
 {
   "meta": {
-    "title": "Guía de uso de Claude 4 en China",
-    "description": "Guía completa para usar Claude 4 en China sin VPN, soporte multiidioma"
+    "title": "¡Claude 4 domina completamente! Aplasta Deepseek V3 y GPT-4.1 - Guía de acceso a China"
   },
-  "header": {
-    "title": "Guía de uso de Claude 4 en China",
-    "subtitle": "Asistente de IA inteligente · Sin VPN · Estable y confiable",
-    "heroText": "🚀 Inaugurar la era de la IA"
-  },
-  "features": {
-    "title": "Ventajas principales",
-    "items": [
-      "No se requieren herramientas VPN",
-      "Acceso directo desde China",
-      "Soporte de conversación multimodal",
-      "Generación de código de programación",
-      "Procesamiento de análisis de documentos"
-    ]
-  },
-  "pricing": {
-    "title": "Planes de precios",
-    "monthly": "Plan mensual",
-    "annual": "Plan anual",
-    "currency": "￥",
+  "hero": {
+    "badge": "🚀 Rey del campo AI 2025",
+    "title": "¡Claude 4 domina completamente!<br>Aplasta Deepseek V3 y GPT-4.1",
+    "subtitle": "Tras múltiples pruebas, ¡Claude 4 aplasta completamente a los competidores en generación de código, estética UI y velocidad de procesamiento!",
     "features": [
-      "Funcionalidad completa de Claude 4",
-      "Uso ilimitado",
-      "Soporte técnico 24 horas",
-      "Uso sincronizado multi-dispositivo"
-    ]
+      "🎨 Estética UI en línea",
+      "⚡ Velocidad de generación de código líder por decenas de veces",
+      "🐍 Salida de scripts Python a velocidad de rayo"
+    ],
+    "cta": {
+      "primary": "🚀 Probar ahora",
+      "secondary": "📊 Ver comparación"
+    }
   },
-  "guide": {
-    "title": "Guía de uso",
-    "steps": [
-      "Visitar el sitio web oficial",
-      "Elegir el plan adecuado",
-      "Completar el registro de cuenta",
-      "Comenzar a usar Claude 4"
-    ]
+  "experience": {
+    "title": "🌟 El plan de acceso Claude más estable en China",
+    "plans": {
+      "premium": {
+        "name": "💎 Profesional",
+        "price": "￥66",
+        "period": "/mes",
+        "features": [
+          "✅ Funcionalidad completa Claude 4",
+          "✅ Acceso directo China, sin VPN",
+          "✅ Sin riesgo de prohibición de cuenta",
+          "✅ Servicio estable 24 horas",
+          "✅ Protección privacidad historial chat"
+        ],
+        "button": "Comenzar ahora"
+      },
+      "trial": {
+        "name": "🎯 Versión de prueba",
+        "price": "￥0.99",
+        "period": "/día",
+        "features": [
+          "✅ Acceso básico Claude 4",
+          "✅ Pago diario, uso flexible",
+          "✅ No caduca sin intercambio",
+          "✅ 40 usos disponibles en 3 horas"
+        ],
+        "button": "Prueba gratuita"
+      }
+    }
+  },
+  "comparison": {
+    "title": "🥊 Resultados del duelo real entre cuatro modelos",
+    "description": "Prueba clásica: Animación de tarjeta meteorológica de archivo único - Creación de tarjeta meteorológica con CSS y JavaScript",
+    "table": {
+      "model": "Modelo",
+      "result": "Rendimiento",
+      "description": "Descripción"
+    },
+    "models": {
+      "claude": {
+        "name": "Claude 4",
+        "result": "Campeón, victoria",
+        "description": "Diseño de fuentes, efectos dinámicos y estética UI completamente superiores"
+      },
+      "deepseek": {
+        "name": "Deepseek V3",
+        "result": "❌ Fracaso",
+        "description": "Efectos de animación deficientes, diseño UI mediocre"
+      },
+      "gpt": {
+        "name": "GPT-4.1",
+        "result": "❌ Fracaso",
+        "description": "Estructura de código confusa, falta de sentido estético"
+      },
+      "gemini": {
+        "name": "Gemini 2.5 Pro",
+        "result": "❌ Fracaso",
+        "description": "Funcionalidad incompleta, velocidad de respuesta lenta"
+      }
+    }
+  },
+  "advantages": {
+    "title": "🏆 Por qué Claude 4 es tan querido",
+    "speed": {
+      "title": "Velocidad de codificación ultrarrápida",
+      "description": "TechCrunch (febrero 2025): La velocidad de escritura de código complejo de Claude 4 supera completamente a GPT-4.1, ya sean algoritmos de ordenación o APIs backend, lidera por mucho."
+    },
+    "ui": {
+      "title": "Capacidad multimodal y estética UI invencibles",
+      "description": "No solo escribe código, también puede generar bocetos de diseño UI y ayudar a depurar sistemas complejos. Informe del instituto de investigación: capacidad multimodal lidera a la competencia en más del 30%."
+    },
+    "reasoning": {
+      "title": "Capacidad de razonamiento súper fuerte",
+      "description": "Rendimiento sobresaliente en razonamiento matemático, análisis de artículos científicos, reconocimiento de imágenes, etc., con tiempo promedio de respuesta controlado en 70 segundos."
+    }
+  },
+  "painPoints": {
+    "title": "⚠️ Puntos problemáticos del Claude oficial",
+    "cost": "20 dólares mensuales (Claude Pro)",
+    "network": "Requiere tarjeta de crédito extranjera y red científica",
+    "restrictions": "Usuarios domésticos fácilmente prohibidos, experiencia deficiente"
+  },
+  "solutions": {
+    "title": "💡 Nuestras ventajas",
+    "price": {
+      "title": "💰 Ventaja de precio",
+      "description": "Sitio oficial necesita 20 dólares/mes (aproximadamente 180 yuanes), nosotros solo 66 yuanes/mes"
+    },
+    "privacy": {
+      "title": "🔒 Garantía de privacidad",
+      "description": "Historial de chat no se pierde, migración segura con código de autorización"
+    },
+    "safety": {
+      "title": "🛡️ Sin riesgo de prohibición",
+      "description": "Incluso si surgen problemas, asumimos toda la responsabilidad"
+    },
+    "original": {
+      "title": "🔄 Espejo original oficial",
+      "description": "Soporte para cambio de cuenta, 40 usos disponibles en 3 horas"
+    },
+    "flexible": {
+      "title": "📅 Pago flexible",
+      "description": "Pago diario, no caduca sin intercambio, mínimo desde 1 día"
+    },
+    "easy": {
+      "title": "🎯 Uso simple",
+      "description": "No necesita tarjeta de crédito extranjera, no necesita ciencia de internet, no se preocupe por prohibición de IP"
+    }
+  },
+  "caseStudy": {
+    "title": "💼 Caso real",
+    "description": "Después de que la startup de Silicon Valley CodeZap optimizó la API REST de Python con Claude 4:",
+    "results": {
+      "latency": "Reducción del 40% en latencia del sistema de pagos",
+      "cost": "Ahorro de 50,000 dólares en costos de desarrollo"
+    },
+    "conclusion": "La solución Claude 4 es elegante, con pocos errores y mejora notable de velocidad, ¿quién no se sentiría atraído?"
   },
   "faq": {
-    "title": "Preguntas frecuentes",
+    "title": "❓ Preguntas frecuentes",
     "items": [
       {
         "question": "¿Necesito VPN?",
         "answer": "No, proporcionamos servicio de acceso directo desde China"
       },
       {
-        "question": "¿Qué funciones están soportadas?",
+        "question": "¿Qué funciones son compatibles?",
         "answer": "Todas las funciones de Claude 4 incluyendo diálogo de texto, generación de código, análisis de documentos, etc."
       },
       {
         "question": "¿Cómo obtener soporte técnico?",
-        "answer": "Servicio al cliente en línea 24/7 y soporte técnico disponible"
+        "answer": "Proporcionamos servicio al cliente en línea 24 horas y soporte técnico"
       }
     ]
   },
-  "cta": {
-    "title": "Experimenta Claude 4 ahora",
-    "button": "Comenzar",
-    "description": "Únete a millones de usuarios y experimenta el asistente de IA más avanzado"
+  "contact": {
+    "title": "📞 Contáctanos",
+    "description": "Si tienes alguna pregunta, no dudes en contactarnos:",
+    "wechat": "WeChat: claude-support",
+    "email": "QQ: 1002569303",
+    "store": "Tienda oficial"
+  },
+  "finalCta": {
+    "title": "🎯 Abre la nueva era AI ahora",
+    "description": "Claude 4 es elegante, con pocos errores, potente UI y capacidad multimodal, digno de ser la estrella top del mundo de programación AI 2025.",
+    "primary": "🚀 Experimenta Claude 4 ahora",
+    "secondary": "📚 Ver más casos"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. Todos los derechos reservados",
-    "contact": "Contáctanos",
+    "copyright": "© 2025 Claude.Asia. Proporcionando servicios de chat AI de alta calidad.",
     "privacy": "Política de privacidad",
-    "terms": "Términos de servicio"
+    "terms": "Términos de servicio",
+    "contact": "Contáctanos"
   },
   "ui": {
-    "languageSelector": "Seleccionar idioma",
-    "readMore": "Leer más",
-    "getStarted": "Comenzar"
+    "languageSelector": "Seleccionar idioma"
   }
 }
