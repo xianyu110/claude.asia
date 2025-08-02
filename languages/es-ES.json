@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Guía de uso de Claude 4 en China",
+    "description": "Guía completa para usar Claude 4 en China sin VPN, soporte multiidioma"
+  },
+  "header": {
+    "title": "Guía de uso de Claude 4 en China",
+    "subtitle": "Asistente de IA inteligente · Sin VPN · Estable y confiable",
+    "heroText": "🚀 Inaugurar la era de la IA"
+  },
+  "features": {
+    "title": "Ventajas principales",
+    "items": [
+      "No se requieren herramientas VPN",
+      "Acceso directo desde China",
+      "Soporte de conversación multimodal",
+      "Generación de código de programación",
+      "Procesamiento de análisis de documentos"
+    ]
+  },
+  "pricing": {
+    "title": "Planes de precios",
+    "monthly": "Plan mensual",
+    "annual": "Plan anual",
+    "currency": "￥",
+    "features": [
+      "Funcionalidad completa de Claude 4",
+      "Uso ilimitado",
+      "Soporte técnico 24 horas",
+      "Uso sincronizado multi-dispositivo"
+    ]
+  },
+  "guide": {
+    "title": "Guía de uso",
+    "steps": [
+      "Visitar el sitio web oficial",
+      "Elegir el plan adecuado",
+      "Completar el registro de cuenta",
+      "Comenzar a usar Claude 4"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Necesito VPN?",
+        "answer": "No, proporcionamos servicio de acceso directo desde China"
+      },
+      {
+        "question": "¿Qué funciones están soportadas?",
+        "answer": "Todas las funciones de Claude 4 incluyendo diálogo de texto, generación de código, análisis de documentos, etc."
+      },
+      {
+        "question": "¿Cómo obtener soporte técnico?",
+        "answer": "Servicio al cliente en línea 24/7 y soporte técnico disponible"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Experimenta Claude 4 ahora",
+    "button": "Comenzar",
+    "description": "Únete a millones de usuarios y experimenta el asistente de IA más avanzado"
+  },
+  "footer": {
+    "copyright": "© 2025 Claude.Asia. Todos los derechos reservados",
+    "contact": "Contáctanos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
+  },
+  "ui": {
+    "languageSelector": "Seleccionar idioma",
+    "readMore": "Leer más",
+    "getStarted": "Comenzar"
+  }
+}

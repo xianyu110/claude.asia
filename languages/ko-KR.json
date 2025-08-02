@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Claude 4 중국 국내 사용 가이드",
+    "description": "VPN 없이 Claude 4를 중국 국내에서 사용하는 완전 가이드, 다국어 지원"
+  },
+  "header": {
+    "title": "Claude 4 중국 국내 사용 가이드",
+    "subtitle": "스마트 AI 어시스턴트 · VPN 불필요 · 안정적이고 신뢰할 수 있음",
+    "heroText": "🚀 AI 신시대 열기"
+  },
+  "features": {
+    "title": "핵심 우위",
+    "items": [
+      "VPN 도구 불필요",
+      "중국 국내 직접 접속",
+      "멀티모달 대화 지원",
+      "프로그래밍 코드 생성",
+      "문서 분석 처리"
+    ]
+  },
+  "pricing": {
+    "title": "요금제",
+    "monthly": "월간 요금제",
+    "annual": "연간 요금제",
+    "currency": "￥",
+    "features": [
+      "Claude 4 완전 기능",
+      "사용 횟수 무제한",
+      "24시간 기술 지원",
+      "멀티 디바이스 동기화 사용"
+    ]
+  },
+  "guide": {
+    "title": "사용 가이드",
+    "steps": [
+      "공식 웹사이트 방문",
+      "적합한 요금제 선택",
+      "계정 등록 완료",
+      "Claude 4 사용 시작"
+    ]
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "VPN이 필요한가요?",
+        "answer": "아니요, 중국 국내에서 직접 접속할 수 있는 서비스를 제공합니다"
+      },
+      {
+        "question": "어떤 기능이 지원되나요?",
+        "answer": "텍스트 대화, 코드 생성, 문서 분석 등 Claude 4의 모든 기능"
+      },
+      {
+        "question": "기술 지원은 어떻게 받을 수 있나요?",
+        "answer": "24시간 온라인 고객 서비스와 기술 지원 제공"
+      }
+    ]
+  },
+  "cta": {
+    "title": "지금 Claude 4 체험하기",
+    "button": "시작하기",
+    "description": "수백만 사용자의 선택에 동참하여 가장 앞선 AI 어시스턴트를 체험"
+  },
+  "footer": {
+    "copyright": "© 2025 Claude.Asia. 모든 권리 보유",
+    "contact": "연락처",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관"
+  },
+  "ui": {
+    "languageSelector": "언어 선택",
+    "readMore": "더 보기",
+    "getStarted": "시작하기"
+  }
+}
