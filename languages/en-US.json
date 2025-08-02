@@ -1,46 +1,141 @@
 {
   "meta": {
-    "title": "Claude 4 China Access Guide",
-    "description": "Complete guide to using Claude 4 in China, no VPN required, multi-language support"
+    "title": "Claude 4 Dominates! Crushing Deepseek V3 & GPT-4.1 - China Access Guide"
   },
-  "header": {
-    "title": "Claude 4 China Access Guide",
-    "subtitle": "Smart AI Assistant · No VPN Required · Stable & Reliable",
-    "heroText": "🚀 Enter the AI Era"
-  },
-  "features": {
-    "title": "Core Advantages",
-    "items": [
-      "No VPN tools required",
-      "Direct access from China",
-      "Multi-modal conversation support",
-      "Programming code generation",
-      "Document analysis processing"
-    ]
-  },
-  "pricing": {
-    "title": "Pricing Plans",
-    "monthly": "Monthly Plan",
-    "annual": "Annual Plan",
-    "currency": "$",
+  "hero": {
+    "badge": "🚀 2025 AI Leader",
+    "title": "Claude 4 Dominates!<br>Crushing Deepseek V3 & GPT-4.1",
+    "subtitle": "After extensive testing, Claude 4 crushes competitors in code generation, UI aesthetics, and processing speed!",
     "features": [
-      "Full Claude 4 functionality",
-      "Unlimited usage",
-      "24/7 technical support",
-      "Multi-device synchronization"
-    ]
+      "🎨 Superior UI Aesthetics",
+      "⚡ Code Generation Tens of Times Faster",
+      "🐍 Lightning-Fast Python Scripts"
+    ],
+    "cta": {
+      "primary": "🚀 Try Now",
+      "secondary": "📊 View Comparison"
+    }
   },
-  "guide": {
-    "title": "User Guide",
-    "steps": [
-      "Visit official website",
-      "Choose suitable plan",
-      "Complete account registration",
-      "Start using Claude 4"
-    ]
+  "experience": {
+    "title": "🌟 Most Stable Claude Access in China",
+    "plans": {
+      "premium": {
+        "name": "💎 Professional",
+        "price": "$10",
+        "period": "/month",
+        "features": [
+          "✅ Full Claude 4 functionality",
+          "✅ Direct China access, no VPN needed",
+          "✅ No account ban risk",
+          "✅ 24/7 stable service",
+          "✅ Chat history privacy protection"
+        ],
+        "button": "Get Started"
+      },
+      "trial": {
+        "name": "🎯 Trial",
+        "price": "$0.15",
+        "period": "/day",
+        "features": [
+          "✅ Basic Claude 4 access",
+          "✅ Pay per day, flexible usage",
+          "✅ No expiration if unused",
+          "✅ 40 uses within 3 hours"
+        ],
+        "button": "Free Trial"
+      }
+    }
+  },
+  "comparison": {
+    "title": "🥊 4-Model Battle Results",
+    "description": "Classic test: Single-file weather card animation - Create weather cards with CSS & JavaScript animations",
+    "table": {
+      "model": "Model",
+      "result": "Performance",
+      "description": "Description"
+    },
+    "models": {
+      "claude": {
+        "name": "Claude 4",
+        "result": "Champion, Winner",
+        "description": "Superior in typography, animations, and UI aesthetics"
+      },
+      "deepseek": {
+        "name": "Deepseek V3",
+        "result": "❌ Failed",
+        "description": "Poor animations, mediocre UI design"
+      },
+      "gpt": {
+        "name": "GPT-4.1",
+        "result": "❌ Failed",
+        "description": "Messy code structure, lacks aesthetics"
+      },
+      "gemini": {
+        "name": "Gemini 2.5 Pro",
+        "result": "❌ Failed",
+        "description": "Incomplete features, slow response"
+      }
+    }
+  },
+  "advantages": {
+    "title": "🏆 Why Claude 4 is So Popular?",
+    "speed": {
+      "title": "Lightning-Fast Coding",
+      "description": "TechCrunch (Feb 2025): Claude 4 completely surpasses GPT-4.1 in complex code writing speed, whether sorting algorithms or backend APIs, it leads by far."
+    },
+    "ui": {
+      "title": "Unbeatable Multimodal & UI Aesthetics",
+      "description": "Not only writes code but also generates UI design sketches and helps debug complex systems. Research report: Multimodal capabilities lead competitors by 30%+."
+    },
+    "reasoning": {
+      "title": "Super Strong Reasoning",
+      "description": "Outstanding performance in mathematical reasoning, research paper analysis, and image recognition, with average response time controlled within 70 seconds."
+    }
+  },
+  "painPoints": {
+    "title": "⚠️ Official Claude Pain Points",
+    "cost": "$20/month (Claude Pro)",
+    "network": "Requires overseas credit card and VPN",
+    "restrictions": "Chinese users easily banned, poor experience"
+  },
+  "solutions": {
+    "title": "💡 Our Advantages",
+    "price": {
+      "title": "💰 Price Advantage",
+      "description": "Official site costs $20/month (~$28), we only need $10/month"
+    },
+    "privacy": {
+      "title": "🔒 Privacy Protection",
+      "description": "Chat history won't be lost, secure migration with authorization codes"
+    },
+    "safety": {
+      "title": "🛡️ No Ban Risk",
+      "description": "Even if problems occur, we take full responsibility"
+    },
+    "original": {
+      "title": "🔄 Official Mirror",
+      "description": "Support account switching, 40 uses within 3 hours"
+    },
+    "flexible": {
+      "title": "📅 Flexible Payment",
+      "description": "Pay per day, no expiration if unused, minimum 1 day"
+    },
+    "easy": {
+      "title": "🎯 Easy to Use",
+      "description": "No overseas credit card, no VPN, no IP ban worries"
+    }
+  },
+  "caseStudy": {
+    "title": "💼 Real Case Study",
+    "description": "Silicon Valley startup CodeZap optimized Python REST API with Claude 4:",
+    "results": {
+      "latency": "Payment system latency reduced by 40%",
+      "cost": "Saved $50,000 in development costs"
+    },
+    "conclusion": "Claude 4 solutions are elegant, bug-free, and significantly faster - who wouldn't be tempted?"
   },
   "faq": {
-    "title": "FAQ",
+    "title": "❓ FAQ",
     "items": [
       {
         "question": "Do I need a VPN?",
@@ -52,24 +147,30 @@
       },
       {
         "question": "How to get technical support?",
-        "answer": "24/7 online customer service and technical support available"
+        "answer": "We provide 24/7 online customer service and technical support"
       }
     ]
   },
-  "cta": {
-    "title": "Experience Claude 4 Now",
-    "button": "Get Started",
-    "description": "Join millions of users and experience the most advanced AI assistant"
+  "contact": {
+    "title": "📞 Contact Us",
+    "description": "For any questions, please contact:",
+    "wechat": "WeChat: claude-support",
+    "email": "QQ: 1002569303",
+    "store": "Official Store"
+  },
+  "finalCta": {
+    "title": "🎯 Enter the AI Era Now",
+    "description": "Claude 4, with its elegance, low bugs, powerful UI and multimodal capabilities, deserves to be the top star in 2025 AI programming world.",
+    "primary": "🚀 Try Claude 4 Now",
+    "secondary": "📚 View More Cases"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. All rights reserved",
-    "contact": "Contact Us",
+    "copyright": "© 2025 Claude.Asia. Providing quality AI chat services.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
   },
   "ui": {
-    "languageSelector": "Select Language",
-    "readMore": "Learn More",
-    "getStarted": "Get Started"
+    "languageSelector": "Select Language"
   }
 }
