@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Claude 4 China Access Guide",
+    "description": "Complete guide to using Claude 4 in China, no VPN required, multi-language support"
+  },
+  "header": {
+    "title": "Claude 4 China Access Guide",
+    "subtitle": "Smart AI Assistant · No VPN Required · Stable & Reliable",
+    "heroText": "🚀 Enter the AI Era"
+  },
+  "features": {
+    "title": "Core Advantages",
+    "items": [
+      "No VPN tools required",
+      "Direct access from China",
+      "Multi-modal conversation support",
+      "Programming code generation",
+      "Document analysis processing"
+    ]
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "monthly": "Monthly Plan",
+    "annual": "Annual Plan",
+    "currency": "$",
+    "features": [
+      "Full Claude 4 functionality",
+      "Unlimited usage",
+      "24/7 technical support",
+      "Multi-device synchronization"
+    ]
+  },
+  "guide": {
+    "title": "User Guide",
+    "steps": [
+      "Visit official website",
+      "Choose suitable plan",
+      "Complete account registration",
+      "Start using Claude 4"
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Do I need a VPN?",
+        "answer": "No, we provide direct access service from China"
+      },
+      {
+        "question": "What features are supported?",
+        "answer": "All Claude 4 features including text dialogue, code generation, document analysis, etc."
+      },
+      {
+        "question": "How to get technical support?",
+        "answer": "24/7 online customer service and technical support available"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Experience Claude 4 Now",
+    "button": "Get Started",
+    "description": "Join millions of users and experience the most advanced AI assistant"
+  },
+  "footer": {
+    "copyright": "© 2025 Claude.Asia. All rights reserved",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "ui": {
+    "languageSelector": "Select Language",
+    "readMore": "Learn More",
+    "getStarted": "Get Started"
+  }
+}

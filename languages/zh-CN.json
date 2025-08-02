@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Claude 4 国内直连使用指南",
+    "description": "Claude 4 国内使用完全指南，无需翻墙，支持多语言切换"
+  },
+  "header": {
+    "title": "Claude 4 国内直连使用指南",
+    "subtitle": "智能AI助手 · 无需翻墙 · 稳定可靠",
+    "heroText": "🚀 开启AI新时代"
+  },
+  "features": {
+    "title": "核心优势",
+    "items": [
+      "无需科学上网工具",
+      "国内直连访问",
+      "多模态对话支持",
+      "编程代码生成",
+      "文档分析处理"
+    ]
+  },
+  "pricing": {
+    "title": "价格方案",
+    "monthly": "月付方案",
+    "annual": "年付方案",
+    "currency": "￥",
+    "features": [
+      "Claude 4 完整功能",
+      "无使用次数限制",
+      "24小时技术支持",
+      "多设备同步使用"
+    ]
+  },
+  "guide": {
+    "title": "使用指南",
+    "steps": [
+      "访问官方网站",
+      "选择合适套餐",
+      "完成账号注册",
+      "开始使用Claude 4"
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "是否需要翻墙？",
+        "answer": "不需要，我们提供国内直连服务"
+      },
+      {
+        "question": "支持哪些功能？",
+        "answer": "支持Claude 4的所有功能，包括文本对话、代码生成、文档分析等"
+      },
+      {
+        "question": "如何获取技术支持？",
+        "answer": "提供24小时在线客服和技术支持"
+      }
+    ]
+  },
+  "cta": {
+    "title": "立即体验Claude 4",
+    "button": "开始使用",
+    "description": "加入千万用户的选择，体验最先进的AI助手"
+  },
+  "footer": {
+    "copyright": "© 2025 Claude.Asia. 保留所有权利",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "ui": {
+    "languageSelector": "选择语言",
+    "readMore": "了解更多",
+    "getStarted": "立即开始"
+  }
+}
