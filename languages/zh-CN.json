@@ -1,46 +1,141 @@
 {
   "meta": {
-    "title": "Claude 4 国内直连使用指南",
-    "description": "Claude 4 国内使用完全指南，无需翻墙，支持多语言切换"
+    "title": "Claude 4 彻底杀疯了！全面碾压竞品 - 国内直连使用指南"
   },
-  "header": {
-    "title": "Claude 4 国内直连使用指南",
-    "subtitle": "智能AI助手 · 无需翻墙 · 稳定可靠",
-    "heroText": "🚀 开启AI新时代"
-  },
-  "features": {
-    "title": "核心优势",
-    "items": [
-      "无需科学上网工具",
-      "国内直连访问",
-      "多模态对话支持",
-      "编程代码生成",
-      "文档分析处理"
-    ]
-  },
-  "pricing": {
-    "title": "价格方案",
-    "monthly": "月付方案",
-    "annual": "年付方案",
-    "currency": "￥",
+  "hero": {
+    "badge": "🚀 2025年AI领域王者",
+    "title": "Claude 4 彻底杀疯了！<br>全面碾压 Deepseek V3、GPT-4.1",
+    "subtitle": "经过多轮测试，Claude 4 在代码生成、UI 审美、处理速度等方面实力碾压竞品！",
     "features": [
-      "Claude 4 完整功能",
-      "无使用次数限制",
-      "24小时技术支持",
-      "多设备同步使用"
-    ]
+      "🎨 UI 审美在线",
+      "⚡ 代码生成速度领先几十倍",
+      "🐍 Python 脚本秒速输出"
+    ],
+    "cta": {
+      "primary": "🚀 立即体验",
+      "secondary": "📊 查看对比"
+    }
   },
-  "guide": {
-    "title": "使用指南",
-    "steps": [
-      "访问官方网站",
-      "选择合适套餐",
-      "完成账号注册",
-      "开始使用Claude 4"
-    ]
+  "experience": {
+    "title": "🌟 国内最稳定的Claude访问方案",
+    "plans": {
+      "premium": {
+        "name": "💎 专业版",
+        "price": "￥66",
+        "period": "/月",
+        "features": [
+          "✅ Claude 4 完整功能",
+          "✅ 国内直连，无需科学上网",
+          "✅ 无封号风险",
+          "✅ 24小时稳定服务",
+          "✅ 保障聊天记录隐私"
+        ],
+        "button": "立即开始"
+      },
+      "trial": {
+        "name": "🎯 体验版",
+        "price": "￥0.99",
+        "period": "/天",
+        "features": [
+          "✅ 基础Claude 4访问",
+          "✅ 按天付费，灵活使用",
+          "✅ 不兑换不失效",
+          "✅ 3小时内可用40次"
+        ],
+        "button": "免费试用"
+      }
+    }
+  },
+  "comparison": {
+    "title": "🥊 四大模型真人对决成果",
+    "description": "经典测试题：单文件天气卡片动画 - 创建带CSS & JavaScript动画的天气卡片",
+    "table": {
+      "model": "模型",
+      "result": "表现",
+      "description": "说明"
+    },
+    "models": {
+      "claude": {
+        "name": "Claude 4",
+        "result": "擂主，胜利",
+        "description": "字体设计、动效和UI审美全面胜出"
+      },
+      "deepseek": {
+        "name": "Deepseek V3",
+        "result": "❌ 失败",
+        "description": "动画效果不佳，UI设计平庸"
+      },
+      "gpt": {
+        "name": "GPT-4.1",
+        "result": "❌ 失败",
+        "description": "代码结构混乱，缺乏美感"
+      },
+      "gemini": {
+        "name": "Gemini 2.5 Pro",
+        "result": "❌ 失败",
+        "description": "功能不完整，响应速度慢"
+      }
+    }
+  },
+  "advantages": {
+    "title": "🏆 Claude 4 为何备受追捧？",
+    "speed": {
+      "title": "编码速度快如闪电",
+      "description": "TechCrunch (2025年2月)：Claude 4 编写复杂代码速度全面超越 GPT-4.1，不论是排序算法还是后端API，都遥遥领先。"
+    },
+    "ui": {
+      "title": "多模态能力与UI审美无敌",
+      "description": "不仅能写代码，还可生成UI设计草图、辅助debug复杂系统。智源研究院报告：多模态能力领先竞品30%+。"
+    },
+    "reasoning": {
+      "title": "推理能力超强",
+      "description": "在数学推理、科研论文解析、图像识别等方面表现突出，平均响应时间控制在70秒以内。"
+    }
+  },
+  "painPoints": {
+    "title": "⚠️ 官方Claude使用痛点",
+    "cost": "月费20美元（Claude Pro）",
+    "network": "需要海外信用卡和科技网络",
+    "restrictions": "国内用户易被封号，体验欠佳"
+  },
+  "solutions": {
+    "title": "💡 我们的优势",
+    "price": {
+      "title": "💰 价格优势",
+      "description": "官网需要20美元/月（约180元人民币），我们仅需66元/月"
+    },
+    "privacy": {
+      "title": "🔒 保障隐私",
+      "description": "聊天记录不会丢失，跟随授权码安全迁移"
+    },
+    "safety": {
+      "title": "🛡️ 无封号风险",
+      "description": "即使出现问题，我们承担全部责任"
+    },
+    "original": {
+      "title": "🔄 官方原版镜像",
+      "description": "支持换号，3小时内可用40次"
+    },
+    "flexible": {
+      "title": "📅 灵活付费",
+      "description": "按天付费，不兑换不失效，最低1天起"
+    },
+    "easy": {
+      "title": "🎯 使用简单",
+      "description": "不需要海外信用卡、不需要科学上网、不用担心IP封号"
+    }
+  },
+  "caseStudy": {
+    "title": "💼 真实案例",
+    "description": "硅谷初创公司 CodeZap 利用 Claude 4 优化 Python REST API 后：",
+    "results": {
+      "latency": "支付系统延迟降低 40%",
+      "cost": "节省 5 万美元开发成本"
+    },
+    "conclusion": "Claude 4 解决方案优雅、少Bug、提速显著，谁能不心动？"
   },
   "faq": {
-    "title": "常见问题",
+    "title": "❓ 常见问题",
     "items": [
       {
         "question": "是否需要翻墙？",
@@ -51,25 +146,31 @@
         "answer": "支持Claude 4的所有功能，包括文本对话、代码生成、文档分析等"
       },
       {
-        "question": "如何获取技术支持？",
-        "answer": "提供24小时在线客服和技术支持"
+        "question": "如何获得技术支持？",
+        "answer": "我们提供24小时在线客服和技术支持"
       }
     ]
   },
-  "cta": {
-    "title": "立即体验Claude 4",
-    "button": "开始使用",
-    "description": "加入千万用户的选择，体验最先进的AI助手"
+  "contact": {
+    "title": "📞 联系我们",
+    "description": "如有任何问题，欢迎联系：",
+    "wechat": "微信：claude-support",
+    "email": "QQ：1002569303",
+    "store": "官方店铺"
+  },
+  "finalCta": {
+    "title": "🎯 立即开启AI新时代",
+    "description": "Claude 4 以优雅、少Bug、强大UI和多模态能力，无愧2025年AI编程界顶流明星。",
+    "primary": "🚀 立即体验Claude 4",
+    "secondary": "📚 查看更多案例"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. 保留所有权利",
-    "contact": "联系我们",
+    "copyright": "© 2025 Claude.Asia. 为用户提供优质AI聊天服务.",
     "privacy": "隐私政策",
-    "terms": "服务条款"
+    "terms": "服务条款",
+    "contact": "联系我们"
   },
   "ui": {
-    "languageSelector": "选择语言",
-    "readMore": "了解更多",
-    "getStarted": "立即开始"
+    "languageSelector": "选择语言"
   }
 }
