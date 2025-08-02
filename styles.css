@@ -287,6 +287,16 @@ h2 {
     transform: translateY(-2px);
 }
 
+/* Ensure link buttons behave like buttons */
+a.plan-button, a.cta-button {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.plan-button {
+    text-align: center;
+}
+
 /* Comparison Section */
 .comparison {
     background: #f8f9fa;
