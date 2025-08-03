@@ -55,6 +55,7 @@ body {
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 20px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -90,6 +91,7 @@ body {
     padding: 10px 20px;
     font-size: 0.95rem;
     font-weight: 500;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -110,6 +112,7 @@ body {
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+    will-change: transform;
 }
 
 .cta-button.primary {
@@ -127,6 +130,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -204,6 +208,7 @@ h2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    will-change: transform;
 }
 
 .experience-card.highlight {
@@ -732,6 +737,19 @@ html {
 ::selection {
     background: #ff6b35;
     color: white;
+}
+
+/* 改善的焦点状态 - 可访问性 */
+.cta-button:focus,
+.plan-button:focus {
+    outline: 3px solid rgba(255, 107, 53, 0.5);
+    outline-offset: 2px;
+}
+
+.nav-menu a:focus {
+    outline: 2px solid #ff6b35;
+    outline-offset: 4px;
+    border-radius: 4px;
 }
 
 /* 隐藏类 */
