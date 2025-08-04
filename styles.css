@@ -15,6 +15,46 @@ body {
     overflow-x: hidden;
 }
 
+/* 导航栏样式 */
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #667eea;
+}
+
+.language-selector-container {
+    position: relative;
+}
+
+/* 调整hero部分，为固定导航栏留出空间 */
+.hero {
+    margin-top: 60px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

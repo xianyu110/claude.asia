@@ -243,15 +243,22 @@ class EnhancedI18nManager {
 
     // 创建语言选择器
     createLanguageSelector() {
-        const header = document.querySelector('header') || document.querySelector('.header') || document.body;
-        if (!header) return;
+        // 优先查找专门的语言选择器容器
+        let container = document.getElementById('language-selector-container');
+        
+        // 如果没有找到专门的容器，则查找header或body
+        if (!container) {
+            container = document.querySelector('header') || document.querySelector('.header') || document.body;
+        }
+        
+        if (!container) return;
 
         let languageSelector = document.getElementById('language-selector');
         if (!languageSelector) {
             languageSelector = document.createElement('div');
             languageSelector.id = 'language-selector';
             languageSelector.className = 'language-selector';
-            header.appendChild(languageSelector);
+            container.appendChild(languageSelector);
         }
 
         languageSelector.innerHTML = `
@@ -274,10 +281,7 @@ class EnhancedI18nManager {
             style.id = 'i18n-styles';
             style.textContent = `
                 .language-selector {
-                    position: absolute;
-                    top: 20px;
-                    right: 20px;
-                    z-index: 1000;
+                    display: inline-block;
                 }
                 
                 .language-select {
