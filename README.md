@@ -1,6 +1,5 @@
 # Claude 4 彻底杀疯了！全面碾压 Deepseek V3、GPT-4.1
 
-![Claude 4 Logo](https://restname.oss-cn-hangzhou.aliyuncs.com/640.png)
 
 经过多轮测试，**Claude 4 彻底杀疯了！**
 
