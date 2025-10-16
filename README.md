@@ -11,7 +11,7 @@
 
 ## 🚀 立即体验
 
-**国内使用地址：** [https://agi.maynor1024.live/](https://agi.maynor1024.live/)
+**国内使用地址：** [https://maynorai.top](https://maynorai.top)
 
 ---
 
@@ -106,7 +106,7 @@ Claude 4 解决方案**优雅、少 Bug、提速显著**，谁能不心动？
 ### 🎯 平台详细介绍
 
 #### 🏆 Claude 国内镜像站（强烈推荐）
-- **官网地址**：[https://agi.maynor1024.live/](https://agi.maynor1024.live/)
+- **官网地址**：[https://maynorai.top](https://maynorai.top)
 - **价格**：66元/月，最低0.99元/天
 - **特色**：
   - ✅ 稳定运营 1 年
@@ -192,14 +192,13 @@ Claude 4 解决方案**优雅、少 Bug、提速显著**，谁能不心动？
 
 - **微信**：coder-maynor
 - **QQ**：1002569303
-- **店铺**：[https://717ka.com/c/n5gmnowpu2x5obz9qpoy0am](https://717ka.com/c/n5gmnowpu2x5obz9qpoy0am)
-
+- **店铺**：https://maynorai.56775678.xyz/
 ---
 
 ## 📚 相关资源
 
 - **Artifacts项目分享**：[https://github.com/xianyu110/Awesome-Claude-Artifacts-CN](https://github.com/xianyu110/Awesome-Claude-Artifacts-CN)
-- **官网地址**：[https://agi.maynor1024.live/](https://agi.maynor1024.live/)
+- **官网地址**：[https://maynorai.top](https://maynorai.top)
 
 ---
 
