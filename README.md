@@ -129,7 +129,9 @@ Claude 4.5 提供的解决方案以\*\*“代码优雅、Bug 极少、逻辑严�
 4. **👉 Claude 国内镜像站（首推）**：
 
    * **链接**：**[https://maynorai.top/](https://maynorai.top/)**
-   * **优势**：运营 1 年+，支持 **Claude 4.5 / GPT-4.5 / Grok**，**最低0.99 元/天**。
+   * **优势**：运营 2 年+，支持 **Claude 4.5 / GPT-4.5 / Grok**，**最低0.99 元/天**。
+
+![](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241541231.png)
 
 ---
 
@@ -152,4 +154,4 @@ Claude 4.5 提供的解决方案以\*\*“代码优雅、Bug 极少、逻辑严�
 * **镜像站**：绕过痛点，**最高性价比**。
 * **立即行动**：复制码 → [maynorai.top](https://maynorai.top/) → 体验新生产力！ 🚀
 
-关注工粽号 MaynorAi获取最新的授权码，链接复制到浏览器打开
+![image-20251124154139781](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241541817.png)
