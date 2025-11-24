@@ -128,10 +128,10 @@ Claude 4.5 提供的解决方案以\*\*“代码优雅、Bug 极少、逻辑严�
 3. **POE** ([poe.com](https://poe.com))：积分制，轻度用。
 4. **👉 Claude 国内镜像站（首推）**：
 
-   * **链接**：**[https://maynorai.top/](https://maynorai.top/)**
+   * **链接**：**[https://claude-opus.top/](https://claude-opus.top/)**
    * **优势**：运营 2 年+，支持 **Claude 4.5 / GPT-4.5 / Grok**，**最低0.99 元/天**。
 
-![](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241541231.png)
+![](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241544583.png)
 
 ---
 
@@ -152,6 +152,6 @@ Claude 4.5 提供的解决方案以\*\*“代码优雅、Bug 极少、逻辑严�
 
 * **Claude 4.5**：**SOTA 基准 + Artifacts**，2025 AI 编程 **顶流**。
 * **镜像站**：绕过痛点，**最高性价比**。
-* **立即行动**：复制码 → [maynorai.top](https://maynorai.top/) → 体验新生产力！ 🚀
+* **立即行动**：复制码 → [claude-opus.top](https://claude-opus.top/) → 体验新生产力！ 🚀
 
-![image-20251124154139781](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241541817.png)
+![image-20251124154446196](https://maynor123-1301929665.cos.ap-guangzhou.myqcloud.com/202511241544224.png)
