@@ -1,10 +1,10 @@
-**重磅更新！** 5月23日，Anthropic 官方震撼发布其下一代Claude模型系列：**Claude Sonnet 4** 和 **Claude Opus 4**。这两款均为**混合模型**，提供两种强大模式：**快速响应**模式与用于**深度推理**的**扩展思考模式**。
+**重磅更新！** ，Anthropic 官方震撼发布其下一代Claude模型系列：**Claude Sonnet 4.5** 和 **Claude Opus 4.5**。这两款均为**混合模型**，提供两种强大模式：**快速响应**模式与用于**深度推理**的**扩展思考模式**。
 
-![Claude 4.0 Models Announcement](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8wpIE9fM00vaDueAoW8OiaTeHmuLfCD96ufX4CDDGRRXEreQHDJP1D4gw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)Claude 4.0 Models Announcement
+![Claude 4.5.0 Models Announcement](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8wpIE9fM00vaDueAoW8OiaTeHmuLfCD96ufX4CDDGRRXEreQHDJP1D4gw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)Claude 4.0 Models Announcement
 
-**Claude Opus 4** 尤其引人注目，它被誉为“**全球最强编码模型**”，专为处理复杂、长期任务和智能体工作流程而设计。Cursor 评价其为复杂代码库理解的一大飞跃，在 **SWE-bench (72.5%)** 和 **Terminal-bench (43.2%)** 两大权威评测中均**遥遥领先**！
+**Claude Opus 4.5** 尤其引人注目，它被誉为“**全球最强编码模型**”，专为处理复杂、长期任务和智能体工作流程而设计。Cursor 评价其为复杂代码库理解的一大飞跃，在 **SWE-bench (72.5%)** 和 **Terminal-bench (43.2%)** 两大权威评测中均**遥遥领先**！
 
-![Claude Opus 4 Benchmarks](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8w2XWRmLu8KEZzoYwKLbHsNhUYHCfbk8LH9g2ibpRpQtDn7j129n6hGHg/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)Claude Opus 4 Benchmarks
+![Claude Opus 4.5 Benchmarks](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8w2XWRmLu8KEZzoYwKLbHsNhUYHCfbk8LH9g2ibpRpQtDn7j129n6hGHg/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1)Claude Opus 4.5 Benchmarks
 
 那么，**如何在国内便捷地使用 Claude 呢？**
 
@@ -21,19 +21,19 @@
 
 ![Claude Mirror Site Interface Example](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8wP3NDbBSPaagicbjcLsaJ3CHp1ysjIbhkksMmCgrJCXZWRIWbECfh5eQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)Claude Mirror Site Interface Example
 
-**全面支持最新模型 Claude Sonnet 4 和 Claude Opus 4**！由于使用的是官方账号，模型更新**完全同步**。官方一旦上线新模型，镜像站便会**即刻更新**，保证用户总能第一时间体验到最新的 AI 模型！
+**全面支持最新模型 Claude Sonnet 4.5 和 Claude Opus 4.5**！由于使用的是官方账号，模型更新**完全同步**。官方一旦上线新模型，镜像站便会**即刻更新**，保证用户总能第一时间体验到最新的 AI 模型！
 
 简单来说，这个镜像站提供了一个便捷入口，背后是强大的 **Claude Max 会员账号集群**。更棒的是，它**全网独家支持 Claude Deep Research（深度研究）功能**！
 
 ![Claude Mirror Site Deep Research Feature](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8w71AU1ZJrk6PUkAaFDWthELkM9s9dwTr2ibiccEDicHHeSUkb1BibLjWlxQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)Claude Mirror Site Deep Research Feature
 
-为了直观展示，这里分享一个横向对比测试，比较 **Claude Opus 4**、**Claude Sonnet 4** 和 **Claude 3.7 Sonnet** 在制作旅游 App 方面的表现：
+为了直观展示，这里分享一个横向对比测试，比较 **Claude Opus 4.5**、**Claude Sonnet 4.5** 和 **Claude 3.7 Sonnet** 在制作旅游 App 方面的表现：
 
 - **测试任务：** 制作一个旅游 App。
 
 ![Claude Models Tourism App Test Input](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8wuM1NQoC5aGZz0RsfGGzOedIVNe5vkxyCfLVoIBRgDhicbW8sdjYcIeg/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)Claude Models Tourism App Test Input
 
-- **效果对比：**（下图左1：**Claude Opus 4**，左2：**Claude Sonnet 4**，左3：**Claude 3.7 Sonnet**）
+- **效果对比：**（下图左1：**Claude Opus 4.5**，左2：**Claude Sonnet 4.5**，左3：**Claude 3.7 Sonnet**）
 
   大家可以清晰看到，**Claude Opus 4** 的表现尤为出色，效果惊艳！
 
