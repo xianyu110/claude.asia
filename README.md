@@ -119,8 +119,7 @@ Anthropic 官方震撼发布其下一代模型系列：**Claude 4.5 Sonnet** 与
 * **模式**：**按量计费**，充值余额永久有效。
 * **适用**：轻度使用或程序调用。
 
-🔗 **API 中转站：** [https://claude-opus.top/list](https://claude-opus.top/list)
-
+🔗 **API 中转站：** https://apipro.maynor1024.live/
 ![Claude Forwarding API Interface Example](https://mmbiz.qpic.cn/sz_mmbiz_png/1ibrBHWruibRP6vNVXDBnvNPjXnkzzWx8wMelxicDhicNnVIMjL8nomgPlNo0ahIBXUCoicak3hYEjiapoqCsR0fiaeUQ/640?wx_fmt=png\&from=appmsg\&watermark=1\&tp=wxpic\&wxfrom=5\&wx_lazy=1#imgIndex=12)
 
 ---
