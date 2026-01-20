@@ -80,7 +80,7 @@ Anthropic 官方震撼发布其下一代模型系列：**Claude 4.5 Sonnet** 与
 🔗 **官方直达：**
 
 * [https://chatgpt-plus.top/list](https://chatgpt-plus.top/list)
-* [https://claude-opus.top/list](https://claude-opus.top/list)
+* https://kelaode.maynorai.top/list/#/home
 
 ---
 
@@ -135,4 +135,4 @@ Claude 4.5 的发布标志着 AI 编程与逻辑推理进入了新高度。无�
 **即刻扫码或点击链接，开启 Claude 4.5 丝滑体验！**
 
 * **微信客服**：`coder-maynor`
-* **官方网址**：[https://claude-opus.top/](https://claude-opus.top/)
+* **官方网址**：https://kelaode.maynorai.top/list/#/home
