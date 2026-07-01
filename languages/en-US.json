@@ -1,35 +1,36 @@
 {
   "meta": {
-    "title": "Claude 4 Dominates! Crushing Deepseek V3 & GPT-4.1 - China Access Guide"
+    "title": "Claude Sonnet 5 Released, Direct Access in China - Claude.Asia",
+    "description": "Claude Sonnet 5 is now available with stronger agent, coding, reasoning, and tool-use performance, plus direct Claude access in China."
   },
   "nav": {
-    "logo": "Claude 4 Guide"
+    "logo": "Claude Sonnet 5 Guide"
   },
   "hero": {
-    "badge": "🚀 2025 AI Leader",
-    "title": "Claude 4 Dominates!<br>Crushing Deepseek V3 & GPT-4.1",
-    "subtitle": "After extensive testing, Claude 4 crushes competitors in code generation, UI aesthetics, and processing speed!",
+    "badge": "🚀 Claude Sonnet 5 just launched",
+    "title": "Claude Sonnet 5 is here! Direct access in China",
+    "subtitle": "Anthropic's latest Sonnet model upgrades agent work, coding, reasoning, and tool use, approaching flagship Opus 4.8 performance.",
     "features": [
-      "🎨 Superior UI Aesthetics",
-      "⚡ Code Generation Tens of Times Faster",
-      "🐍 Lightning-Fast Python Scripts"
+      "💻 SWE-bench Pro 63.2%",
+      "🧠 Reasoning close to Opus 4.8",
+      "🛠️ Stronger agent tool use"
     ],
     "cta": {
-      "primary": "🚀 Try Now",
-      "secondary": "📊 View Comparison"
+      "primary": "🚀 Try Sonnet 5 now",
+      "secondary": "📷 View launch images"
     }
   },
   "experience": {
-    "title": "🌟 Most Stable Claude Access in China",
+    "title": "🌟 Stable Claude access in China",
     "plans": {
       "premium": {
         "name": "💎 Professional",
         "price": "$10",
         "period": "/month",
         "features": [
-          "✅ Full Claude 4 functionality",
+          "✅ Full Claude Sonnet 5 access",
           "✅ Direct China access, no VPN needed",
-          "✅ No account ban risk",
+          "✅ Lower account-ban risk",
           "✅ 24/7 stable service",
           "✅ Chat history privacy protection"
         ],
@@ -40,7 +41,7 @@
         "price": "$0.15",
         "period": "/day",
         "features": [
-          "✅ Basic Claude 4 access",
+          "✅ Basic Claude Sonnet 5 access",
           "✅ Pay per day, flexible usage",
           "✅ No expiration if unused",
           "✅ 40 uses within 3 hours"
@@ -50,8 +51,8 @@
     }
   },
   "comparison": {
-    "title": "🥊 4-Model Battle Results",
-    "description": "Classic test: Single-file weather card animation - Create weather cards with CSS & JavaScript animations",
+    "title": "🥊 Sonnet 5 key results",
+    "description": "From coding and terminal tasks to cross-domain reasoning, Sonnet 5 has entered flagship-level territory.",
     "table": {
       "model": "Model",
       "result": "Performance",
@@ -59,98 +60,98 @@
     },
     "models": {
       "claude": {
-        "name": "Claude 4",
-        "result": "Champion, Winner",
-        "description": "Superior in typography, animations, and UI aesthetics"
+        "name": "Claude Sonnet 5",
+        "result": "SWE-bench Pro 63.2%",
+        "description": "Major gains in coding, tool use, and agent tasks, approaching Opus 4.8"
       },
       "deepseek": {
-        "name": "Deepseek V3",
-        "result": "❌ Failed",
-        "description": "Poor animations, mediocre UI design"
+        "name": "Claude Opus 4.8",
+        "result": "Flagship lead",
+        "description": "SWE-bench Pro 69.2%, still the high-end benchmark"
       },
       "gpt": {
-        "name": "GPT-4.1",
-        "result": "❌ Failed",
-        "description": "Messy code structure, lacks aesthetics"
+        "name": "GPT-5.5",
+        "result": "58.6%",
+        "description": "Lower than Sonnet 5 on the same coding benchmark"
       },
       "gemini": {
-        "name": "Gemini 2.5 Pro",
-        "result": "❌ Failed",
-        "description": "Incomplete features, slow response"
+        "name": "Sonnet 4.6",
+        "result": "58.1%",
+        "description": "The previous Sonnet generation now trails Sonnet 5"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Why Claude 4 is So Popular?",
+    "title": "🏆 Why upgrade to Sonnet 5?",
     "speed": {
-      "title": "Lightning-Fast Coding",
-      "description": "TechCrunch (Feb 2025): Claude 4 completely surpasses GPT-4.1 in complex code writing speed, whether sorting algorithms or backend APIs, it leads by far."
+      "title": "Stronger coding",
+      "description": "Sonnet 5 reaches 63.2% on SWE-bench Pro, ahead of GPT-5.5 and clearly above Sonnet 4.6."
     },
     "ui": {
-      "title": "Unbeatable Multimodal & UI Aesthetics",
-      "description": "Not only writes code but also generates UI design sketches and helps debug complex systems. Research report: Multimodal capabilities lead competitors by 30%+."
+      "title": "Better agent execution",
+      "description": "It can plan tasks, use browser and terminal tools, and handle bug fixing, testing, refactoring, and knowledge work."
     },
     "reasoning": {
-      "title": "Super Strong Reasoning",
-      "description": "Outstanding performance in mathematical reasoning, research paper analysis, and image recognition, with average response time controlled within 70 seconds."
+      "title": "Near-flagship reasoning",
+      "description": "With tools, it scores 57.4% on Humanity's Last Exam, only 0.5 points behind Opus 4.8."
     }
   },
   "painPoints": {
-    "title": "⚠️ Official Claude Pain Points",
+    "title": "⚠️ Official Claude pain points",
     "cost": "$20/month (Claude Pro)",
     "network": "Requires overseas credit card and VPN",
-    "restrictions": "Chinese users easily banned, poor experience"
+    "restrictions": "Mainland users may face account restrictions and unstable access"
   },
   "solutions": {
-    "title": "💡 Our Advantages",
+    "title": "💡 Our advantages",
     "price": {
-      "title": "💰 Price Advantage",
-      "description": "Official site costs $20/month (~$28), we only need $10/month"
+      "title": "💰 Price advantage",
+      "description": "Official Claude Pro costs $20/month; our access plan starts at a lower monthly price"
     },
     "privacy": {
-      "title": "🔒 Privacy Protection",
-      "description": "Chat history won't be lost, secure migration with authorization codes"
+      "title": "🔒 Privacy protection",
+      "description": "Chat history is preserved and migrates securely with authorization codes"
     },
     "safety": {
-      "title": "🛡️ No Ban Risk",
-      "description": "Even if problems occur, we take full responsibility"
+      "title": "🛡️ Lower ban risk",
+      "description": "If issues occur, service support handles them for you"
     },
     "original": {
-      "title": "🔄 Official Mirror",
-      "description": "Support account switching, 40 uses within 3 hours"
+      "title": "🔄 Official-style mirror",
+      "description": "Supports account switching and 40 uses within 3 hours"
     },
     "flexible": {
-      "title": "📅 Flexible Payment",
-      "description": "Pay per day, no expiration if unused, minimum 1 day"
+      "title": "📅 Flexible payment",
+      "description": "Pay by day, no expiration if unused, one-day minimum"
     },
     "easy": {
-      "title": "🎯 Easy to Use",
-      "description": "No overseas credit card, no VPN, no IP ban worries"
+      "title": "🎯 Easy to use",
+      "description": "No overseas credit card, no VPN, and no IP-ban anxiety"
     }
   },
   "caseStudy": {
-    "title": "💼 Real Case Study",
-    "description": "Silicon Valley startup CodeZap optimized Python REST API with Claude 4:",
+    "title": "💼 Real workflows",
+    "description": "Developers can use Sonnet 5 for frequent real-world work:",
     "results": {
-      "latency": "Payment system latency reduced by 40%",
-      "cost": "Saved $50,000 in development costs"
+      "latency": "Bug fixes, tests, and codebase reading",
+      "cost": "Cheaper multi-agent parallel work"
     },
-    "conclusion": "Claude 4 solutions are elegant, bug-free, and significantly faster - who wouldn't be tempted?"
+    "conclusion": "The same budget can run more Sonnet 5 agents in parallel and split complex tasks across them."
   },
   "faq": {
     "title": "❓ FAQ",
     "items": [
       {
         "question": "Do I need a VPN?",
-        "answer": "No, we provide direct access service from China"
+        "answer": "No, we provide direct access from China."
       },
       {
-        "question": "What features are supported?",
-        "answer": "All Claude 4 features including text dialogue, code generation, document analysis, etc."
+        "question": "Does it support Claude Sonnet 5?",
+        "answer": "Yes, including chat, code generation, document analysis, and common agent workflows."
       },
       {
-        "question": "How to get technical support?",
-        "answer": "We provide 24/7 online customer service and technical support"
+        "question": "How do I get support?",
+        "answer": "Online customer service and technical support are available."
       }
     ]
   },
@@ -162,13 +163,13 @@
     "store": "Official Store"
   },
   "finalCta": {
-    "title": "🎯 Enter the AI Era Now",
-    "description": "Claude 4, with its elegance, low bugs, powerful UI and multimodal capabilities, deserves to be the top star in 2025 AI programming world.",
-    "primary": "🚀 Try Claude 4 Now",
-    "secondary": "📚 View More Cases"
+    "title": "🎯 Try Claude Sonnet 5 now",
+    "description": "Claude Sonnet 5 reaches flagship-level capability while keeping the Sonnet line's value advantage.",
+    "primary": "🚀 Try Claude Sonnet 5",
+    "secondary": "📚 View more cases"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. Providing quality AI chat services.",
+    "copyright": "© 2026 Claude.Asia. Providing quality AI chat services.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "contact": "Contact Us"

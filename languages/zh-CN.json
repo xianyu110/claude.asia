@@ -1,33 +1,34 @@
 {
   "meta": {
-    "title": "Claude 4 彻底杀疯了！全面碾压竞品 - 国内直连使用指南"
+    "title": "Claude Sonnet 5 发布，国内直接使用 - Claude.Asia",
+    "description": "Claude Sonnet 5 刚刚发布，Agent能力大幅升级，性能直逼 Opus 4.8，国内可直接使用 Claude。"
   },
   "nav": {
-    "logo": "Claude 4 指南"
+    "logo": "Claude Sonnet 5 指南"
   },
   "hero": {
-    "badge": "🚀 2025年AI领域王者",
-    "title": "Claude 4 彻底杀疯了！<br>全面碾压 Deepseek V3、GPT-4.1",
-    "subtitle": "经过多轮测试，Claude 4 在代码生成、UI 审美、处理速度等方面实力碾压竞品！",
+    "badge": "🚀 Claude Sonnet 5 刚刚发布",
+    "title": "Claude Sonnet 5发布！国内直接使用",
+    "subtitle": "Anthropic 最新 Sonnet 模型上线，Agent能力、编程、推理和工具调用全面升级，性能直逼旗舰 Opus 4.8。",
     "features": [
-      "🎨 UI 审美在线",
-      "⚡ 代码生成速度领先几十倍",
-      "🐍 Python 脚本秒速输出"
+      "💻 SWE-bench Pro 63.2%",
+      "🧠 推理接近 Opus 4.8",
+      "🛠️ Agent 工具调用更强"
     ],
     "cta": {
-      "primary": "🚀 立即体验",
-      "secondary": "📊 查看对比"
+      "primary": "🚀 立即体验 Sonnet 5",
+      "secondary": "📷 查看发布截图"
     }
   },
   "experience": {
-    "title": "🌟 国内最稳定的Claude访问方案",
+    "title": "🌟 国内最稳定的 Claude 访问方案",
     "plans": {
       "premium": {
         "name": "💎 专业版",
         "price": "￥66",
         "period": "/月",
         "features": [
-          "✅ Claude 4 完整功能",
+          "✅ Claude Sonnet 5 完整功能",
           "✅ 国内直连，无需科学上网",
           "✅ 无封号风险",
           "✅ 24小时稳定服务",
@@ -40,7 +41,7 @@
         "price": "￥0.99",
         "period": "/天",
         "features": [
-          "✅ 基础Claude 4访问",
+          "✅ 基础 Claude Sonnet 5 访问",
           "✅ 按天付费，灵活使用",
           "✅ 不兑换不失效",
           "✅ 3小时内可用40次"
@@ -50,8 +51,8 @@
     }
   },
   "comparison": {
-    "title": "🥊 四大模型真人对决成果",
-    "description": "经典测试题：单文件天气卡片动画 - 创建带CSS & JavaScript动画的天气卡片",
+    "title": "🥊 Sonnet 5 核心成绩",
+    "description": "从编程、终端任务到跨学科推理，Sonnet 5 已经进入旗舰模型能力区间。",
     "table": {
       "model": "模型",
       "result": "表现",
@@ -59,40 +60,40 @@
     },
     "models": {
       "claude": {
-        "name": "Claude 4",
-        "result": "擂主，胜利",
-        "description": "字体设计、动效和UI审美全面胜出"
+        "name": "Claude Sonnet 5",
+        "result": "SWE-bench Pro 63.2%",
+        "description": "编程、工具使用和Agent任务显著升级，接近 Opus 4.8"
       },
       "deepseek": {
-        "name": "Deepseek V3",
-        "result": "❌ 失败",
-        "description": "动画效果不佳，UI设计平庸"
+        "name": "Claude Opus 4.8",
+        "result": "旗舰领先",
+        "description": "SWE-bench Pro 69.2%，仍是最高端能力标杆"
       },
       "gpt": {
-        "name": "GPT-4.1",
-        "result": "❌ 失败",
-        "description": "代码结构混乱，缺乏美感"
+        "name": "GPT-5.5",
+        "result": "58.6%",
+        "description": "同榜低于 Sonnet 5，编程基准被反超"
       },
       "gemini": {
-        "name": "Gemini 2.5 Pro",
-        "result": "❌ 失败",
-        "description": "功能不完整，响应速度慢"
+        "name": "Sonnet 4.6",
+        "result": "58.1%",
+        "description": "上一代 Sonnet，被 Sonnet 5 明显拉开差距"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Claude 4 为何备受追捧？",
+    "title": "🏆 Sonnet 5 为什么值得升级？",
     "speed": {
-      "title": "编码速度快如闪电",
-      "description": "TechCrunch (2025年2月)：Claude 4 编写复杂代码速度全面超越 GPT-4.1，不论是排序算法还是后端API，都遥遥领先。"
+      "title": "编程能力更强",
+      "description": "SWE-bench Pro 得分 63.2%，超过 GPT-5.5，并明显高于上一代 Sonnet 4.6。"
     },
     "ui": {
-      "title": "多模态能力与UI审美无敌",
-      "description": "不仅能写代码，还可生成UI设计草图、辅助debug复杂系统。智源研究院报告：多模态能力领先竞品30%+。"
+      "title": "Agent 执行力升级",
+      "description": "能自主规划任务，调用浏览器和终端工具，适合修 Bug、补测试、重构和知识工作流。"
     },
     "reasoning": {
-      "title": "推理能力超强",
-      "description": "在数学推理、科研论文解析、图像识别等方面表现突出，平均响应时间控制在70秒以内。"
+      "title": "推理能力接近旗舰",
+      "description": "在 Humanity's Last Exam 带工具测试中拿到 57.4%，距离 Opus 4.8 只差 0.5 个百分点。"
     }
   },
   "painPoints": {
@@ -129,28 +130,28 @@
     }
   },
   "caseStudy": {
-    "title": "💼 真实案例",
-    "description": "硅谷初创公司 CodeZap 利用 Claude 4 优化 Python REST API 后：",
+    "title": "💼 真实工作流",
+    "description": "开发者可以把 Sonnet 5 用在更高频的真实工作里：",
     "results": {
-      "latency": "支付系统延迟降低 40%",
-      "cost": "节省 5 万美元开发成本"
+      "latency": "修 Bug、补测试、读代码库",
+      "cost": "多 Agent 并行更省预算"
     },
-    "conclusion": "Claude 4 解决方案优雅、少Bug、提速显著，谁能不心动？"
+    "conclusion": "同样预算可以跑更多 Sonnet 5 Agent，把复杂任务拆开并行完成。"
   },
   "faq": {
     "title": "❓ 常见问题",
     "items": [
       {
         "question": "是否需要翻墙？",
-        "answer": "不需要，我们提供国内直连服务"
+        "answer": "不需要，我们提供国内直连服务。"
       },
       {
-        "question": "支持哪些功能？",
-        "answer": "支持Claude 4的所有功能，包括文本对话、代码生成、文档分析等"
+        "question": "支持 Claude Sonnet 5 吗？",
+        "answer": "支持 Claude Sonnet 5 的文本对话、代码生成、文档分析和常用 Agent 场景。"
       },
       {
         "question": "如何获得技术支持？",
-        "answer": "我们提供24小时在线客服和技术支持"
+        "answer": "我们提供在线客服和技术支持。"
       }
     ]
   },
@@ -162,13 +163,13 @@
     "store": "官方店铺"
   },
   "finalCta": {
-    "title": "🎯 立即开启AI新时代",
-    "description": "Claude 4 以优雅、少Bug、强大UI和多模态能力，无愧2025年AI编程界顶流明星。",
-    "primary": "🚀 立即体验Claude 4",
+    "title": "🎯 立即体验 Claude Sonnet 5",
+    "description": "Claude Sonnet 5 已经进入旗舰能力区间，同时保留 Sonnet 系列的性价比优势。",
+    "primary": "🚀 立即体验 Claude Sonnet 5",
     "secondary": "📚 查看更多案例"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. 为用户提供优质AI聊天服务.",
+    "copyright": "© 2026 Claude.Asia. 为用户提供优质AI聊天服务.",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "contact": "联系我们"

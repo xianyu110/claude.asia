@@ -53,7 +53,8 @@ function initSmoothScroll() {
             const targetElement = document.getElementById(targetId);
             
             if (targetElement) {
-                const headerHeight = document.querySelector('.header').offsetHeight;
+                const header = document.querySelector('.navbar') || document.querySelector('.header');
+                const headerHeight = header ? header.offsetHeight : 0;
                 const targetPosition = targetElement.offsetTop - headerHeight - 20;
                 
                 window.scrollTo({
@@ -67,7 +68,8 @@ function initSmoothScroll() {
 
 // 导航栏滚动效果
 function initNavbarScroll() {
-    const header = document.querySelector('.header');
+    const header = document.querySelector('.navbar') || document.querySelector('.header');
+    if (!header) return;
     let lastScrollTop = 0;
     
     window.addEventListener('scroll', function() {

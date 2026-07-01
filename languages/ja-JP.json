@@ -1,179 +1,180 @@
 {
   "meta": {
-    "title": "Claude 4が完全勝利！Deepseek V3・GPT-4.1を圧倒 - 中国アクセスガイド"
+    "title": "Claude Sonnet 5 発表、中国国内で直接利用 - Claude.Asia",
+    "description": "Claude Sonnet 5 が登場。Agent、コーディング、推論、ツール利用が大幅に強化され、中国国内からも直接利用できます。"
   },
   "nav": {
-    "logo": "Claude 4 ガイド"
+    "logo": "Claude Sonnet 5 ガイド"
   },
   "hero": {
-    "badge": "🚀 2025年AI分野の王者",
-    "title": "Claude 4が完全勝利！<br>Deepseek V3・GPT-4.1を圧倒",
-    "subtitle": "複数回のテストの結果、Claude 4はコード生成、UI美学、処理速度でライバルを完全に圧倒！",
+    "badge": "🚀 Claude Sonnet 5 発表",
+    "title": "Claude Sonnet 5登場！中国国内で直接利用",
+    "subtitle": "Anthropic の最新 Sonnet モデルは、Agent、コーディング、推論、ツール利用を強化し、Opus 4.8 に迫る性能を実現しました。",
     "features": [
-      "🎨 UI美学オンライン",
-      "⚡ コード生成速度が数十倍リード",
-      "🐍 Pythonスクリプト秒速出力"
+      "💻 SWE-bench Pro 63.2%",
+      "🧠 Opus 4.8 に近い推論力",
+      "🛠️ Agent ツール利用が強化"
     ],
     "cta": {
-      "primary": "🚀 今すぐ体験",
-      "secondary": "📊 比較を見る"
+      "primary": "🚀 Sonnet 5 を体験",
+      "secondary": "📷 発表画像を見る"
     }
   },
   "experience": {
-    "title": "🌟 中国で最も安定したClaude接続方案",
+    "title": "🌟 中国国内で安定した Claude アクセス",
     "plans": {
       "premium": {
         "name": "💎 プロ版",
-        "price": "¥66",
+        "price": "$10",
         "period": "/月",
         "features": [
-          "✅ Claude 4完全機能",
-          "✅ 中国直接接続、VPN不要",
-          "✅ アカウント禁止リスクなし",
+          "✅ Claude Sonnet 5 フル機能",
+          "✅ 中国国内から直接アクセス",
+          "✅ アカウント制限リスクを軽減",
           "✅ 24時間安定サービス",
-          "✅ チャット履歴プライバシー保護"
+          "✅ チャット履歴のプライバシー保護"
         ],
         "button": "今すぐ開始"
       },
       "trial": {
         "name": "🎯 体験版",
-        "price": "¥0.99",
+        "price": "$0.15",
         "period": "/日",
         "features": [
-          "✅ 基本Claude 4アクセス",
-          "✅ 日払い、柔軟利用",
-          "✅ 未交換で失効なし",
-          "✅ 3時間内40回利用可能"
+          "✅ Claude Sonnet 5 基本アクセス",
+          "✅ 日単位で柔軟に利用",
+          "✅ 未使用分は失効なし",
+          "✅ 3時間内に40回利用可能"
         ],
         "button": "無料体験"
       }
     }
   },
   "comparison": {
-    "title": "🥊 四大モデル真人対決成果",
-    "description": "クラシックテスト：単一ファイル天気カードアニメーション - CSS & JavaScript天気カード作成",
+    "title": "🥊 Sonnet 5 の主要スコア",
+    "description": "コーディング、ターミナル作業、横断的推論で、Sonnet 5 は旗舰級の性能領域に入りました。",
     "table": {
       "model": "モデル",
-      "result": "パフォーマンス",
+      "result": "結果",
       "description": "説明"
     },
     "models": {
       "claude": {
-        "name": "Claude 4",
-        "result": "チャンピオン、勝利",
-        "description": "フォント設計、動効とUI美学全面勝出"
+        "name": "Claude Sonnet 5",
+        "result": "SWE-bench Pro 63.2%",
+        "description": "コーディング、ツール利用、Agent タスクが大幅に向上し Opus 4.8 に接近"
       },
       "deepseek": {
-        "name": "Deepseek V3",
-        "result": "❌ 失敗",
-        "description": "アニメーション効果不良、UI設計平凡"
+        "name": "Claude Opus 4.8",
+        "result": "旗舰がリード",
+        "description": "SWE-bench Pro 69.2%、最高性能の基準"
       },
       "gpt": {
-        "name": "GPT-4.1",
-        "result": "❌ 失敗",
-        "description": "コード構造混乱、美感欠如"
+        "name": "GPT-5.5",
+        "result": "58.6%",
+        "description": "同じコーディング基準で Sonnet 5 を下回る"
       },
       "gemini": {
-        "name": "Gemini 2.5 Pro",
-        "result": "❌ 失敗",
-        "description": "機能不完整、レスポンス速度遅い"
+        "name": "Sonnet 4.6",
+        "result": "58.1%",
+        "description": "前世代 Sonnet は Sonnet 5 に大きく差をつけられました"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Claude 4が愛される理由",
+    "title": "🏆 Sonnet 5 にアップグレードする理由",
     "speed": {
-      "title": "コーディング速度が稲妻のように速い",
-      "description": "TechCrunch (2025年2月)：Claude 4の複雑コード記述速度はGPT-4.1を全面超越、ソートアルゴリズムでもバックエンドAPIでも、遥かにリード。"
+      "title": "より強いコーディング性能",
+      "description": "SWE-bench Pro で 63.2% を記録し、GPT-5.5 と Sonnet 4.6 を上回ります。"
     },
     "ui": {
-      "title": "マルチモーダル能力とUI美学無敵",
-      "description": "コードを書くだけでなく、UI設計スケッチ生成、複雑システムのデバッグ支援も可能。研究院報告：マルチモーダル能力が競合より30%+リード。"
+      "title": "Agent 実行力が向上",
+      "description": "タスク計画、ブラウザ、ターミナルツールを使い、バグ修正、テスト、リファクタリング、知識作業に適しています。"
     },
     "reasoning": {
-      "title": "推理能力超強",
-      "description": "数学推理、科学論文解析、画像認識等の分野で優秀な表現、平均レスポンス時間70秒以内でコントロール。"
+      "title": "旗舰に近い推論力",
+      "description": "ツール使用時の Humanity's Last Exam で 57.4% を記録し、Opus 4.8 と 0.5 ポイント差です。"
     }
   },
   "painPoints": {
-    "title": "⚠️ 公式Claude使用痛点",
+    "title": "⚠️ 公式 Claude 利用の課題",
     "cost": "月額20ドル（Claude Pro）",
-    "network": "海外クレジットカードと科学技術ネットワーク必要",
-    "restrictions": "国内ユーザー封号されやすい、体験不良"
+    "network": "海外クレジットカードとVPNが必要",
+    "restrictions": "中国国内ユーザーはアクセス制限や不安定さに直面しやすい"
   },
   "solutions": {
-    "title": "💡 我々の優位性",
+    "title": "💡 私たちの利点",
     "price": {
       "title": "💰 価格優位",
-      "description": "公式サイト月額20ドル（約180元人民元）、我々はたった66元/月"
+      "description": "公式 Claude Pro は月額20ドル、当サービスはより低価格で利用できます"
     },
     "privacy": {
-      "title": "🔒 プライバシー保障",
-      "description": "チャット記録は失われず、認証コードで安全移行"
+      "title": "🔒 プライバシー保護",
+      "description": "チャット履歴は保持され、認証コードで安全に移行できます"
     },
     "safety": {
-      "title": "🛡️ 封号リスクなし",
-      "description": "問題が発生しても、我々が全責任を負う"
+      "title": "🛡️ 制限リスクを軽減",
+      "description": "問題が発生した場合もサービス側でサポートします"
     },
     "original": {
-      "title": "🔄 公式オリジナルミラー",
-      "description": "アカウント変更サポート、3時間内40回利用可能"
+      "title": "🔄 公式風ミラー",
+      "description": "アカウント切替に対応し、3時間内に40回利用できます"
     },
     "flexible": {
       "title": "📅 柔軟な支払い",
-      "description": "日払い、未交換で失効なし、最低1日から"
+      "description": "日単位で利用でき、未使用なら失効しません"
     },
     "easy": {
-      "title": "🎯 使用簡単",
-      "description": "海外クレジットカード不要、科学上网不要、IP封号心配なし"
+      "title": "🎯 簡単に利用",
+      "description": "海外カード、VPN、IP制限の心配が不要です"
     }
   },
   "caseStudy": {
-    "title": "💼 実際事例",
-    "description": "シリコンバレーのスタートアップCodeZapがClaude 4でPython REST API最適化後：",
+    "title": "💼 実務ワークフロー",
+    "description": "開発者は Sonnet 5 を日常の高頻度業務に利用できます：",
     "results": {
-      "latency": "決済システム遅延40%削減",
-      "cost": "5万ドル開発コスト節約"
+      "latency": "バグ修正、テスト、コードベース読解",
+      "cost": "マルチAgent並列作業のコスト削減"
     },
-    "conclusion": "Claude 4ソリューションはエレガント、バグ少ない、速度向上顕著、誰が心動かされない？"
+    "conclusion": "同じ予算でより多くの Sonnet 5 Agent を並列実行できます。"
   },
   "faq": {
     "title": "❓ よくある質問",
     "items": [
       {
         "question": "VPNは必要ですか？",
-        "answer": "いいえ、我々は中国からの直接アクセスサービスを提供"
+        "answer": "不要です。中国国内から直接アクセスできます。"
       },
       {
-        "question": "どのような機能がサポートされていますか？",
-        "answer": "テキスト対話、コード生成、文書分析等を含むClaude 4の全機能"
+        "question": "Claude Sonnet 5 に対応していますか？",
+        "answer": "チャット、コード生成、文書分析、一般的なAgentワークフローに対応しています。"
       },
       {
-        "question": "技術サポートはどのように取得しますか？",
-        "answer": "24時間オンラインカスタマーサービスと技術サポートを提供"
+        "question": "サポートはありますか？",
+        "answer": "オンライン客服と技術サポートを提供しています。"
       }
     ]
   },
   "contact": {
     "title": "📞 お問い合わせ",
-    "description": "ご質問がございましたら、お気軽にお問い合わせください：",
-    "wechat": "WeChat：claude-support",
-    "email": "QQ：1002569303",
+    "description": "ご質問があればご連絡ください：",
+    "wechat": "WeChat: claude-support",
+    "email": "QQ: 1002569303",
     "store": "公式ストア"
   },
   "finalCta": {
-    "title": "🎯 今すぐAI新時代を開く",
-    "description": "Claude 4はエレガント、バグ少ない、強力UIとマルチモーダル能力で、2025年AIプログラミング界のトップスターに相応しい。",
-    "primary": "🚀 今すぐClaude 4を体験",
+    "title": "🎯 Claude Sonnet 5 を今すぐ体験",
+    "description": "Claude Sonnet 5 は旗舰級の能力に近づきながら、Sonnet 系列のコスト優位を維持しています。",
+    "primary": "🚀 Claude Sonnet 5 を体験",
     "secondary": "📚 もっと事例を見る"
   },
   "footer": {
-    "copyright": "© 2025 Claude.Asia. 高品質AI会話サービスを提供。",
+    "copyright": "© 2026 Claude.Asia. 高品質AIチャットサービスを提供。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "contact": "お問い合わせ"
   },
   "ui": {
-    "languageSelector": "言語選択"
+    "languageSelector": "言語を選択"
   }
 }

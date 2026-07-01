@@ -347,6 +347,78 @@ a.plan-button {
     background: #f8f9fa;
 }
 
+/* Release Gallery Section */
+.release-gallery {
+    background: #ffffff;
+}
+
+.gallery-desc {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #4a5568;
+    max-width: 760px;
+    margin: -20px auto 40px;
+}
+
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.screenshot-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.screenshot-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+    background: #f8f9fa;
+}
+
+.screenshot-link-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    padding: 24px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.screenshot-link-card span {
+    color: #718096;
+    font-weight: 600;
+}
+
+.screenshot-link-card a {
+    color: #667eea;
+    font-weight: 700;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.screenshot-link-card a:hover {
+    text-decoration: underline;
+}
+
+.screenshot-card figcaption {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4a5568;
+    border-top: 1px solid #e2e8f0;
+}
+
 .comparison-desc {
     text-align: center;
     font-size: 1.1rem;
@@ -736,7 +808,8 @@ a.plan-button {
     
     .experience-grid,
     .advantages-grid,
-    .solutions-grid {
+    .solutions-grid,
+    .screenshot-grid {
         grid-template-columns: 1fr;
     }
     

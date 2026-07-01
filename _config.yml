@@ -1,13 +1,13 @@
 # GitHub Pages 配置文件
-title: Claude 4 彻底杀疯了！
-description: 全面碾压 Deepseek V3、GPT-4.1，2025年AI编程界顶流明星
+title: Claude Sonnet 5 发布，国内直接使用
+description: Claude Sonnet 5 Agent能力、编程、推理和工具调用全面升级，性能直逼 Opus 4.8，国内可直接使用 Claude
 url: "https://xianyu110.github.io"
 baseurl: "/claude.asia"
 
 # SEO 优化
 lang: zh-CN
 author: Claude中国团队
-keywords: Claude, AI, 人工智能, 聊天机器人, 中国, 镜像
+keywords: Claude Sonnet 5, Claude国内使用, AI, 人工智能, 聊天机器人, 中国, 镜像
 
 # 插件配置
 plugins:
