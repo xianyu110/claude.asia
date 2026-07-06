@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://xianyu110.github.io/claude.asia/sitemap.xml
+Sitemap: https://claude-opus.top/sitemap.xml
 Sitemap: https://xianyu110.github.io/chatgpt.asia/sitemap.xml  
 Sitemap: https://xianyu110.github.io/grok4/sitemap.xml
 Sitemap: https://xianyu110.github.io/gemini2.5pro/sitemap.xml
