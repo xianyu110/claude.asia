@@ -1,22 +1,22 @@
 {
   "meta": {
-    "title": "Claude Sonnet 5 Released, Direct Access in China - Claude.Asia",
-    "description": "Claude Sonnet 5 is now available with stronger agent, coding, reasoning, and tool-use performance, plus direct Claude access in China."
+    "title": "Latest Claude Models, Direct Access in China - Claude.Asia",
+    "description": "The latest Claude models are available with stronger agent, coding, reasoning, and tool-use performance, plus direct Claude access in China."
   },
   "nav": {
-    "logo": "Claude Sonnet 5 Guide"
+    "logo": "Latest Claude Models Guide"
   },
   "hero": {
-    "badge": "🚀 Claude Sonnet 5 just launched",
-    "title": "Claude Sonnet 5 is here! Direct access in China",
-    "subtitle": "Anthropic's latest Sonnet model upgrades agent work, coding, reasoning, and tool use, approaching flagship Opus 4.8 performance.",
+    "badge": "🚀 Latest Claude Models Supported",
+    "title": "Latest Claude Models, Direct Access in China",
+    "subtitle": "The latest Claude models improve agent work, coding, reasoning, and tool use for reliable daily workflows.",
     "features": [
       "💻 SWE-bench Pro 63.2%",
       "🧠 Reasoning close to Opus 4.8",
       "🛠️ Stronger agent tool use"
     ],
     "cta": {
-      "primary": "🚀 Try Sonnet 5 now",
+      "primary": "🚀 Try the latest Claude models",
       "secondary": "📷 View launch images"
     }
   },
@@ -28,7 +28,7 @@
         "price": "$10",
         "period": "/month",
         "features": [
-          "✅ Full Claude Sonnet 5 access",
+          "✅ Full access to the latest Claude models",
           "✅ Direct China access, no VPN needed",
           "✅ Lower account-ban risk",
           "✅ 24/7 stable service",
@@ -41,7 +41,7 @@
         "price": "$0.15",
         "period": "/day",
         "features": [
-          "✅ Basic Claude Sonnet 5 access",
+          "✅ Basic access to the latest Claude models",
           "✅ Pay per day, flexible usage",
           "✅ No expiration if unused",
           "✅ 40 uses within 3 hours"
@@ -51,8 +51,8 @@
     }
   },
   "comparison": {
-    "title": "🥊 Sonnet 5 key results",
-    "description": "From coding and terminal tasks to cross-domain reasoning, Sonnet 5 has entered flagship-level territory.",
+    "title": "🥊 Latest Claude Models: Key Results",
+    "description": "From coding and terminal tasks to cross-domain reasoning, the latest Claude models have entered flagship-level territory.",
     "table": {
       "model": "Model",
       "result": "Performance",
@@ -60,7 +60,7 @@
     },
     "models": {
       "claude": {
-        "name": "Claude Sonnet 5",
+        "name": "Latest Claude Models",
         "result": "SWE-bench Pro 63.2%",
         "description": "Major gains in coding, tool use, and agent tasks, approaching Opus 4.8"
       },
@@ -72,20 +72,20 @@
       "gpt": {
         "name": "GPT-5.5",
         "result": "58.6%",
-        "description": "Lower than Sonnet 5 on the same coding benchmark"
+        "description": "Lower than the latest Claude models on the same coding benchmark"
       },
       "gemini": {
         "name": "Sonnet 4.6",
         "result": "58.1%",
-        "description": "The previous Sonnet generation now trails Sonnet 5"
+        "description": "The previous Sonnet generation now trails the latest Claude models"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Why upgrade to Sonnet 5?",
+    "title": "🏆 Why use the latest Claude models?",
     "speed": {
       "title": "Stronger coding",
-      "description": "Sonnet 5 reaches 63.2% on SWE-bench Pro, ahead of GPT-5.5 and clearly above Sonnet 4.6."
+      "description": "The latest Claude models reach 63.2% on SWE-bench Pro, ahead of GPT-5.5 and clearly above Sonnet 4.6."
     },
     "ui": {
       "title": "Better agent execution",
@@ -131,12 +131,12 @@
   },
   "caseStudy": {
     "title": "💼 Real workflows",
-    "description": "Developers can use Sonnet 5 for frequent real-world work:",
+    "description": "Developers can use the latest Claude models for frequent real-world work:",
     "results": {
       "latency": "Bug fixes, tests, and codebase reading",
       "cost": "Cheaper multi-agent parallel work"
     },
-    "conclusion": "The same budget can run more Sonnet 5 agents in parallel and split complex tasks across them."
+    "conclusion": "The same budget can run more agents powered by the latest Claude models in parallel and split complex tasks across them."
   },
   "faq": {
     "title": "❓ FAQ",
@@ -146,7 +146,7 @@
         "answer": "No, we provide direct access from China."
       },
       {
-        "question": "Does it support Claude Sonnet 5?",
+        "question": "Does it support the latest Claude models?",
         "answer": "Yes, including chat, code generation, document analysis, and common agent workflows."
       },
       {
@@ -163,9 +163,9 @@
     "store": "Official Store"
   },
   "finalCta": {
-    "title": "🎯 Try Claude Sonnet 5 now",
-    "description": "Claude Sonnet 5 reaches flagship-level capability while keeping the Sonnet line's value advantage.",
-    "primary": "🚀 Try Claude Sonnet 5",
+    "title": "🎯 Try the latest Claude models",
+    "description": "The latest Claude models offer flagship-level capability while keeping the Sonnet line's value advantage.",
+    "primary": "🚀 Try the latest Claude models",
     "secondary": "📚 View more cases"
   },
   "footer": {

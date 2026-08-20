@@ -1,13 +1,13 @@
 # GitHub Pages 配置文件
-title: Claude Sonnet 5 发布，国内直接使用
-description: Claude Sonnet 5 Agent能力、编程、推理和工具调用全面升级，性能直逼 Opus 4.8，国内可直接使用 Claude
-url: "https://claude-opus.top"
+title: 支持 Claude 最新模型，国内直接使用
+description: 支持 Claude 最新模型，覆盖 Agent、编程、推理和工具调用，国内可直接使用 Claude
+url: "https://momoai.dadoudou117.com"
 baseurl: ""
 
 # SEO 优化
 lang: zh-CN
 author: Claude中国团队
-keywords: Claude Sonnet 5, Claude国内使用, AI, 人工智能, 聊天机器人, 中国, 镜像
+keywords: Claude最新模型, Claude国内使用, AI, 人工智能, 聊天机器人, 中国, 镜像
 
 # 插件配置
 plugins:

@@ -1,22 +1,22 @@
 {
   "meta": {
-    "title": "Claude Sonnet 5 출시, 중국 내 직접 사용 - Claude.Asia",
-    "description": "Claude Sonnet 5가 출시되었습니다. Agent, 코딩, 추론, 도구 사용 성능이 강화되었고 중국 내 직접 사용을 지원합니다."
+    "title": "최신 Claude 모델 출시, 중국 내 직접 사용 - Claude.Asia",
+    "description": "최신 Claude 모델이 제공됩니다. Agent, 코딩, 추론, 도구 사용 성능이 강화되었고 중국 내 직접 사용을 지원합니다."
   },
   "nav": {
-    "logo": "Claude Sonnet 5 가이드"
+    "logo": "최신 Claude 모델 가이드"
   },
   "hero": {
-    "badge": "🚀 Claude Sonnet 5 출시",
-    "title": "Claude Sonnet 5 출시! 중국 내 직접 사용",
-    "subtitle": "Anthropic의 최신 Sonnet 모델은 Agent, 코딩, 추론, 도구 사용 능력을 강화해 Opus 4.8에 가까운 성능을 제공합니다.",
+    "badge": "🚀 최신 Claude 모델 출시",
+    "title": "최신 Claude 모델 출시! 중국 내 직접 사용",
+    "subtitle": "최신 Claude 모델은 Agent, 코딩, 추론, 도구 사용 능력을 강화해 일상적인 워크플로를 지원합니다.",
     "features": [
       "💻 SWE-bench Pro 63.2%",
       "🧠 Opus 4.8에 가까운 추론",
       "🛠️ 더 강해진 Agent 도구 사용"
     ],
     "cta": {
-      "primary": "🚀 Sonnet 5 체험하기",
+      "primary": "🚀 최신 Claude 모델 체험하기",
       "secondary": "📷 출시 이미지 보기"
     }
   },
@@ -28,7 +28,7 @@
         "price": "$10",
         "period": "/월",
         "features": [
-          "✅ Claude Sonnet 5 전체 기능",
+          "✅ 최신 Claude 모델 전체 기능",
           "✅ 중국 내 직접 접속, VPN 불필요",
           "✅ 계정 제한 리스크 완화",
           "✅ 24시간 안정 서비스",
@@ -41,7 +41,7 @@
         "price": "$0.15",
         "period": "/일",
         "features": [
-          "✅ Claude Sonnet 5 기본 접속",
+          "✅ 최신 Claude 모델 기본 접속",
           "✅ 일 단위 결제",
           "✅ 미사용 시 만료 없음",
           "✅ 3시간 내 40회 사용 가능"
@@ -51,8 +51,8 @@
     }
   },
   "comparison": {
-    "title": "🥊 Sonnet 5 핵심 성과",
-    "description": "코딩, 터미널 작업, 복합 추론에서 Sonnet 5는 플래그십급 성능 영역에 진입했습니다.",
+    "title": "🥊 최신 Claude 모델 핵심 성과",
+    "description": "코딩, 터미널 작업, 복합 추론에서 최신 Claude 모델은 플래그십급 성능 영역에 진입했습니다.",
     "table": {
       "model": "모델",
       "result": "성과",
@@ -60,7 +60,7 @@
     },
     "models": {
       "claude": {
-        "name": "Claude Sonnet 5",
+        "name": "최신 Claude 모델",
         "result": "SWE-bench Pro 63.2%",
         "description": "코딩, 도구 사용, Agent 작업이 크게 향상되어 Opus 4.8에 근접"
       },
@@ -72,17 +72,17 @@
       "gpt": {
         "name": "GPT-5.5",
         "result": "58.6%",
-        "description": "동일 코딩 벤치마크에서 Sonnet 5보다 낮음"
+        "description": "동일 코딩 벤치마크에서 최신 Claude 모델보다 낮음"
       },
       "gemini": {
         "name": "Sonnet 4.6",
         "result": "58.1%",
-        "description": "이전 세대 Sonnet은 Sonnet 5에 크게 뒤처짐"
+        "description": "이전 세대 Sonnet은 최신 Claude 모델에 크게 뒤처짐"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Sonnet 5로 업그레이드할 이유",
+    "title": "🏆 최신 Claude 모델로 업그레이드할 이유",
     "speed": {
       "title": "더 강한 코딩 능력",
       "description": "SWE-bench Pro 63.2%로 GPT-5.5와 Sonnet 4.6을 앞섭니다."
@@ -131,12 +131,12 @@
   },
   "caseStudy": {
     "title": "💼 실제 워크플로",
-    "description": "개발자는 Sonnet 5를 자주 쓰는 실제 업무에 활용할 수 있습니다:",
+    "description": "개발자는 최신 Claude 모델을 자주 쓰는 실제 업무에 활용할 수 있습니다:",
     "results": {
       "latency": "버그 수정, 테스트, 코드베이스 읽기",
       "cost": "더 저렴한 멀티 Agent 병렬 작업"
     },
-    "conclusion": "같은 예산으로 더 많은 Sonnet 5 Agent를 병렬 실행할 수 있습니다."
+    "conclusion": "같은 예산으로 더 많은 최신 Claude 모델 Agent를 병렬 실행할 수 있습니다."
   },
   "faq": {
     "title": "❓ 자주 묻는 질문",
@@ -146,7 +146,7 @@
         "answer": "아니요. 중국 내 직접 접속 서비스를 제공합니다."
       },
       {
-        "question": "Claude Sonnet 5를 지원하나요?",
+        "question": "최신 Claude 모델을 지원하나요?",
         "answer": "채팅, 코드 생성, 문서 분석, 일반 Agent 워크플로를 지원합니다."
       },
       {
@@ -163,9 +163,9 @@
     "store": "공식 스토어"
   },
   "finalCta": {
-    "title": "🎯 Claude Sonnet 5 지금 체험하기",
-    "description": "Claude Sonnet 5는 플래그십급 능력에 가까워졌고 Sonnet 라인의 가격 장점도 유지합니다.",
-    "primary": "🚀 Claude Sonnet 5 체험하기",
+    "title": "🎯 최신 Claude 모델 지금 체험하기",
+    "description": "최신 Claude 모델은 플래그십급 능력에 가까워졌고 Sonnet 라인의 가격 장점도 유지합니다.",
+    "primary": "🚀 최신 Claude 모델 체험하기",
     "secondary": "📚 더 많은 사례 보기"
   },
   "footer": {
