@@ -1,54 +1,27 @@
 {
   "meta": {
-    "title": "支持 Claude 最新模型，国内直接使用 - Claude.Asia",
-    "description": "支持 Claude 最新模型，Agent能力、编程、推理和工具调用持续升级，国内可直接使用 Claude。"
+    "title": "Claude 官方镜像服务公告与使用规则 - Claude.Asia",
+    "description": "Claude 官方镜像服务公告：已升级防封策略，取消时段限制，恢复 24 小时不间断供应，并公布模型使用规则。"
   },
   "nav": {
-    "logo": "Claude 最新模型指南"
+    "logo": "Claude 官方镜像公告"
   },
   "hero": {
-    "badge": "🚀 支持 Claude 最新模型",
-    "title": "支持 Claude 最新模型，国内直接使用",
-    "subtitle": "支持 Claude 最新模型，Agent能力、编程、推理和工具调用持续升级。",
+    "badge": "📢 服务公告",
+    "title": "Claude 官网封号与“秒封”问题已完成解决",
+    "subtitle": "经过技术团队的全力攻关与全新防封策略升级部署，服务现已恢复 24 小时不间断供应，随时随地想用就用。",
     "features": [
-      "💻 SWE-bench Pro 63.2%",
-      "🧠 推理接近 Opus 4.8",
-      "🛠️ Agent 工具调用更强"
+      "✅ 取消所有时段限制",
+      "🕒 24 小时不间断供应",
+      "🛡️ 全新防封策略已部署"
     ],
     "cta": {
-      "primary": "🚀 立即体验 Claude 最新模型",
-      "secondary": "📷 查看发布截图"
+      "primary": "🌐 进入官方镜像",
+      "secondary": "📊 查看使用规则"
     }
   },
   "experience": {
-    "title": "🌟 国内最稳定的 Claude 访问方案",
-    "plans": {
-      "premium": {
-        "name": "💎 专业版",
-        "price": "￥66",
-        "period": "/月",
-        "features": [
-          "✅ Claude 最新模型完整功能",
-          "✅ 国内直连，无需科学上网",
-          "✅ 无封号风险",
-          "✅ 24小时稳定服务",
-          "✅ 保障聊天记录隐私"
-        ],
-        "button": "立即开始"
-      },
-      "trial": {
-        "name": "🎯 体验版",
-        "price": "￥0.99",
-        "period": "/天",
-        "features": [
-          "✅ 基础 Claude 最新模型访问",
-          "✅ 按天付费，灵活使用",
-          "✅ 不兑换不失效",
-          "✅ 3小时内可用40次"
-        ],
-        "button": "免费试用"
-      }
-    }
+    "title": "📊 模型使用规则与频次对照表"
   },
   "comparison": {
     "title": "🥊 Claude 最新模型核心成绩",
@@ -98,16 +71,11 @@
   },
   "painPoints": {
     "title": "⚠️ 官方Claude使用痛点",
-    "cost": "月费20美元（Claude Pro）",
     "network": "需要海外信用卡和科技网络",
     "restrictions": "国内用户易被封号，体验欠佳"
   },
   "solutions": {
     "title": "💡 我们的优势",
-    "price": {
-      "title": "💰 价格优势",
-      "description": "官网需要20美元/月（约180元人民币），我们仅需66元/月"
-    },
     "privacy": {
       "title": "🔒 保障隐私",
       "description": "聊天记录不会丢失，跟随授权码安全迁移"
@@ -119,10 +87,6 @@
     "original": {
       "title": "🔄 官方原版镜像",
       "description": "支持换号，3小时内可用40次"
-    },
-    "flexible": {
-      "title": "📅 灵活付费",
-      "description": "按天付费，不兑换不失效，最低1天起"
     },
     "easy": {
       "title": "🎯 使用简单",
@@ -146,8 +110,8 @@
         "answer": "不需要，我们提供国内直连服务。"
       },
       {
-        "question": "支持 Claude 最新模型吗？",
-        "answer": "支持 Claude 最新模型的文本对话、代码生成、文档分析和常用 Agent 场景。"
+        "question": "如何查看当前使用规则？",
+        "answer": "请以页面公布的模型频次、Token 限制和设备规则为准。"
       },
       {
         "question": "如何获得技术支持？",
@@ -163,10 +127,10 @@
     "store": "官方店铺"
   },
   "finalCta": {
-    "title": "🎯 立即体验 Claude 最新模型",
-    "description": "Claude 最新模型已经进入旗舰能力区间，同时保留 Sonnet 系列的性价比优势。",
-    "primary": "🚀 立即体验 Claude 最新模型",
-    "secondary": "📚 查看更多案例"
+    "title": "🎯 随时随地，想用就用",
+    "description": "官方镜像已恢复 24 小时不间断供应，欢迎按规则使用。",
+    "primary": "🌐 进入官方镜像",
+    "secondary": "📊 查看使用规则"
   },
   "footer": {
     "copyright": "© 2026 Claude.Asia. 为用户提供优质AI聊天服务.",
