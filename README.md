@@ -1,10 +1,10 @@
-# 刚刚，支持 Claude 最新模型，国内直接使用！
+# Claude 官方镜像服务公告与使用规则
 
-**摘要：** Anthropic 刚刚发布 Claude 最新模型。它是目前 Agent 能力最强的 Sonnet 模型，在编程、推理、工具调用和知识工作上全面升级，性能直逼旗舰 Claude Opus 4.8。本文整理 Claude 最新模型 的核心亮点、价格信息、安全表现，以及国内直接使用入口。
+**摘要：** 经过技术团队的全力攻关与全新防封策略升级部署，Claude 官方镜像已恢复 24 小时不间断供应。本文整理模型能力、安全表现、使用规则，以及官方镜像入口。
 
 Claude 国内直接使用：
 
-https://momoai.dadoudou117.com/buy/10
+https://claude-opus.top/
 
 ![Claude 最新模型 发布截图](https://upload.maynor1024.live/file/1782866354926_image-20260701083908094.png)
 
@@ -28,7 +28,6 @@ Claude 最新模型，代号 Fennec。
 
 - SWE-bench Pro 得分 63.2%，超过 GPT-5.5 的 58.6%，接近 Opus 4.8 的 69.2%。
 - Humanity's Last Exam 带工具得分 57.4%，距离 Opus 4.8 只差 0.5 个百分点。
-- 标准价为每百万 token 输入 3 美元、输出 15 美元，只有 Opus 4.8 的六成。
 - 浏览器注入攻击成功率只有 0.93%，安全表现非常突出。
 
 ![Claude 最新模型 数据截图](https://upload.maynor1024.live/file/1782866184301_image-20260701083613843.png)
@@ -61,31 +60,7 @@ Terminal-Bench 2.1 上，Claude 最新模型 达到 80.4%，比 Sonnet 4.6 的 6
 
 一句话总结：
 
-**Claude 最新模型 已经不是“便宜一点、弱一点”的中端模型，而是用 Sonnet 的价格，买到接近 Opus 的执行力。**
-
----
-
-## 💰 价格是这次真正的杀招
-
-![2 美元限时促销](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
-
-API 定价方面，Claude 最新模型 首发限时价：
-
-- 输入：2 美元 / 百万 tokens
-- 输出：10 美元 / 百万 tokens
-
-限时优惠到 2026 年 8 月 31 日。
-
-之后恢复标准价：
-
-- 输入：3 美元 / 百万 tokens
-- 输出：15 美元 / 百万 tokens
-
-相比 Opus 4.8 的 5 美元输入、25 美元输出，Claude 最新模型 即使恢复原价，也依然便宜一大截。
-
-这对多 Agent 工作流尤其关键。同样预算，以前可能只能跑一个 Opus 级 Agent；现在可以拆成多个 Claude 最新模型 并行执行：一个读代码，一个查资料，一个写测试，一个做总结。
-
-不过也要注意：Claude 最新模型 换了新的 tokenizer，同样一段文本，token 数可能变成原来的 1.0 到 1.35 倍。长上下文、超大代码库、多轮 Agent 调用，仍然建议关注实际账单。
+**Claude 最新模型 已经进入旗舰模型能力区间，适合高频、连续的开发与知识工作。**
 
 ---
 
@@ -134,7 +109,7 @@ Claude 最新模型 的定位非常精准。
 
 Claude 国内直接使用：
 
-https://momoai.dadoudou117.com/buy/10
+https://claude-opus.top/
 
 ![Claude 国内直接使用二维码](https://upload.maynor1024.live/file/1782869981348_image-20260701083756690.png)
 
