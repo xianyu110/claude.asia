@@ -111,7 +111,7 @@ Claude 国内直接使用：
 
 https://claude-opus.top/
 
-![Claude 国内直接使用二维码](https://upload.maynor1024.live/file/1782869981348_image-20260701083756690.png)
+![Claude 国内直接使用二维码](https://upload.maynor1024.live/file/1787302739881_codex-clipboard-5337df5e-9a2b-4471-ade2-6f418d77c1d2.png)
 
 如果你之前觉得 Opus 太贵、普通模型又不够稳，那 Claude 最新模型 很可能就是接下来最值得长期使用的 Claude。
 
