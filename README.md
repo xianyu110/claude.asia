@@ -2,9 +2,7 @@
 
 **摘要：** 经过技术团队的全力攻关与全新防封策略升级部署，Claude 官方镜像已恢复 24 小时不间断供应。本文整理模型能力、安全表现、使用规则，以及官方镜像入口。
 
-Claude 国内直接使用：
-
-https://claude-opus.top/
+**Claude 国内直接使用：** [https://claude-opus.top/](https://claude-opus.top/)
 
 ![Claude 最新模型 发布截图](https://upload.maynor1024.live/file/1782866354926_image-20260701083908094.png)
 
@@ -38,8 +36,6 @@ Claude 最新模型，代号 Fennec。
 
 ## 🏆 全线逼近 Opus 4.8
 
-![全线逼平 Opus 4.8](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
-
 Sonnet 系列一直是很多开发者最熟悉的 Claude 模型。从 Sonnet 3.5 开始，它就率先在写代码、用工具、跑 Agent 任务上展现出很强的执行力。
 
 但过去一段时间，最强能力主要集中在 Opus 这条旗舰线上。Claude 最新模型 的意义，就是把这部分能力重新下放到更高频、更有性价比的模型层。
@@ -66,8 +62,6 @@ Terminal-Bench 2.1 上，Claude 最新模型 达到 80.4%，比 Sonnet 4.6 的 6
 
 ## 🛡️ 安全表现同样亮眼
 
-![反杀全家族旗舰](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
-
 Claude 最新模型 另一个容易被低估的点，是安全和防护能力。
 
 提示注入攻击成功率只有 0.19%，和 Opus 4.8 持平。浏览器注入防御上，攻击成功率只有 0.93%，开启防护措施后可以降到 0%。
@@ -80,11 +74,9 @@ Claude 最新模型 另一个容易被低估的点，是安全和防护能力。
 
 ## 🎯 不争皇冠，专打高频场景
 
-![不争皇冠，专砍腰部](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
-
 Claude 最新模型 的定位非常精准。
 
-它不一定要抢“最强模型”的皇冠，真正要吃下的是开发者和企业每天最常用的那一层：
+它不一定要抢"最强模型"的皇冠，真正要吃下的是开发者和企业每天最常用的那一层：
 
 - 日常编码
 - 修 Bug
@@ -101,18 +93,37 @@ Claude 最新模型 的定位非常精准。
 
 这正是 Claude 最新模型 最强的地方。
 
-![开发者钱包，今晚先投了票](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+如果你之前觉得 Opus 太贵、普通模型又不够稳，那 Claude 最新模型 很可能就是接下来最值得长期使用的 Claude。
+
+它不是最贵的那个，但对大多数开发者和 AI 重度用户来说，它可能是**最顺手、最划算、最适合天天用的那个**。
 
 ---
 
 ## 🇨🇳 国内直接使用 Claude 最新模型
 
-Claude 国内直接使用：
-
-https://claude-opus.top/
+**Claude 国内直接使用：** [https://claude-opus.top/](https://claude-opus.top/)
 
 ![Claude 国内直接使用二维码](https://upload.maynor1024.live/file/1787302739881_codex-clipboard-5337df5e-9a2b-4471-ade2-6f418d77c1d2.png)
 
-如果你之前觉得 Opus 太贵、普通模型又不够稳，那 Claude 最新模型 很可能就是接下来最值得长期使用的 Claude。
+---
 
-它不是最贵的那个，但对大多数开发者和 AI 重度用户来说，它可能是最顺手、最划算、最适合天天用的那个。
+## 📱 Claude Desktop 完整使用教程
+
+想要更强大的本地文件协同和代码工程能力？试试 **Claude Desktop 桌面客户端**。
+
+### 🛒 购买 Claude Desktop API 额度
+
+**Claude Desktop 专属购买入口：** [https://momoai.asia](https://momoai.asia)
+
+- ✅ 支持 Claude Desktop 客户端直连
+- ✅ 提供 CC Switch 配置工具
+- ✅ 2000 美刀额度标准月卡
+- ✅ 国内直连，无需科学上网
+
+### 📖 完整配置教程
+
+👉 [查看 Claude Desktop 完整配置教程](./CLAUDE_DESKTOP.md)
+
+---
+
+**祝你使用愉快！如有问题，欢迎随时反馈。**
