@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Claude 官方镜像服务公告：已升级防封策略，取消时段限制，恢复 24 小时不间断供应，并公布模型使用规则。">
-    <meta name="keywords" content="Claude 官方镜像, Claude 防封, Claude Opus, Fable-5, Claude 使用规则">
+    <meta name="keywords" content="Claude 官方镜像, Claude 防封, Claude Opus, Fable-5, Claude 使用规则, Claude Desktop">
     <title data-i18n="meta.title">Claude 官方镜像服务公告与使用规则 - Claude.Asia</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
@@ -27,7 +27,7 @@
     <header class="hero">        
         <div class="container">
             <div class="hero-badge" data-i18n="hero.badge">📢 服务公告</div>
-            <h1 class="hero-title" data-i18n="hero.title">Claude 官网封号与“秒封”问题<br>已完成解决</h1>
+            <h1 class="hero-title" data-i18n="hero.title">Claude 官网封号与"秒封"问题<br>已完成解决</h1>
             <p class="hero-subtitle" data-i18n="hero.subtitle">经过技术团队的全力攻关与全新防封策略升级部署，服务现已恢复 24 小时不间断供应，随时随地想用就用。</p>
             
             <div class="hero-features">
@@ -44,6 +44,50 @@
     </header>
 
     <main>
+        <!-- Claude Desktop Section -->
+        <section class="desktop-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 0; margin: 40px 0;">
+            <div class="container">
+                <div style="text-align: center; color: white;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 20px;">💻 Claude Desktop 桌面客户端</h2>
+                    <p style="font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9;">想要更强大的本地文件协同和代码工程能力？试试 Claude Desktop 桌面客户端</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0; text-align: left;">
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <h3 style="margin-bottom: 10px;">⚡ 本地文件协同</h3>
+                            <p style="opacity: 0.9; font-size: 0.95rem;">直接读取本地项目架构、分析并修改代码库</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <h3 style="margin-bottom: 10px;">🔒 更安全隐私</h3>
+                            <p style="opacity: 0.9; font-size: 0.95rem;">本地存储对话记录，数据更安全可控</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <h3 style="margin-bottom: 10px;">🎨 完整功能体验</h3>
+                            <p style="opacity: 0.9; font-size: 0.95rem;">Projects、Cowork、Artifacts 等高级功能</p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; backdrop-filter: blur(10px);">
+                            <h3 style="margin-bottom: 10px;">📱 跨平台支持</h3>
+                            <p style="opacity: 0.9; font-size: 0.95rem;">支持 Windows / macOS 操作系统</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <a href="https://momoai.asia" target="_blank" rel="noopener" style="display: inline-block; background: white; color: #667eea; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; margin: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                            🛒 购买 Claude Desktop API
+                        </a>
+                        <a href="https://github.com/xianyu110/claude.asia/blob/main/CLAUDE_DESKTOP.md" target="_blank" rel="noopener" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; margin: 10px; backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.3);">
+                            📖 查看完整教程
+                        </a>
+                    </div>
+                    
+                    <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px; backdrop-filter: blur(10px);">
+                        <p style="font-size: 0.9rem; opacity: 0.8; margin: 0;">
+                            ✅ 支持 Claude Desktop 客户端直连 | ✅ 提供 CC Switch 配置工具 | ✅ 2000 美刀额度标准月卡 | ✅ 国内直连，无需科学上网
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Announcement and usage rules -->
         <section id="usage-rules" class="experience">
             <div class="container">
@@ -63,7 +107,7 @@
                 <h2>💡 重要使用说明与注意事项</h2>
                 <div class="solutions-grid">
                     <div class="solution-card"><h3>💬 历史记录与漫游</h3><p>支持聊天记录隔离与漫游。切换账号后仍可查看历史对话；点击历史会话会自动跳转回原账号。若原账号受限，请切换账号并开启新对话。</p></div>
-                    <div class="solution-card"><h3>💻 设备限制与登出管理</h3><p>严禁超过 3 个设备同时登录。在临时或不常用浏览器上登录后，请务必点击“重置密钥”以安全退出登录。</p></div>
+                    <div class="solution-card"><h3>💻 设备限制与登出管理</h3><p>严禁超过 3 个设备同时登录。在临时或不常用浏览器上登录后，请务必点击"重置密钥"以安全退出登录。</p></div>
                     <div class="solution-card"><h3>⚠️ 严禁滥用警告</h3><p>严禁使用脚本、多设备共享或多人共用恶意刷次数。一经系统检测发现违规，直接拉黑账号且概不退款。</p></div>
                 </div>
             </div>
