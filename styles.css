@@ -76,6 +76,14 @@ body {
     color: var(--gold-bright);
 }
 
+.nav-logo img {
+    width: 28px;
+    height: 28px;
+    display: block;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
 .language-selector-container {
     position: relative;
 }
