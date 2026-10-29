@@ -286,26 +286,31 @@ class EnhancedI18nManager {
                 
                 .language-select {
                     padding: 8px 16px;
-                    border: 2px solid #e2e8f0;
+                    border: 2px solid rgba(201, 162, 39, 0.35);
                     border-radius: 8px;
-                    background: white;
-                    color: #2d3748;
+                    background: #1a1a1f;
+                    color: #e8d48b;
                     font-size: 14px;
                     font-weight: 500;
                     cursor: pointer;
                     transition: all 0.3s ease;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
                     outline: none;
                 }
                 
                 .language-select:hover {
-                    border-color: #3182ce;
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                    border-color: rgba(212, 175, 55, 0.55);
+                    box-shadow: 0 4px 12px rgba(201, 162, 39, 0.2);
                 }
                 
                 .language-select:focus {
-                    border-color: #3182ce;
-                    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+                    border-color: #d4af37;
+                    box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.25);
+                }
+                
+                .language-select option {
+                    background: #1a1a1f;
+                    color: #f2efe6;
                 }
                 
                 .sr-only {
