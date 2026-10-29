@@ -1,27 +1,100 @@
 {
   "meta": {
-    "title": "Claude 官方镜像服务公告与使用规则 - Claude.Asia",
-    "description": "Claude 官方镜像服务公告：已升级防封策略，取消时段限制，恢复 24 小时不间断供应，并公布模型使用规则。"
+    "title": "Claude 镜像公告：普号暂下线 · Fable 新站上线 - Claude.Asia",
+    "description": "Claude 镜像「普号」暂时下线；新站 https://trymodel.chat/ 已上线，可用 Claude Fable 模型。含 Desktop 说明与使用规则。"
   },
   "nav": {
-    "logo": "Claude 官方镜像公告"
+    "logo": "Claude 镜像服务公告"
   },
   "hero": {
-    "badge": "📢 服务公告",
-    "title": "Claude 官网封号与“秒封”问题已完成解决",
-    "subtitle": "经过技术团队的全力攻关与全新防封策略升级部署，服务现已恢复 24 小时不间断供应，随时随地想用就用。",
+    "alertTitle": "Claude 镜像「普号」暂时下线",
+    "alertText": "当前镜像普号暂不可用。请改用新站体验 Claude Fable。",
+    "badge": "✨ 新站已上线",
+    "title": "新站 trymodel.chat 已上线",
+    "titleAccent": "可用 Claude Fable 模型",
+    "subtitle": "新站 https://trymodel.chat/ 现已开放 Claude Fable 模型体验。下方保留 Desktop 说明与使用规则，供参考。",
     "features": [
-      "✅ 取消所有时段限制",
-      "🕒 24 小时不间断供应",
-      "🛡️ 全新防封策略已部署"
+      "⚠️ 普号暂时下线",
+      "🆕 trymodel.chat 可用",
+      "✨ Claude Fable 开放"
     ],
     "cta": {
-      "primary": "🌐 进入官方镜像",
-      "secondary": "📊 查看使用规则"
+      "primary": "✨ 前往 trymodel.chat 体验 Fable",
+      "secondary": "📊 查看使用规则",
+      "tertiary": "🛒 原镜像商城"
     }
   },
+  "fable": {
+    "badge": "Claude Fable",
+    "title": "推荐：在 trymodel.chat 使用 Claude Fable",
+    "description": "镜像普号暂时下线期间，请优先通过新站访问 Claude Fable 模型。国内直连、开箱即用。",
+    "cta": "打开 https://trymodel.chat/"
+  },
+  "desktop": {
+    "title": "💻 Claude Desktop 桌面客户端",
+    "lead": "想要更强大的本地文件协同和代码工程能力？试试 Claude Desktop 桌面客户端",
+    "cards": [
+      {
+        "title": "⚡ 本地文件协同",
+        "text": "直接读取本地项目架构、分析并修改代码库"
+      },
+      {
+        "title": "🔒 更安全隐私",
+        "text": "本地存储对话记录，数据更安全可控"
+      },
+      {
+        "title": "🎨 完整功能体验",
+        "text": "Projects、Cowork、Artifacts 等高级功能"
+      },
+      {
+        "title": "📱 跨平台支持",
+        "text": "支持 Windows / macOS 操作系统"
+      }
+    ],
+    "buy": "🛒 购买 Claude Desktop API",
+    "docs": "📖 查看完整教程",
+    "note": "✅ 支持 Claude Desktop 客户端直连 | ✅ 提供 CC Switch 配置工具 | ✅ 2000 美刀额度标准月卡 | ✅ 国内直连，无需科学上网"
+  },
   "experience": {
-    "title": "📊 模型使用规则与频次对照表"
+    "title": "📊 模型使用规则与频次对照表",
+    "intro": "以下为既有规则参考。镜像普号暂时下线期间，请以 trymodel.chat 实际开放能力为准。",
+    "col": {
+      "model": "模型 / 密钥类型",
+      "limit": "使用频次限制",
+      "token": "Token / 说明"
+    },
+    "rows": [
+      {
+        "name": "Plus 密钥",
+        "limit": "25 次 / 3 小时",
+        "token": "单次 3 小时上限 50 万 Token"
+      },
+      {
+        "name": "Opus 系列模型",
+        "limit": "15 次 / 3 小时",
+        "token": "参照官网 1:1.6 倍率换算"
+      },
+      {
+        "name": "Fable-5 模型",
+        "limit": "3 次 / 3 小时",
+        "token": "最新旗舰模型 · 推荐走 trymodel.chat"
+      }
+    ]
+  },
+  "notes": {
+    "title": "💡 重要使用说明与注意事项",
+    "history": {
+      "title": "💬 历史记录与漫游",
+      "text": "支持聊天记录隔离与漫游。切换账号后仍可查看历史对话；点击历史会话会自动跳转回原账号。若原账号受限，请切换账号并开启新对话。"
+    },
+    "device": {
+      "title": "💻 设备限制与登出管理",
+      "text": "严禁超过 3 个设备同时登录。在临时或不常用浏览器上登录后，请务必点击“重置密钥”以安全退出登录。"
+    },
+    "abuse": {
+      "title": "⚠️ 严禁滥用警告",
+      "text": "严禁使用脚本、多设备共享或多人共用恶意刷次数。一经系统检测发现违规，直接拉黑账号且概不退款。"
+    }
   },
   "comparison": {
     "title": "🥊 Claude 最新模型核心成绩",
@@ -106,16 +179,20 @@
     "title": "❓ 常见问题",
     "items": [
       {
+        "question": "镜像普号还能用吗？",
+        "answer": "Claude 镜像「普号」暂时下线。请改用新站 https://trymodel.chat/ 体验 Claude Fable 模型。"
+      },
+      {
+        "question": "新站支持什么模型？",
+        "answer": "新站 https://trymodel.chat/ 已上线，可用 Claude Fable 模型。"
+      },
+      {
         "question": "是否需要翻墙？",
         "answer": "不需要，我们提供国内直连服务。"
       },
       {
-        "question": "如何查看当前使用规则？",
-        "answer": "请以页面公布的模型频次、Token 限制和设备规则为准。"
-      },
-      {
         "question": "如何获得技术支持？",
-        "answer": "我们提供在线客服和技术支持。"
+        "answer": "可联系微信 claude-support 或 QQ 1002569303。"
       }
     ]
   },
@@ -127,9 +204,9 @@
     "store": "官方店铺"
   },
   "finalCta": {
-    "title": "🎯 随时随地，想用就用",
-    "description": "官方镜像已恢复 24 小时不间断供应，欢迎按规则使用。",
-    "primary": "🌐 进入官方镜像",
+    "title": "🎯 普号暂下线 · 请用 Fable 新站",
+    "description": "镜像普号暂时下线。新站 https://trymodel.chat/ 已上线，可用 Claude Fable 模型。",
+    "primary": "✨ 打开 trymodel.chat",
     "secondary": "📊 查看使用规则"
   },
   "footer": {

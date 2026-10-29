@@ -65,7 +65,7 @@ body {
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 80px 0;
+    padding: 72px 0 88px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -100,20 +100,37 @@ body {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: clamp(1.85rem, 4.5vw, 3.1rem);
     font-weight: 800;
-    margin-bottom: 20px;
-    line-height: 1.2;
+    margin-bottom: 18px;
+    line-height: 1.25;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.hero-title-main {
+    display: block;
+}
+
+.hero-title-accent {
+    display: block;
+    font-size: 0.72em;
+    font-weight: 700;
+    color: #ffe8a3;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .hero-subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 30px;
-    opacity: 0.9;
-    max-width: 800px;
+    font-size: 1.15rem;
+    margin-bottom: 28px;
+    opacity: 0.95;
+    max-width: 760px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.7;
 }
 
 .hero-features {
@@ -177,6 +194,21 @@ body {
 .cta-button.secondary:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: translateY(-2px);
+}
+
+
+.cta-button.ghost {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.92);
+    border: 1.5px dashed rgba(255, 255, 255, 0.45);
+    font-size: 0.98rem;
+    padding: 12px 22px;
+}
+
+.cta-button.ghost:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-style: solid;
+    transform: translateY(-1px);
 }
 
 .cta-button.large {
@@ -766,24 +798,274 @@ a.plan-button {
     opacity: 1;
 }
 
+
+/* Status alert banner (普号下线) */
+.status-alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    text-align: left;
+    max-width: 720px;
+    margin: 0 auto 28px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: rgba(255, 244, 214, 0.97);
+    color: #7a3e00;
+    border: 1px solid rgba(245, 158, 11, 0.55);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.status-alert-icon {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+.status-alert-title {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #9a3412;
+}
+
+.status-alert-text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #92400e;
+    opacity: 0.95;
+}
+
+.feature-tag-warn {
+    background: rgba(251, 191, 36, 0.22);
+    border-color: rgba(251, 191, 36, 0.55);
+}
+
+.feature-tag-new,
+.feature-tag-fable {
+    background: rgba(52, 211, 153, 0.2);
+    border-color: rgba(52, 211, 153, 0.5);
+}
+
+/* Fable highlight card */
+.fable-highlight {
+    padding: 28px 0 10px;
+    background: #f7fafc;
+}
+
+.fable-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    padding: 36px 28px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.12);
+}
+
+.fable-card-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+}
+
+.fable-card h2 {
+    margin-bottom: 12px;
+    font-size: clamp(1.35rem, 3vw, 1.9rem);
+}
+
+.fable-card p {
+    max-width: 680px;
+    margin: 0 auto 24px;
+    color: #4a5568;
+    line-height: 1.7;
+}
+
+.fable-card .cta-button.primary {
+    color: #fff;
+}
+
+/* Desktop section (moved off inline styles) */
+.desktop-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 60px 0;
+    margin: 24px 0 0;
+}
+
+.desktop-inner {
+    text-align: center;
+    color: white;
+}
+
+.desktop-inner h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.desktop-lead {
+    font-size: 1.15rem;
+    margin-bottom: 28px;
+    opacity: 0.92;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin: 28px 0 8px;
+    text-align: left;
+}
+
+.desktop-card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.desktop-card h3 {
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 1.05rem;
+}
+
+.desktop-card p {
+    opacity: 0.9;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.desktop-actions {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.desktop-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.desktop-btn:hover {
+    transform: translateY(-2px);
+}
+
+.desktop-btn-primary {
+    background: white;
+    color: #667eea;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.desktop-btn-secondary {
+    background: rgba(255, 255, 255, 0.18);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px);
+}
+
+.desktop-note {
+    margin-top: 28px;
+    padding: 18px 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.desktop-note p {
+    font-size: 0.9rem;
+    opacity: 0.88;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.comparison-row-highlight {
+    background: rgba(102, 126, 234, 0.08);
+    border-left: 3px solid #667eea;
+}
+
+.section-intro {
+    text-align: center;
+    color: #4a5568;
+    max-width: 760px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+.usage-notes {
+    padding-top: 20px;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
+    .hero {
+        padding: 56px 0 64px;
+    }
+
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.85rem;
     }
-    
+
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1.02rem;
+        padding: 0 4px;
     }
-    
+
+    .status-alert {
+        margin-bottom: 22px;
+        padding: 14px;
+    }
+
     .hero-features {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .feature-tag {
+        text-align: center;
     }
     
     .hero-cta {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .hero-cta .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .desktop-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .desktop-btn {
+        text-align: center;
+    }
+
+    .fable-card {
+        padding: 28px 18px;
     }
     
     .language-selector {

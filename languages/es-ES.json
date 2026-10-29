@@ -1,54 +1,54 @@
 {
   "meta": {
-    "title": "Modelos Claude más recientes, acceso directo en China - Claude.Asia",
-    "description": "Los modelos Claude más recientes están disponibles con mejoras en agentes, programación, razonamiento y uso de herramientas, con acceso directo en China."
+    "title": "Claude Mirror Notice: Standard Accounts Offline · Fable on trymodel.chat - Claude.Asia",
+    "description": "Claude mirror standard accounts are temporarily offline. New site https://trymodel.chat/ is live with Claude Fable. Desktop tips and usage rules below."
   },
   "nav": {
-    "logo": "Guía de los modelos Claude más recientes"
+    "logo": "Claude Mirror Notice"
   },
   "hero": {
-    "badge": "🚀 Modelos Claude más recientes compatibles",
-    "title": "Modelos Claude más recientes, Acceso directo en China",
-    "subtitle": "Los modelos Claude más recientes mejoran los agentes, la programación, el razonamiento y el uso de herramientas para el trabajo diario.",
+    "alertTitle": "Claude mirror “standard accounts” temporarily offline",
+    "alertText": "Standard mirror accounts are unavailable for now. Please use the new site for Claude Fable.",
+    "badge": "✨ New site live",
+    "title": "trymodel.chat is live",
+    "titleAccent": "Claude Fable available",
+    "subtitle": "https://trymodel.chat/ now offers Claude Fable. Desktop tips and usage rules remain below for reference.",
     "features": [
-      "💻 SWE-bench Pro 63.2%",
-      "🧠 Razonamiento cerca de Opus 4.8",
-      "🛠️ Mejor uso de herramientas Agent"
+      "⚠️ Standard accounts offline",
+      "🆕 trymodel.chat available",
+      "✨ Claude Fable open"
     ],
     "cta": {
-      "primary": "🚀 Probar modelos Claude más recientes",
-      "secondary": "📷 Ver imágenes del lanzamiento"
+      "primary": "✨ Try Fable on trymodel.chat",
+      "secondary": "📊 View usage rules",
+      "tertiary": "🛒 Previous mirror shop"
     }
   },
   "experience": {
-    "title": "🌟 Acceso estable a Claude en China",
-    "plans": {
-      "premium": {
-        "name": "💎 Profesional",
-        "price": "$10",
-        "period": "/mes",
-        "features": [
-          "✅ Acceso completo a modelos Claude más recientes",
-          "✅ Acceso directo desde China, sin VPN",
-          "✅ Menor riesgo de bloqueo",
-          "✅ Servicio estable 24/7",
-          "✅ Protección de privacidad del historial"
-        ],
-        "button": "Empezar"
+    "title": "📊 Model usage rules",
+    "intro": "Reference rules from the previous mirror. While standard accounts are offline, follow what trymodel.chat actually offers.",
+    "col": {
+      "model": "Model / key type",
+      "limit": "Rate limit",
+      "token": "Token / notes"
+    },
+    "rows": [
+      {
+        "name": "Plus key",
+        "limit": "25 / 3 hours",
+        "token": "Up to 500k tokens per 3-hour window"
       },
-      "trial": {
-        "name": "🎯 Prueba",
-        "price": "$0.15",
-        "period": "/día",
-        "features": [
-          "✅ Acceso básico a modelos Claude más recientes",
-          "✅ Pago diario y flexible",
-          "✅ Sin caducidad si no se usa",
-          "✅ 40 usos en 3 horas"
-        ],
-        "button": "Prueba gratis"
+      {
+        "name": "Opus models",
+        "limit": "15 / 3 hours",
+        "token": "1:1.6 ratio vs official"
+      },
+      {
+        "name": "Fable-5",
+        "limit": "3 / 3 hours",
+        "token": "Flagship model · prefer trymodel.chat"
       }
-    }
+    ]
   },
   "comparison": {
     "title": "🥊 Resultados clave de los modelos Claude más recientes",
@@ -139,19 +139,23 @@
     "conclusion": "Con el mismo presupuesto se pueden ejecutar más agentes con los modelos Claude más recientes en paralelo."
   },
   "faq": {
-    "title": "❓ Preguntas frecuentes",
+    "title": "❓ FAQ",
     "items": [
       {
-        "question": "¿Necesito VPN?",
-        "answer": "No, ofrecemos acceso directo desde China."
+        "question": "Are mirror standard accounts still available?",
+        "answer": "Claude mirror standard accounts are temporarily offline. Please use https://trymodel.chat/ for Claude Fable."
       },
       {
-        "question": "¿Admite los modelos Claude más recientes?",
-        "answer": "Sí, incluyendo chat, generación de código, análisis de documentos y flujos Agent comunes."
+        "question": "What does the new site support?",
+        "answer": "https://trymodel.chat/ is live with Claude Fable."
       },
       {
-        "question": "¿Cómo obtengo soporte?",
-        "answer": "Ofrecemos atención al cliente y soporte técnico en línea."
+        "question": "Do I need a VPN?",
+        "answer": "No, we provide direct access from China."
+      },
+      {
+        "question": "How do I get support?",
+        "answer": "Contact WeChat claude-support or QQ 1002569303."
       }
     ]
   },
@@ -163,10 +167,10 @@
     "store": "Tienda oficial"
   },
   "finalCta": {
-    "title": "🎯 Prueba los modelos Claude más recientes",
-    "description": "Los modelos Claude más recientes alcanzan capacidades cercanas a modelos insignia mientras mantiene la ventaja de valor de la línea Sonnet.",
-    "primary": "🚀 Probar modelos Claude más recientes",
-    "secondary": "📚 Ver más casos"
+    "title": "🎯 Standard accounts offline · use Fable site",
+    "description": "Mirror standard accounts are temporarily offline. https://trymodel.chat/ is live with Claude Fable.",
+    "primary": "✨ Open trymodel.chat",
+    "secondary": "📊 View usage rules"
   },
   "footer": {
     "copyright": "© 2026 Claude.Asia. Ofrecemos servicios de chat AI de calidad.",
@@ -176,5 +180,51 @@
   },
   "ui": {
     "languageSelector": "Seleccionar idioma"
+  },
+  "fable": {
+    "badge": "Claude Fable",
+    "title": "Recommended: use Claude Fable on trymodel.chat",
+    "description": "While mirror standard accounts are offline, please use the new site for Claude Fable. Direct access, ready to go.",
+    "cta": "Open https://trymodel.chat/"
+  },
+  "desktop": {
+    "title": "💻 Claude Desktop client",
+    "lead": "Need stronger local file and coding workflows? Try the Claude Desktop client.",
+    "cards": [
+      {
+        "title": "⚡ Local file collaboration",
+        "text": "Read project structure and analyze or edit codebases locally"
+      },
+      {
+        "title": "🔒 More private",
+        "text": "Store chats locally for better control"
+      },
+      {
+        "title": "🎨 Full feature set",
+        "text": "Projects, Cowork, Artifacts, and more"
+      },
+      {
+        "title": "📱 Cross-platform",
+        "text": "Supports Windows / macOS"
+      }
+    ],
+    "buy": "🛒 Buy Claude Desktop API",
+    "docs": "📖 Full tutorial",
+    "note": "✅ Claude Desktop direct connect | ✅ CC Switch config tool | ✅ $2000 monthly quota card | ✅ Direct access in China"
+  },
+  "notes": {
+    "title": "💡 Important notes",
+    "history": {
+      "title": "💬 History & roaming",
+      "text": "Chat history can be isolated and roam across accounts. Opening history jumps back to the original account. If that account is limited, switch and start a new chat."
+    },
+    "device": {
+      "title": "💻 Device limits",
+      "text": "Do not exceed 3 devices at once. After using a temporary browser, click “Reset key” to sign out safely."
+    },
+    "abuse": {
+      "title": "⚠️ No abuse",
+      "text": "No scripts, multi-device sharing, or quota farming. Violations lead to permanent bans without refund."
+    }
   }
 }
