@@ -1,230 +1,221 @@
 {
   "meta": {
-    "title": "Claude Mirror Notice: Standard Accounts Offline · Fable on trymodel.chat - Claude.Asia",
-    "description": "Claude mirror standard accounts are temporarily offline. New site https://trymodel.chat/ is live with Claude Fable. Desktop tips and usage rules below."
+    "title": "Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia",
+    "description": "Use Claude Opus, Sonnet, Haiku, and Fable at https://trymodel.chat/. Pro: 40 requests/day and 200k tokens/day. Free users get 0 daily requests for quota-gated models; DeepSeek V4 Flash skips the daily quota."
   },
   "nav": {
-    "logo": "Claude Mirror Notice"
+    "logo": "Claude · trymodel.chat"
   },
   "hero": {
-    "alertTitle": "Claude mirror “standard accounts” temporarily offline",
-    "alertText": "Standard mirror accounts are unavailable for now. Please use the new site for Claude Fable.",
-    "badge": "✨ New site live",
-    "title": "trymodel.chat is live",
-    "titleAccent": "Claude Fable available",
-    "subtitle": "https://trymodel.chat/ now offers Claude Fable. Desktop tips and usage rules remain below for reference.",
+    "alertTitle": "Use Claude on trymodel.chat",
+    "alertText": "Old mirror “standard account / 3-hour rate” rules no longer apply. Follow https://trymodel.chat/ daily quotas and model list.",
+    "badge": "✨ Recommended entry",
+    "title": "Use Claude on trymodel.chat",
+    "titleAccent": "Opus / Sonnet / Haiku / Fable",
+    "subtitle": "https://trymodel.chat/ offers the full Claude lineup. Pro: 40 requests/day + 200k tokens/day. Free logged-in daily requests are 0 (Claude needs Pro). DeepSeek V4 Flash always skips the daily quota.",
     "features": [
-      "⚠️ Standard accounts offline",
-      "🆕 trymodel.chat available",
-      "✨ Claude Fable open"
+      "🎯 Claude needs Pro",
+      "📊 Pro: 40/day · 200k tokens",
+      "🆓 Flash unlimited daily"
     ],
     "cta": {
-      "primary": "✨ Try Fable on trymodel.chat",
-      "secondary": "📊 View usage rules",
+      "primary": "✨ Open trymodel.chat",
+      "secondary": "📊 Daily quotas & models",
       "tertiary": "🛒 Previous mirror shop"
     }
   },
+  "fable": {
+    "badge": "Claude models",
+    "title": "Recommended: chat with Claude on trymodel.chat",
+    "description": "Direct access, ready to use. Default model is DeepSeek V4 Flash. Claude lineup: Opus 5.5 / 5 / 4.8 / 4.7 / 4.6 / 4.5; Sonnet 5.5 / 5 / 4.6; Haiku 5.5 / 4.5; Fable 5.1 / 5 (just model IDs — no separate “standard vs Fable” track).",
+    "cta": "Open https://trymodel.chat/"
+  },
+  "desktop": {
+    "title": "💻 Claude Desktop",
+    "lead": "Need local files and coding workflows? Try Claude Desktop.",
+    "cards": [
+      {
+        "title": "⚡ Local files",
+        "text": "Read and edit local project trees"
+      },
+      {
+        "title": "🔒 Privacy",
+        "text": "Conversations stored locally"
+      },
+      {
+        "title": "🎨 Full features",
+        "text": "Projects, Cowork, Artifacts, and more"
+      },
+      {
+        "title": "📱 Cross-platform",
+        "text": "Windows / macOS"
+      }
+    ],
+    "buy": "🛒 Buy Claude Desktop API",
+    "docs": "📖 Full guide",
+    "note": "✅ Desktop direct connect | ✅ CC Switch tool | ✅ $2000-quota monthly card | ✅ Mainland direct access"
+  },
   "experience": {
-    "title": "📊 Model usage rules",
-    "intro": "Reference rules from the previous mirror. While standard accounts are offline, follow what trymodel.chat actually offers.",
+    "title": "📊 trymodel.chat daily quotas",
+    "intro": "Current daily rules on trymodel.chat. Old mirror “25 / 3 hours” tables are obsolete — do not use 3-hour windows. Chat itself does not consume credits.",
     "col": {
-      "model": "Model / key type",
-      "limit": "Rate limit",
-      "token": "Token / notes"
+      "model": "Plan / model",
+      "limit": "Daily requests",
+      "token": "Tokens / notes"
     },
     "rows": [
       {
-        "name": "Plus key",
-        "limit": "25 / 3 hours",
-        "token": "Up to 500k tokens per 3-hour window"
+        "name": "Free (logged in, no sub)",
+        "limit": "0 / day",
+        "token": "Quota-gated models unusable in practice; Claude needs Pro"
       },
       {
-        "name": "Opus models",
-        "limit": "15 / 3 hours",
-        "token": "1:1.6 ratio vs official"
+        "name": "Pro (subscription / Pass)",
+        "limit": "40 / day",
+        "token": "200k tokens/day · Opus / Sonnet / Haiku / Fable"
       },
       {
-        "name": "Fable-5",
-        "limit": "3 / 3 hours",
-        "token": "Flagship model · prefer trymodel.chat"
+        "name": "DeepSeek V4 Flash",
+        "limit": "No daily quota",
+        "token": "Always skips daily quota · site default · free"
       }
     ]
   },
+  "notes": {
+    "title": "💡 Notes",
+    "history": {
+      "title": "🆓 What free users get",
+      "text": "Free logged-in daily request quota is 0, so Claude / Sonnet / Haiku are not practically usable. Only DeepSeek V4 Flash always skips the daily quota. Guests: 1 cookie trial + 3 IP/day; unlimited Flash guest promo ended 2026-10-25."
+    },
+    "device": {
+      "title": "💎 What Pro unlocks",
+      "text": "With Pro / Pass: 40 requests/day + 200k tokens/day for Claude Opus, Sonnet, Haiku, and Fable. Fable is just another model ID on the site."
+    },
+    "abuse": {
+      "title": "ℹ️ Other",
+      "text": "Web chat does not consume credits. Quotas and models follow https://trymodel.chat/ live; this page is a Chinese-friendly pointer."
+    }
+  },
   "comparison": {
-    "title": "🥊 Resultados clave de los modelos Claude más recientes",
-    "description": "Desde programación y tareas de terminal hasta razonamiento interdisciplinario, los modelos Claude más recientes entran en territorio de modelos insignia.",
+    "title": "🥊 Claude 最新模型核心成绩",
+    "description": "从编程、终端任务到跨学科推理，Claude 最新模型已经进入旗舰模型能力区间。",
     "table": {
-      "model": "Modelo",
-      "result": "Resultado",
-      "description": "Descripción"
+      "model": "模型",
+      "result": "表现",
+      "description": "说明"
     },
     "models": {
       "claude": {
-        "name": "Modelos Claude más recientes",
+        "name": "Claude 最新模型",
         "result": "SWE-bench Pro 63.2%",
-        "description": "Grandes mejoras en programación, uso de herramientas y tareas Agent, cerca de Opus 4.8"
+        "description": "编程、工具使用和Agent任务显著升级，接近 Opus 4.8"
       },
       "deepseek": {
         "name": "Claude Opus 4.8",
-        "result": "Insignia líder",
-        "description": "SWE-bench Pro 69.2%, aún el punto de referencia de gama alta"
+        "result": "旗舰领先",
+        "description": "SWE-bench Pro 69.2%，仍是最高端能力标杆"
       },
       "gpt": {
         "name": "GPT-5.5",
         "result": "58.6%",
-        "description": "Por debajo de los modelos Claude más recientes en el mismo benchmark de programación"
+        "description": "同榜低于 Claude 最新模型，编程基准被反超"
       },
       "gemini": {
         "name": "Sonnet 4.6",
         "result": "58.1%",
-        "description": "La generación anterior de Sonnet queda claramente detrás"
+        "description": "上一代 Sonnet，被 Claude 最新模型明显拉开差距"
       }
     }
   },
   "advantages": {
-    "title": "🏆 Por qué usar los modelos Claude más recientes",
+    "title": "🏆 Claude 最新模型为什么值得升级？",
     "speed": {
-      "title": "Programación más fuerte",
-      "description": "Los modelos Claude más recientes alcanzan 63.2% en SWE-bench Pro, por encima de GPT-5.5 y Sonnet 4.6."
+      "title": "编程能力更强",
+      "description": "SWE-bench Pro 得分 63.2%，超过 GPT-5.5，并明显高于上一代 Sonnet 4.6。"
     },
     "ui": {
-      "title": "Mejor ejecución Agent",
-      "description": "Puede planificar tareas, usar navegador y terminal, y trabajar en bugs, pruebas, refactorización y tareas de conocimiento."
+      "title": "Agent 执行力升级",
+      "description": "能自主规划任务，调用浏览器和终端工具，适合修 Bug、补测试、重构和知识工作流。"
     },
     "reasoning": {
-      "title": "Razonamiento casi insignia",
-      "description": "Con herramientas, logra 57.4% en Humanity's Last Exam, solo 0.5 puntos detrás de Opus 4.8."
+      "title": "推理能力接近旗舰",
+      "description": "在 Humanity's Last Exam 带工具测试中拿到 57.4%，距离 Opus 4.8 只差 0.5 个百分点。"
     }
   },
   "painPoints": {
-    "title": "⚠️ Problemas del Claude oficial",
-    "cost": "$20/mes (Claude Pro)",
-    "network": "Requiere tarjeta extranjera y VPN",
-    "restrictions": "Usuarios en China pueden encontrar restricciones e inestabilidad"
+    "title": "⚠️ Official Claude pain points",
+    "network": "Needs overseas cards and restricted networks",
+    "restrictions": "Mainland users often hit account locks"
   },
   "solutions": {
-    "title": "💡 Nuestras ventajas",
-    "price": {
-      "title": "💰 Ventaja de precio",
-      "description": "Claude Pro oficial cuesta $20/mes; nuestro plan comienza con una cuota mensual menor"
-    },
+    "title": "💡 Advantages",
     "privacy": {
-      "title": "🔒 Protección de privacidad",
-      "description": "El historial se conserva y migra de forma segura con códigos de autorización"
+      "title": "🔒 Privacy",
+      "description": "Chat history migrates safely with your auth code"
     },
     "safety": {
-      "title": "🛡️ Menor riesgo de bloqueo",
-      "description": "Si ocurre un problema, el soporte del servicio lo gestiona"
+      "title": "🛡️ Account safety",
+      "description": "We take responsibility if issues occur"
     },
     "original": {
-      "title": "🔄 Espejo estilo oficial",
-      "description": "Permite cambiar cuentas y usar 40 veces en 3 horas"
-    },
-    "flexible": {
-      "title": "📅 Pago flexible",
-      "description": "Pago por día, sin caducidad si no se usa, mínimo 1 día"
+      "title": "🔄 Mirror access",
+      "description": "See trymodel.chat for current plans"
     },
     "easy": {
-      "title": "🎯 Fácil de usar",
-      "description": "Sin tarjeta extranjera, sin VPN y sin preocupación por bloqueos de IP"
+      "title": "🎯 Simple",
+      "description": "No overseas card, no VPN, domestic direct access"
     }
   },
   "caseStudy": {
-    "title": "💼 Flujos de trabajo reales",
-    "description": "Los desarrolladores pueden usar los modelos Claude más recientes en trabajos frecuentes:",
+    "title": "💼 真实工作流",
+    "description": "开发者可以把 Claude 最新模型用在更高频的真实工作里：",
     "results": {
-      "latency": "Corrección de bugs, pruebas y lectura de código",
-      "cost": "Trabajo multi-Agent paralelo más económico"
+      "latency": "修 Bug、补测试、读代码库",
+      "cost": "多 Agent 并行更省预算"
     },
-    "conclusion": "Con el mismo presupuesto se pueden ejecutar más agentes con los modelos Claude más recientes en paralelo."
+    "conclusion": "同样预算可以跑更多 Claude 最新模型 Agent，把复杂任务拆开并行完成。"
   },
   "faq": {
     "title": "❓ FAQ",
     "items": [
       {
-        "question": "Are mirror standard accounts still available?",
-        "answer": "Claude mirror standard accounts are temporarily offline. Please use https://trymodel.chat/ for Claude Fable."
+        "question": "Do old mirror / 3-hour tables still apply?",
+        "answer": "No. Old “standard account” and “25 / 3 hours” rules are obsolete. Use https://trymodel.chat/ daily quotas (Pro: 40/day, 200k tokens/day)."
       },
       {
-        "question": "What does the new site support?",
-        "answer": "https://trymodel.chat/ is live with Claude Fable."
+        "question": "Which Claude models are on trymodel.chat?",
+        "answer": "Opus 5.5 / 5 / 4.8 / 4.7 / 4.6 / 4.5; Sonnet 5.5 / 5 / 4.6; Haiku 5.5 / 4.5; Fable 5.1 / 5. Default site model: DeepSeek V4 Flash."
       },
       {
-        "question": "Do I need a VPN?",
-        "answer": "No, we provide direct access from China."
+        "question": "Can free users use Claude?",
+        "answer": "Free daily requests are 0, so Claude needs Pro. Free unlimited daily use is DeepSeek V4 Flash only."
       },
       {
-        "question": "How do I get support?",
-        "answer": "Contact WeChat claude-support or QQ 1002569303."
+        "question": "VPN? Support?",
+        "answer": "trymodel.chat is direct from China. Support: WeChat claude-support or QQ 1002569303."
       }
     ]
   },
   "contact": {
-    "title": "📞 Contacto",
-    "description": "Para cualquier pregunta, contacte:",
+    "title": "📞 Contact",
+    "description": "Questions? Reach us:",
     "wechat": "WeChat: claude-support",
     "email": "QQ: 1002569303",
-    "store": "Tienda oficial"
+    "store": "Official shop"
   },
   "finalCta": {
-    "title": "🎯 Standard accounts offline · use Fable site",
-    "description": "Mirror standard accounts are temporarily offline. https://trymodel.chat/ is live with Claude Fable.",
+    "title": "🎯 Use Claude on trymodel.chat",
+    "description": "Pro: 40 requests/day and 200k tokens/day for Opus / Sonnet / Haiku / Fable. Free: only DeepSeek V4 Flash skips the daily quota.",
     "primary": "✨ Open trymodel.chat",
-    "secondary": "📊 View usage rules"
+    "secondary": "📊 Daily quotas & models"
   },
   "footer": {
-    "copyright": "© 2026 Claude.Asia. Ofrecemos servicios de chat AI de calidad.",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "contact": "Contacto"
+    "copyright": "© 2026 Claude.Asia. Quality AI chat access.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
   },
   "ui": {
-    "languageSelector": "Seleccionar idioma"
-  },
-  "fable": {
-    "badge": "Claude Fable",
-    "title": "Recommended: use Claude Fable on trymodel.chat",
-    "description": "While mirror standard accounts are offline, please use the new site for Claude Fable. Direct access, ready to go.",
-    "cta": "Open https://trymodel.chat/"
-  },
-  "desktop": {
-    "title": "💻 Claude Desktop client",
-    "lead": "Need stronger local file and coding workflows? Try the Claude Desktop client.",
-    "cards": [
-      {
-        "title": "⚡ Local file collaboration",
-        "text": "Read project structure and analyze or edit codebases locally"
-      },
-      {
-        "title": "🔒 More private",
-        "text": "Store chats locally for better control"
-      },
-      {
-        "title": "🎨 Full feature set",
-        "text": "Projects, Cowork, Artifacts, and more"
-      },
-      {
-        "title": "📱 Cross-platform",
-        "text": "Supports Windows / macOS"
-      }
-    ],
-    "buy": "🛒 Buy Claude Desktop API",
-    "docs": "📖 Full tutorial",
-    "note": "✅ Claude Desktop direct connect | ✅ CC Switch config tool | ✅ $2000 monthly quota card | ✅ Direct access in China"
-  },
-  "notes": {
-    "title": "💡 Important notes",
-    "history": {
-      "title": "💬 History & roaming",
-      "text": "Chat history can be isolated and roam across accounts. Opening history jumps back to the original account. If that account is limited, switch and start a new chat."
-    },
-    "device": {
-      "title": "💻 Device limits",
-      "text": "Do not exceed 3 devices at once. After using a temporary browser, click “Reset key” to sign out safely."
-    },
-    "abuse": {
-      "title": "⚠️ No abuse",
-      "text": "No scripts, multi-device sharing, or quota farming. Violations lead to permanent bans without refund."
-    }
+    "languageSelector": "Idioma"
   }
 }
