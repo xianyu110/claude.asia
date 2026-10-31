@@ -199,8 +199,9 @@ body {
 .hero-cta {
     display: flex;
     flex-wrap: wrap;
+    gap: 12px;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
 }
 
 .cta-button {
