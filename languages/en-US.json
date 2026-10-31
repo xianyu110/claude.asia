@@ -21,7 +21,8 @@
     "cta": {
       "primary": "✨ Open trymodel.chat",
       "secondary": "📊 Daily quotas & models",
-      "tertiary": "🛒 Previous mirror shop"
+      "tertiary": "🛒 Previous mirror shop",
+      "sessionkey": "🔑 Alt: Session Key"
     }
   },
   "fable": {
@@ -193,6 +194,30 @@
       {
         "question": "VPN? Support?",
         "answer": "trymodel.chat is direct from China. Support: WeChat claude-support or QQ 1002569303."
+      },
+      {
+        "question": "What is Session Key login on funclaude?",
+        "answer": "After buying a Claude Mail account you receive a Session Key (sk-ant-sid…). Sign in at https://fun.hugai.top/login with that key. This is an alternate path beside trymodel.chat, not a replacement."
+      },
+      {
+        "question": "Where to buy the mail account, and how much?",
+        "answer": "Buy “Claude Mail” at https://chongzhi.chatgpt-plus.top/claude/ for about ¥15, then follow the page to get your Session Key. Full guide: https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/"
+      },
+      {
+        "question": "How do I log in with the Session Key?",
+        "answer": "Open https://fun.hugai.top/login , choose Session Key login, and paste your sk-ant-sid… key. Never share the key in public chats."
+      },
+      {
+        "question": "Is “no ban” guaranteed?",
+        "answer": "No. “No-ban” is informal experience talk only — accounts can still be banned and long-term access is not guaranteed. Content here is personal notes; use at your own risk. Ban after-sales is usually not offered."
+      },
+      {
+        "question": "Can I upgrade to Pro if quota is low? Will Pro still get banned?",
+        "answer": "Yes — on the same shop https://chongzhi.chatgpt-plus.top/claude/ you can upgrade via organize id (~¥199/mo). Upgrading to Pro also does not guarantee no bans."
+      },
+      {
+        "question": "Lost Key or login failed?",
+        "answer": "Recheck that you pasted the full sk-ant-sid… with no extra spaces. If it still fails, check your order at https://chongzhi.chatgpt-plus.top/claude/ or the guide https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/ . For stable long-term use, prefer https://trymodel.chat/ ."
       }
     ]
   },
@@ -217,5 +242,24 @@
   },
   "ui": {
     "languageSelector": "Language"
+  },
+  "sessionkey": {
+    "badge": "Alternate path",
+    "title": "Alt: ~¥15 mail account + Session Key on funclaude",
+    "pain": "Prefer not to use trymodel Pro, or want to try Session Key login? Buy a Claude Mail standard account, get sk-ant-sid…, then sign in on funclaude.",
+    "method": "Summary: buy ~¥15 → get Session Key → log in at funclaude. This is a supplement; the primary entry remains trymodel.chat.",
+    "steps": [
+      "Buy “Claude Mail” (~¥15) at the top-up site; the order provides a Session Key (sk-ant-sid…).",
+      "Open the funclaude login page, choose Session Key, paste the key, and sign in.",
+      "If quota is low, you can upgrade to Pro via organize id on the same shop (~¥199/mo). Pro upgrade also does not guarantee no bans."
+    ],
+    "buy": "🛒 Buy Claude Mail account",
+    "login": "🔑 Session Key login",
+    "guide": "📖 Full illustrated guide",
+    "buyLabel": "Buy: ",
+    "loginLabel": "Login: ",
+    "repoLabel": "Guide repo: ",
+    "figureCaption": "funclaude Session Key login (from the public guide)",
+    "disclaimer": "⚠️ Personal notes only — use at your own risk. No long-term “no-ban” guarantee; never share your Key; ban-related after-sales usually unavailable. Pro upgrades also do not guarantee no bans. Primary path: https://trymodel.chat/ ."
   }
 }

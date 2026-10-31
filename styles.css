@@ -1103,6 +1103,141 @@ a.plan-button {
     background: var(--bg-deep);
 }
 
+
+/* Session Key alternate path */
+.sessionkey-section {
+    padding: 40px 0 20px;
+    background: var(--bg-deep);
+}
+
+.sessionkey-card {
+    background: var(--bg-card);
+    border: 1px solid var(--gold-border-strong);
+    border-radius: 18px;
+    padding: 36px 28px;
+    box-shadow: var(--shadow-gold), var(--shadow-card);
+}
+
+.sessionkey-badge {
+    display: inline-block;
+    background: rgba(201, 162, 39, 0.18);
+    color: var(--gold-soft);
+    border: 1px solid var(--gold-border-strong);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+}
+
+.sessionkey-card h2 {
+    margin: 0 0 14px;
+    font-size: clamp(1.35rem, 3vw, 1.85rem);
+    color: var(--text-primary);
+}
+
+.sessionkey-pain,
+.sessionkey-method {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 820px;
+    margin: 0 0 12px;
+}
+
+.sessionkey-steps {
+    margin: 18px 0 24px;
+    padding-left: 1.35rem;
+    color: var(--text-secondary);
+    line-height: 1.75;
+    max-width: 820px;
+}
+
+.sessionkey-steps li {
+    margin-bottom: 8px;
+}
+
+.sessionkey-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 8px 0 20px;
+}
+
+.sessionkey-actions .cta-button.primary {
+    color: #1a1408;
+}
+
+.sessionkey-links {
+    margin: 0 0 20px;
+    padding: 14px 16px;
+    background: rgba(201, 162, 39, 0.06);
+    border: 1px solid var(--gold-border);
+    border-radius: var(--radius-md);
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+}
+
+.sessionkey-links p {
+    margin: 0 0 6px;
+    word-break: break-all;
+}
+
+.sessionkey-links p:last-child {
+    margin-bottom: 0;
+}
+
+.sessionkey-links a {
+    color: var(--gold-soft);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.sessionkey-figure {
+    margin: 0 0 18px;
+    max-width: 640px;
+}
+
+.sessionkey-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--gold-border);
+    display: block;
+    background: #0a0a0c;
+}
+
+.sessionkey-figure figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--text-muted, var(--text-secondary));
+    opacity: 0.85;
+}
+
+.sessionkey-disclaimer {
+    margin: 0;
+    font-size: 0.86rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    opacity: 0.92;
+    max-width: 860px;
+    padding: 12px 14px;
+    border-left: 3px solid rgba(201, 162, 39, 0.55);
+    background: rgba(201, 162, 39, 0.06);
+    border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 768px) {
+    .sessionkey-card {
+        padding: 28px 18px;
+    }
+
+    .sessionkey-actions .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .hero {
