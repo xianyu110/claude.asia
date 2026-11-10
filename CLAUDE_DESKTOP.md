@@ -6,7 +6,7 @@
 
 本指南将从**核心功能介绍、国内直连配置、客户端安装、实战使用到常见报错排查**，带你一次性彻底掌握并上手 Claude Desktop！
 
-![Claude Desktop 界面](https://upload.maynor1024.live/file/1787529406617_image-20260824075639754.png)
+![Claude Desktop 界面](assets/claude-desktop-ui.png)
 
 ---
 
@@ -29,7 +29,7 @@
 
 如果你需要处理长文档、代码工程或多文件分析，**Claude Desktop 是目前最强大的桌面 AI 助手之一**。
 
-![Claude Desktop 功能展示](https://upload.maynor1024.live/file/1787640220622_image-20260825144331246.png)
+![Claude Desktop 功能展示](assets/claude-desktop-features.png)
 
 ### 1.1 核心应用场景一览
 
@@ -58,7 +58,7 @@
 
 **Claude 国内站入口**：[https://momoai.asia](https://momoai.asia)
 
-<img src="https://upload.maynor1024.live/file/1787460747540_image-20260823125212691.png" alt="MomoAI 控制台首页" style="zoom:50%;" />
+<img src="assets/momoai-console-home.png" alt="MomoAI 控制台首页" style="zoom:50%;" />
 
 *图 1：MomoAI 国内服务平台控制台首页*
 
@@ -70,17 +70,17 @@
 
 选择 **Claude Sonnet 标准月卡**，可用 **2000 美刀额度**。
 
-![选择套餐](https://upload.maynor1024.live/file/1787640291241_image-20260825144438373.png)
+![选择套餐](assets/momoai-choose-plan.png)
 
 #### 1.2 创建 API 密钥
 
 点击 **API 密钥**，在右上角点击 **创建密钥**。
 
-![创建密钥入口](https://upload.maynor1024.live/file/1787640400514_image-20260825144637305.png)
+![创建密钥入口](assets/momoai-create-key-entry.png)
 
 登录中转平台后台，点击**新建 Key**，在分组中选择 **`Claude` 分组**。
 
-<img src="https://upload.maynor1024.live/file/1787640463338_image-20260825144736043.png" alt="创建 API Key 页面" style="zoom:50%;" />
+<img src="assets/momoai-create-api-key.png" alt="创建 API Key 页面" style="zoom:50%;" />
 
 *图 2：后台创建 API Key 页面及分组选择*
 
@@ -99,7 +99,7 @@
 
 打开 **CC Switch** 工具，**新增或修改配置卡片**，将刚刚复制的 **API Key** 填入对应的密钥框内。
 
-![CC Switch 配置界面](https://upload.maynor1024.live/file/1787459956825_image-20260823123909448.png)
+![CC Switch 配置界面](assets/cc-switch-config.png)
 
 *图 3：在 CC Switch 中添加并保存 API Key 配置*
 
@@ -118,7 +118,7 @@
 
 在 CC Switch 界面中确认卡片勾选无误，点击 **启动路由** 按钮，开启本地中转转发。
 
-![启动路由](https://upload.maynor1024.live/file/1787460008773_image-20260823123959716.png)
+![启动路由](assets/cc-switch-start-route.png)
 
 *图 4：在 CC Switch 中点击启动路由生效配置*
 
@@ -152,7 +152,7 @@
 请回复：连接测试成功。
 ```
 
-![连接测试成功](https://upload.maynor1024.live/file/1787640652754_image-20260825145046589.png)
+![连接测试成功](assets/cc-switch-connection-ok.png)
 
 **✅ 看到正常回复即表示配置成功！**
 
@@ -175,7 +175,7 @@
 
 点击输入框右下角的**模型选择器**，可实时切换当前调用的模型：
 
-![模型选择菜单](https://upload.maynor1024.live/file/1787460109562_02-model-selector.png)
+![模型选择菜单](assets/claude-desktop-model-selector.png)
 
 *图 5：Claude Desktop 客户端中的模型选择界面*
 
@@ -200,7 +200,7 @@
 对于没有明确提及的信息请统一标注为"待确认"，切勿自行补充猜测。
 ```
 
-![对话示例](https://upload.maynor1024.live/file/1787640800370_image-20260825145308505.png)
+![对话示例](assets/claude-desktop-chat-example.png)
 
 **💡 提示**：指令越具体，输出质量越高。明确说明输出格式、禁止事项可以有效提升准确度。
 
@@ -217,7 +217,7 @@
 若引用了原文内容，请在末尾标注对应的页码。
 ```
 
-![文档分析示例](https://upload.maynor1024.live/file/1787640829232_image-20260825145342723.png)
+![文档分析示例](assets/claude-desktop-doc-analysis.png)
 
 **支持的文件类型**：
 
@@ -239,7 +239,7 @@
 3. **确定范围**：明确指示本次允许修改的文件路径
 4. **增量修改**：修改后针对性进行单元测试
 
-![代码协同示例](https://upload.maynor1024.live/file/1787640876187_image-20260825145421886.png)
+![代码协同示例](assets/claude-desktop-code-collab.png)
 
 **示例 Prompt**：
 
@@ -260,7 +260,7 @@
 
 ### 6.1 报错：`API Error: requested model is not supported by this group`
 
-![模型不受支持错误](https://upload.maynor1024.live/file/1787460110914_03-model-error.png)
+![模型不受支持错误](assets/claude-desktop-model-error.png)
 
 *图 6：模型未在当前分组授权列表中时的报错*
 
@@ -371,7 +371,7 @@
 
 **Claude 国内平台**：[https://momoai.asia](https://momoai.asia)
 
-<img src="https://upload.maynor1024.live/file/1787460747540_image-20260823125212691.png" alt="MomoAI 平台" style="zoom:50%;" />
+<img src="assets/momoai-console-home.png" alt="MomoAI 平台" style="zoom:50%;" />
 
 ---
 

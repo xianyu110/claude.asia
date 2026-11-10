@@ -801,6 +801,18 @@ a.plan-button {
     font-size: 1.5rem;
 }
 
+a.contact-item {
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+a.contact-item:hover {
+    border-color: var(--gold-border-strong);
+    color: var(--gold-soft);
+    transform: translateY(-2px);
+}
+
 /* Final CTA Section */
 .final-cta {
     background:

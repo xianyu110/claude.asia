@@ -4,13 +4,11 @@
 
 **Claude 国内直接使用：** [https://claude-opus.top/](https://claude-opus.top/)
 
-![Claude 最新模型 发布截图](https://upload.maynor1024.live/file/1782866354926_image-20260701083908094.png)
+**国内渠道（momoAPIPro 全模型 API 聚合站）：** [https://tryallapi.com/](https://tryallapi.com/)
 
-![Claude 最新模型 模型信息](https://upload.maynor1024.live/file/1782866168961_image-20260701083559278.png)
+![Claude 最新模型 发布截图](assets/sonnet5-cover.jpg)
 
-![Claude 最新模型 能力更新](https://upload.maynor1024.live/file/1782866346744_image-20260701083858028.png)
-
-![Claude 国内直接使用入口](https://upload.maynor1024.live/file/1782869981816_image-20260701084239313.png)
+![Claude 最新模型 模型对比](assets/sonnet5-benchmark-table.png)
 
 ---
 
@@ -28,9 +26,7 @@ Claude 最新模型，代号 Fennec。
 - Humanity's Last Exam 带工具得分 57.4%，距离 Opus 4.8 只差 0.5 个百分点。
 - 浏览器注入攻击成功率只有 0.93%，安全表现非常突出。
 
-![Claude 最新模型 数据截图](https://upload.maynor1024.live/file/1782866184301_image-20260701083613843.png)
-
-![Claude 最新模型 模型对比](https://upload.maynor1024.live/file/1782866203864_image-20260701083633499.png)
+![Claude 最新模型 BrowseComp 对比](assets/sonnet5-browsecomp.png)
 
 ---
 
@@ -48,11 +44,7 @@ Terminal-Bench 2.1 上，Claude 最新模型 达到 80.4%，比 Sonnet 4.6 的 6
 
 电脑操控能力方面，Claude 最新模型 在 OSWorld-Verified 上拿到 81.2%，同样超过 GPT-5.5 的 78.7%，接近 Opus 4.8 的 83.4%。
 
-![Claude 最新模型 实战成绩](https://upload.maynor1024.live/file/1782866213137_image-20260701083643774.png)
-
-![Claude 最新模型 Benchmark 1](https://upload.maynor1024.live/file/1782866222474_image-20260701083654895.png)
-
-![Claude 最新模型 Benchmark 2](https://upload.maynor1024.live/file/1782866228371_image-20260701083702244.png)
+![Claude 最新模型 OSWorld](assets/sonnet5-osworld.png)
 
 一句话总结：
 
@@ -69,6 +61,12 @@ Claude 最新模型 另一个容易被低估的点，是安全和防护能力。
 恶意代码注入方面，Sonnet 4.6 的攻击成功率曾高达 45.26%，Claude 最新模型 降到 0.29%，改善幅度非常明显。
 
 对开发者来说，这意味着它不仅能写业务代码，也更适合放进真实 Agent 工具链里执行复杂任务。
+
+![Claude 最新模型 安全表现](assets/sonnet5-safety-misaligned.png)
+
+![Claude 最新模型 安全评估](assets/sonnet5-safety-exploits.png)
+
+图片来自 [Anthropic 官方 Claude Sonnet 5 发布页](https://www.anthropic.com/news/claude-sonnet-5)。
 
 ---
 
@@ -103,7 +101,11 @@ Claude 最新模型 的定位非常精准。
 
 **Claude 国内直接使用：** [https://claude-opus.top/](https://claude-opus.top/)
 
-![Claude 国内直接使用二维码](https://upload.maynor1024.live/file/1787302739881_codex-clipboard-5337df5e-9a2b-4471-ade2-6f418d77c1d2.png)
+**国内渠道（momoAPIPro 全模型 API 聚合站）：** [https://tryallapi.com/](https://tryallapi.com/)
+
+聊天主入口是 [https://claude-opus.top/](https://claude-opus.top/) / [https://trymodel.chat/](https://trymodel.chat/)。需要按量调用 GPT、Claude、Gemini 等模型时，可走国内渠道 [https://tryallapi.com/](https://tryallapi.com/)。
+
+![Claude 国内直接使用二维码](assets/readme-qr-claude-opus-top.png)
 
 ---
 

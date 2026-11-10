@@ -22,7 +22,8 @@
       "primary": "✨ Open trymodel.chat",
       "secondary": "📊 Daily quotas & models",
       "tertiary": "🛒 Previous mirror shop",
-      "sessionkey": "📦 Alt path"
+      "sessionkey": "📦 Alt path",
+      "domestic": "🇨🇳 Domestic channel"
     }
   },
   "fable": {
@@ -193,7 +194,7 @@
       },
       {
         "question": "VPN? Support?",
-        "answer": "trymodel.chat is direct from China. Support: WeChat claude-support or QQ 1002569303."
+        "answer": "trymodel.chat is direct from China. Domestic API channel: https://tryallapi.com/. Support: WeChat claude-support or QQ 1002569303."
       },
       {
         "question": "What is Session Key login on funclaude?",
@@ -226,13 +227,14 @@
     "description": "Questions? Reach us:",
     "wechat": "WeChat: claude-support",
     "email": "QQ: 1002569303",
-    "store": "Official shop"
+    "store": "Official shop (domestic channel)"
   },
   "finalCta": {
     "title": "🎯 Use Claude on trymodel.chat",
     "description": "Pro: 40 requests/day and 200k tokens/day for Opus / Sonnet / Haiku / Fable. Free: only DeepSeek V4 Flash skips the daily quota.",
     "primary": "✨ Open trymodel.chat",
-    "secondary": "📊 Daily quotas & models"
+    "secondary": "📊 Daily quotas & models",
+    "domestic": "🇨🇳 Domestic channel"
   },
   "footer": {
     "copyright": "© 2026 Claude.Asia. Quality AI chat access.",

@@ -22,7 +22,8 @@
       "primary": "✨ 前往 trymodel.chat",
       "secondary": "📊 查看日额度与模型",
       "tertiary": "🛒 原镜像商城",
-      "sessionkey": "📦 备选板块"
+      "sessionkey": "📦 备选板块",
+      "domestic": "🇨🇳 国内渠道"
     }
   },
   "fable": {
@@ -193,7 +194,7 @@
       },
       {
         "question": "是否需要翻墙？如何联系？",
-        "answer": "trymodel.chat 国内直连。技术支持可联系微信 claude-support 或 QQ 1002569303。"
+        "answer": "trymodel.chat 国内直连。API 聚合国内渠道为 https://tryallapi.com/。技术支持可联系微信 claude-support 或 QQ 1002569303。"
       },
       {
         "question": "什么是 Session Key 登录 funclaude？",
@@ -226,13 +227,14 @@
     "description": "如有任何问题，欢迎联系：",
     "wechat": "微信：claude-support",
     "email": "QQ：1002569303",
-    "store": "官方店铺"
+    "store": "官方店铺（国内渠道）"
   },
   "finalCta": {
     "title": "🎯 去 trymodel.chat 用 Claude",
     "description": "Pro：40 次/天、20 万 Token/天，可用 Opus / Sonnet / Haiku / Fable。免费仅 DeepSeek V4 Flash 不限日额度。",
     "primary": "✨ 打开 trymodel.chat",
-    "secondary": "📊 查看日额度与模型"
+    "secondary": "📊 查看日额度与模型",
+    "domestic": "🇨🇳 国内渠道"
   },
   "footer": {
     "copyright": "© 2026 Claude.Asia. 为用户提供优质AI聊天服务.",
