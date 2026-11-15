@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+Disallow: /CNAME
+Disallow: /.nojekyll
+Disallow: /404.html
+Disallow: /index.html
+Disallow: /*?lang=
+Disallow: /*&lang=
+Disallow: /*?theme=
+Disallow: /*&theme=
+
+
 Sitemap: https://claude-opus.top/sitemap.xml

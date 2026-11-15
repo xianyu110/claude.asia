@@ -29,11 +29,15 @@ jobs:
       
       - name: Prepare public site
         run: |
-          mkdir -p _public/assets _public/js _public/languages
+          mkdir -p _public/assets _public/js _public/languages _public/en _public/ja _public/ko _public/es
           cp index.html 404.html styles.css script.js contact-widget.css contact-widget.js robots.txt sitemap.xml CNAME .nojekyll favicon.ico apple-touch-icon.png apple-touch-icon-precomposed.png _public/
           cp -r assets/. _public/assets/
           cp -r js/. _public/js/
           cp -r languages/. _public/languages/
+          cp -r en/. _public/en/
+          cp -r ja/. _public/ja/
+          cp -r ko/. _public/ko/
+          cp -r es/. _public/es/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

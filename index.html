@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
     <script>
     (function(){try{var q=new URLSearchParams(location.search).get('theme');var t=(q==='light'||q==='dark')?q:localStorage.getItem('preferred-theme');if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
     </script>
     <meta name="description" content="前往 https://trymodel.chat/ 使用 Claude Opus、Sonnet、Haiku、Fable。Pro：40 次/天、20 万 Token/天；免费仅 DeepSeek V4 Flash 不限日额度，Claude 需 Pro。">
     <meta name="keywords" content="Claude Opus, Claude Sonnet, Claude Haiku, Claude Fable, trymodel.chat, Claude 国内直连, DeepSeek V4 Flash">
     <title data-i18n="meta.title">Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="contact-widget.css">
-    <link rel="icon" href="assets/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
-    <link rel="icon" type="image/svg+xml" href="assets/claude-icon.svg">
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/contact-widget.css">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/assets/claude-icon.svg">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="canonical" href="https://claude-opus.top/">
     <link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/">
-    <link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US">
-    <link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP">
-    <link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR">
-    <link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES">
+    <link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/">
+    <link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/">
+    <link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/">
+    <link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/">
     <link rel="alternate" hreflang="x-default" href="https://claude-opus.top/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://claude-opus.top/">
     <meta property="og:title" content="Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia">
     <meta property="og:description" content="前往 https://trymodel.chat/ 使用 Claude Opus、Sonnet、Haiku、Fable。Pro：40 次/天、20 万 Token/天；免费仅 DeepSeek V4 Flash 不限日额度，Claude 需 Pro。">
     <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="es_ES">
     <meta property="og:image" content="https://claude-opus.top/assets/claude-icon.png">
     <script>
     (function(){
-      var supported = { 'zh-CN': 1, 'en-US': 1, 'ja-JP': 1, 'ko-KR': 1, 'es-ES': 1 };
-      var lang = new URLSearchParams(location.search).get('lang');
-      var url = (lang && supported[lang] && lang !== 'zh-CN')
-        ? 'https://claude-opus.top/?lang=' + lang
-        : 'https://claude-opus.top/';
-      var canonical = document.querySelector('link[rel="canonical"]');
-      if (canonical) canonical.href = url;
-      var og = document.querySelector('meta[property="og:url"]');
-      if (og) og.setAttribute('content', url);
+      var origin='https://claude-opus.top';
+      var map={'zh-CN':'/','en-US':'/en/','ja-JP':'/ja/','ko-KR':'/ko/','es-ES':'/es/'};
+      var params=new URLSearchParams(location.search);
+      var lang=params.get('lang');
+      var path=location.pathname;
+      if(path==='/index.html') path='/';
+      else if(path.slice(-11)==='/index.html') path=path.slice(0,-10);
+      else if(path==='/en'||path==='/ja'||path==='/ko'||path==='/es') path+='/';
+      var dest=null;
+      if(lang&&map[lang]){
+        dest=map[lang];
+        params.delete('lang');
+      } else if(location.pathname==='/index.html' || /\/[a-z]{2}\/index\.html$/.test(location.pathname)){
+        dest=path;
+      }
+      if(!dest){
+        try{
+          var saved=localStorage.getItem('preferred-language');
+          if(saved&&map[saved]&&path==='/'&&saved!=='zh-CN') dest=map[saved];
+        }catch(e){}
+      }
+      if(!dest) return;
+      var q=params.toString();
+      var next=origin+dest+(q?'?'+q:'')+location.hash;
+      if(location.href!==next) location.replace(next);
     })();
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://claude-opus.top/#website","name":"Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia","url":"https://claude-opus.top/","description":"前往 https://trymodel.chat/ 使用 Claude Opus、Sonnet、Haiku、Fable。Pro：40 次/天、20 万 Token/天；免费用户仅 DeepSeek V4 Flash 不限日额度，Claude 需 Pro。","inLanguage":"zh-CN","image":"https://claude-opus.top/assets/claude-icon.png"},{"@type":"FAQPage","@id":"https://claude-opus.top/#faq","isPartOf":{"@id":"https://claude-opus.top/#website"},"inLanguage":"zh-CN","mainEntity":[{"@type":"Question","name":"旧镜像普号 / 3 小时频次表还能用吗？","acceptedAnswer":{"@type":"Answer","text":"不能。旧「普号」与「25 次/3 小时」等规则已不适用。请改用 https://trymodel.chat/ ，以日额度（Pro 40 次/天、20 万 Token/天）为准。"}},{"@type":"Question","name":"trymodel.chat 有哪些 Claude 模型？","acceptedAnswer":{"@type":"Answer","text":"Opus：5.5、5、4.8、4.7、4.6、4.5；Sonnet：5.5、5、4.6；Haiku：5.5、4.5；Fable：5.1、5。站点默认模型是 DeepSeek V4 Flash。"}},{"@type":"Question","name":"免费能用 Claude 吗？","acceptedAnswer":{"@type":"Answer","text":"免费登录日请求为 0，Claude 实际需 Pro。免费可长期使用的是 DeepSeek V4 Flash（始终跳过日额度）。"}},{"@type":"Question","name":"是否需要翻墙？如何联系？","acceptedAnswer":{"@type":"Answer","text":"trymodel.chat 国内直连。API 聚合国内渠道为 https://tryallapi.com/。技术支持可联系微信 claude-support 或 QQ 1002569303。"}},{"@type":"Question","name":"什么是 Session Key 登录 funclaude？","acceptedAnswer":{"@type":"Answer","text":"购买 Claude Mail 邮箱普号后会得到 Session Key（形如 sk-ant-sid…），在 https://fun.hugai.top/login 用该 Key 登录即可使用 Claude。这是 trymodel.chat 之外的备选路径，不替代主入口。"}},{"@type":"Question","name":"普号去哪买？多少钱？","acceptedAnswer":{"@type":"Answer","text":"在 https://chongzhi.chatgpt-plus.top/claude/ 购买「Claude Mail 邮箱普号」，价格大约 ¥15。下单后按页面提示获取 Session Key。完整图文见 https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/"}},{"@type":"Question","name":"怎么用 Session Key 登录？","acceptedAnswer":{"@type":"Answer","text":"打开 https://fun.hugai.top/login ，选择 Session Key 登录方式，粘贴购买得到的 sk-ant-sid… 密钥即可。切勿把 Key 发给他人或发到公开群。"}},{"@type":"Question","name":"能保证不封号吗？","acceptedAnswer":{"@type":"Answer","text":"不能保证。所谓「不封号」只是相对常见玩法的经验说法：账号仍可能被封，且不保证长期可用。本站内容属个人学习笔记整理，风险自负；封号售后通常不做。"}},{"@type":"Question","name":"额度不够能升 Pro 吗？升了还封吗？","acceptedAnswer":{"@type":"Answer","text":"可以在同一购买页 https://chongzhi.chatgpt-plus.top/claude/ 用 organize id 选升 Pro，约 ¥199/月。升级 Pro 同样不保证不封号，请按需决定。"}},{"@type":"Question","name":"Key 丢了或登录失败怎么办？","acceptedAnswer":{"@type":"Answer","text":"先核对是否完整复制了 sk-ant-sid…（无多余空格）。仍失败可回 https://chongzhi.chatgpt-plus.top/claude/ 查订单/售后说明，或对照教程 https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/ 。稳定长期使用仍建议主路径 https://trymodel.chat/ 。"}}]}]}
     </script>
 </head>
 <body>
@@ -49,7 +73,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets/claude-icon.png" alt="Claude" width="28" height="28" decoding="async">
+                <img src="/assets/claude-icon.png" alt="Claude" width="28" height="28" decoding="async">
                 <span data-i18n="nav.logo">Claude · trymodel.chat</span>
             </div>
             <div class="nav-controls">
@@ -167,7 +191,7 @@
                     </div>
 
                     <figure class="sessionkey-figure">
-                        <img src="assets/funclaude-sessionkey-login.png" alt="funclaude Session Key 登录示意" width="640" height="360" loading="lazy" decoding="async">
+                        <img src="/assets/funclaude-sessionkey-login.png" alt="funclaude Session Key 登录示意" width="640" height="360" loading="lazy" decoding="async">
                         <figcaption data-i18n="sessionkey.figureCaption">funclaude Session Key 登录示意（来自公开教程）</figcaption>
                     </figure>
 
@@ -206,7 +230,46 @@
             <div class="container">
                 <h2 data-i18n="faq.title">❓ 常见问题</h2>
                 <div class="faq-container">
-                    <!-- FAQ内容将通过JavaScript动态生成 -->
+                    <div class="faq-item">
+                        <h3 class="faq-question">旧镜像普号 / 3 小时频次表还能用吗？</h3>
+                        <p class="faq-answer">不能。旧「普号」与「25 次/3 小时」等规则已不适用。请改用 https://trymodel.chat/ ，以日额度（Pro 40 次/天、20 万 Token/天）为准。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">trymodel.chat 有哪些 Claude 模型？</h3>
+                        <p class="faq-answer">Opus：5.5、5、4.8、4.7、4.6、4.5；Sonnet：5.5、5、4.6；Haiku：5.5、4.5；Fable：5.1、5。站点默认模型是 DeepSeek V4 Flash。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">免费能用 Claude 吗？</h3>
+                        <p class="faq-answer">免费登录日请求为 0，Claude 实际需 Pro。免费可长期使用的是 DeepSeek V4 Flash（始终跳过日额度）。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">是否需要翻墙？如何联系？</h3>
+                        <p class="faq-answer">trymodel.chat 国内直连。API 聚合国内渠道为 https://tryallapi.com/。技术支持可联系微信 claude-support 或 QQ 1002569303。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">什么是 Session Key 登录 funclaude？</h3>
+                        <p class="faq-answer">购买 Claude Mail 邮箱普号后会得到 Session Key（形如 sk-ant-sid…），在 https://fun.hugai.top/login 用该 Key 登录即可使用 Claude。这是 trymodel.chat 之外的备选路径，不替代主入口。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">普号去哪买？多少钱？</h3>
+                        <p class="faq-answer">在 https://chongzhi.chatgpt-plus.top/claude/ 购买「Claude Mail 邮箱普号」，价格大约 ¥15。下单后按页面提示获取 Session Key。完整图文见 https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">怎么用 Session Key 登录？</h3>
+                        <p class="faq-answer">打开 https://fun.hugai.top/login ，选择 Session Key 登录方式，粘贴购买得到的 sk-ant-sid… 密钥即可。切勿把 Key 发给他人或发到公开群。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">能保证不封号吗？</h3>
+                        <p class="faq-answer">不能保证。所谓「不封号」只是相对常见玩法的经验说法：账号仍可能被封，且不保证长期可用。本站内容属个人学习笔记整理，风险自负；封号售后通常不做。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">额度不够能升 Pro 吗？升了还封吗？</h3>
+                        <p class="faq-answer">可以在同一购买页 https://chongzhi.chatgpt-plus.top/claude/ 用 organize id 选升 Pro，约 ¥199/月。升级 Pro 同样不保证不封号，请按需决定。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Key 丢了或登录失败怎么办？</h3>
+                        <p class="faq-answer">先核对是否完整复制了 sk-ant-sid…（无多余空格）。仍失败可回 https://chongzhi.chatgpt-plus.top/claude/ 查订单/售后说明，或对照教程 https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/ 。稳定长期使用仍建议主路径 https://trymodel.chat/ 。</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -286,8 +349,8 @@
     </div>
 
 
-    <script src="js/i18n.js"></script>
-    <script src="script.js"></script>
-    <script src="contact-widget.js"></script>
+    <script src="/js/i18n.js"></script>
+    <script src="/script.js"></script>
+    <script src="/contact-widget.js"></script>
 </body>
 </html>

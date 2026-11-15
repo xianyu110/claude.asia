@@ -1,64 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://claude-opus.top/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
-    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
-    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
-    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/"/>
+    <image:image>
+      <image:loc>https://claude-opus.top/assets/claude-icon.png</image:loc>
+      <image:title>Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://claude-opus.top/?lang=en-US</loc>
+    <loc>https://claude-opus.top/en/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
-    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
-    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
-    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/"/>
+    <image:image>
+      <image:loc>https://claude-opus.top/assets/claude-icon.png</image:loc>
+      <image:title>Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://claude-opus.top/?lang=ja-JP</loc>
+    <loc>https://claude-opus.top/ja/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
-    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
-    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
-    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/"/>
+    <image:image>
+      <image:loc>https://claude-opus.top/assets/claude-icon.png</image:loc>
+      <image:title>Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://claude-opus.top/?lang=ko-KR</loc>
+    <loc>https://claude-opus.top/ko/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
-    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
-    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
-    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/"/>
+    <image:image>
+      <image:loc>https://claude-opus.top/assets/claude-icon.png</image:loc>
+      <image:title>Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://claude-opus.top/?lang=es-ES</loc>
+    <loc>https://claude-opus.top/es/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
-    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
-    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
-    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/"/>
+    <image:image>
+      <image:loc>https://claude-opus.top/assets/claude-icon.png</image:loc>
+      <image:title>Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia</image:title>
+    </image:image>
   </url>
 </urlset>

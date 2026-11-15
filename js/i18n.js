@@ -24,31 +24,31 @@ class EnhancedI18nManager {
         this.trackLanguageChange();
     }
 
-    // 检测并设置语言
+    languageFromPath(pathname) {
+        const map = {
+            '/': 'zh-CN',
+            '/en': 'en-US',
+            '/en/': 'en-US',
+            '/ja': 'ja-JP',
+            '/ja/': 'ja-JP',
+            '/ko': 'ko-KR',
+            '/ko/': 'ko-KR',
+            '/es': 'es-ES',
+            '/es/': 'es-ES'
+        };
+        const trimmed = pathname.replace(/\/index\.html$/, '') || '/';
+        return map[trimmed] || map[trimmed + '/'] || 'zh-CN';
+    }
+
+    // 检测并设置语言（路径优先；?lang= 由页面头部脚本跳转到对应路径）
     detectLanguage() {
-        // URL参数优先
-        const urlParams = new URLSearchParams(window.location.search);
-        const langParam = urlParams.get('lang');
-        if (langParam && this.supportedLanguages[langParam]) {
-            this.currentLanguage = langParam;
-            return;
-        }
-
-        // localStorage其次
-        const savedLanguage = localStorage.getItem('preferred-language');
-        if (savedLanguage && this.supportedLanguages[savedLanguage]) {
-            this.currentLanguage = savedLanguage;
-            return;
-        }
-
-        // 无参数时保持中文首页，避免爬虫按浏览器语言把 / 当成英文页
-        this.currentLanguage = 'zh-CN';
+        this.currentLanguage = this.languageFromPath(window.location.pathname);
     }
 
     // 加载翻译文件
     async loadTranslations() {
         try {
-            const response = await fetch(`./languages/${this.currentLanguage}.json`);
+            const response = await fetch(`/languages/${this.currentLanguage}.json`);
             if (!response.ok) {
                 throw new Error(`Failed to load ${this.currentLanguage}.json`);
             }
@@ -58,7 +58,7 @@ class EnhancedI18nManager {
             console.error('Error loading translations:', error);
             if (this.currentLanguage !== 'zh-CN') {
                 this.currentLanguage = 'zh-CN';
-                const response = await fetch('./languages/zh-CN.json');
+                const response = await fetch('/languages/zh-CN.json');
                 this.translations = await response.json();
                 this.seoConfig = this.translations.meta || {};
             }
@@ -111,8 +111,19 @@ class EnhancedI18nManager {
         return 'https://claude-opus.top';
     }
 
-    urlForLanguage(lang) {
-        return lang === 'zh-CN' ? `${this.siteOrigin()}/` : `${this.siteOrigin()}/?lang=${lang}`;
+    localePath(lang = this.currentLanguage) {
+        const paths = {
+            'zh-CN': '/',
+            'en-US': '/en/',
+            'ja-JP': '/ja/',
+            'ko-KR': '/ko/',
+            'es-ES': '/es/'
+        };
+        return paths[lang] || '/';
+    }
+
+    urlForLanguage(lang = this.currentLanguage) {
+        return this.siteOrigin() + this.localePath(lang);
     }
 
     // 更新Open Graph标签
@@ -218,7 +229,16 @@ class EnhancedI18nManager {
             }
         });
 
-        // 更新FAQ内容
+            document.querySelectorAll('[data-i18n-aria-label]').forEach(element => {
+            const key = element.getAttribute('data-i18n-aria-label');
+            const translation = this.t(key);
+            if (typeof translation === 'string' && translation && translation !== key) {
+                element.setAttribute('aria-label', translation);
+                element.setAttribute('title', translation);
+            }
+        });
+
+    // 更新FAQ内容
         this.updateFAQ();
     }
 
@@ -356,31 +376,21 @@ class EnhancedI18nManager {
         }
     }
 
-    // 切换语言
-    async changeLanguage(newLanguage) {
+    // 切换语言：跳转到对应静态语言页
+    changeLanguage(newLanguage) {
         if (!this.supportedLanguages[newLanguage]) return;
 
-        this.currentLanguage = newLanguage;
-        
-        // 保存用户偏好
-        localStorage.setItem('preferred-language', newLanguage);
-        
-        // 更新URL（不刷新页面）
-        const url = new URL(window.location);
-        if (newLanguage === 'zh-CN') {
-            url.searchParams.delete('lang');
-        } else {
-            url.searchParams.set('lang', newLanguage);
+        try {
+            localStorage.setItem('preferred-language', newLanguage);
+        } catch (e) { /* ignore */ }
+
+        const params = new URLSearchParams(window.location.search);
+        params.delete('lang');
+        const query = params.toString();
+        const next = this.urlForLanguage(newLanguage) + (query ? `?${query}` : '') + window.location.hash;
+        if (window.location.href !== next) {
+            window.location.assign(next);
         }
-        window.history.replaceState({}, '', url.toString());
-        
-        // 重新加载翻译并应用
-        await this.loadTranslations();
-        this.applySEOOptimizations();
-        this.applyTranslations();
-        
-        // 触发语言变更事件
-        this.trackLanguageChange();
     }
 
     // 跟踪语言变更

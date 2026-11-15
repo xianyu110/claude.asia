@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko-KR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <script>
+    (function(){try{var q=new URLSearchParams(location.search).get('theme');var t=(q==='light'||q==='dark')?q:localStorage.getItem('preferred-theme');if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+    </script>
+    <meta name="description" content="Use Claude Opus, Sonnet, Haiku, and Fable at https://trymodel.chat/. Pro: 40 requests/day and 200k tokens/day. Free users get 0 daily requests for quota-gated models; DeepSeek V4 Flash skips the daily quota.">
+    <meta name="keywords" content="Claude Opus, Claude Sonnet, Claude Haiku, Claude Fable, trymodel.chat, Claude 国内直连, DeepSeek V4 Flash">
+    <title data-i18n="meta.title">Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/contact-widget.css">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/assets/claude-icon.svg">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://claude-opus.top/ko/">
+    <link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/">
+    <link rel="alternate" hreflang="en-US" href="https://claude-opus.top/en/">
+    <link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/ja/">
+    <link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/ko/">
+    <link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/es/">
+    <link rel="alternate" hreflang="x-default" href="https://claude-opus.top/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://claude-opus.top/ko/">
+    <meta property="og:title" content="Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia">
+    <meta property="og:description" content="Use Claude Opus, Sonnet, Haiku, and Fable at https://trymodel.chat/. Pro: 40 requests/day and 200k tokens/day. Free users get 0 daily requests for quota-gated models; DeepSeek V4 Flash skips the daily quota.">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:image" content="https://claude-opus.top/assets/claude-icon.png">
+    <script>
+    (function(){
+      var origin='https://claude-opus.top';
+      var map={'zh-CN':'/','en-US':'/en/','ja-JP':'/ja/','ko-KR':'/ko/','es-ES':'/es/'};
+      var params=new URLSearchParams(location.search);
+      var lang=params.get('lang');
+      var path=location.pathname;
+      if(path==='/index.html') path='/';
+      else if(path.slice(-11)==='/index.html') path=path.slice(0,-10);
+      else if(path==='/en'||path==='/ja'||path==='/ko'||path==='/es') path+='/';
+      var dest=null;
+      if(lang&&map[lang]){
+        dest=map[lang];
+        params.delete('lang');
+      } else if(location.pathname==='/index.html' || /\/[a-z]{2}\/index\.html$/.test(location.pathname)){
+        dest=path;
+      }
+      if(!dest){
+        try{
+          var saved=localStorage.getItem('preferred-language');
+          if(saved&&map[saved]&&path==='/'&&saved!=='zh-CN') dest=map[saved];
+        }catch(e){}
+      }
+      if(!dest) return;
+      var q=params.toString();
+      var next=origin+dest+(q?'?'+q:'')+location.hash;
+      if(location.href!==next) location.replace(next);
+    })();
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://claude-opus.top/#website","name":"Claude via trymodel.chat (Opus / Sonnet / Haiku / Fable) - Claude.Asia","url":"https://claude-opus.top/","description":"Use Claude Opus, Sonnet, Haiku, and Fable at https://trymodel.chat/. Pro: 40 requests/day and 200k tokens/day. Free users get 0 daily requests for quota-gated models; DeepSeek V4 Flash skips the daily quota.","inLanguage":"ko-KR","image":"https://claude-opus.top/assets/claude-icon.png"},{"@type":"FAQPage","@id":"https://claude-opus.top/ko/#faq","isPartOf":{"@id":"https://claude-opus.top/#website"},"inLanguage":"ko-KR","mainEntity":[{"@type":"Question","name":"Do old mirror / 3-hour tables still apply?","acceptedAnswer":{"@type":"Answer","text":"No. Old “standard account” and “25 / 3 hours” rules are obsolete. Use https://trymodel.chat/ daily quotas (Pro: 40/day, 200k tokens/day)."}},{"@type":"Question","name":"Which Claude models are on trymodel.chat?","acceptedAnswer":{"@type":"Answer","text":"Opus 5.5 / 5 / 4.8 / 4.7 / 4.6 / 4.5; Sonnet 5.5 / 5 / 4.6; Haiku 5.5 / 4.5; Fable 5.1 / 5. Default site model: DeepSeek V4 Flash."}},{"@type":"Question","name":"Can free users use Claude?","acceptedAnswer":{"@type":"Answer","text":"Free daily requests are 0, so Claude needs Pro. Free unlimited daily use is DeepSeek V4 Flash only."}},{"@type":"Question","name":"VPN? Support?","acceptedAnswer":{"@type":"Answer","text":"trymodel.chat 는 국내에서 직접 접속할 수 있습니다. 국내 API 채널은 https://tryallapi.com/ 입니다. 지원: WeChat claude-support 또는 QQ 1002569303."}}]}]}
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/assets/claude-icon.png" alt="Claude" width="28" height="28" decoding="async">
+                <span data-i18n="nav.logo">Claude · trymodel.chat</span>
+            </div>
+            <div class="nav-controls">
+                <button type="button" id="theme-toggle" class="theme-toggle" aria-label="切换到浅色模式" title="切换到浅色模式"></button>
+                <div id="language-selector-container" class="language-selector-container">
+                    <!-- 语言选择器将由 i18n.js 自动创建 -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="hero">        
+        <div class="container">
+            <div class="hero-badge" data-i18n="hero.badge">✨ Recommended entry</div>
+            <h1 class="hero-title">
+                <span class="hero-title-main" data-i18n="hero.title">Use Claude on trymodel.chat</span>
+                <span class="hero-title-accent" data-i18n="hero.titleAccent">Opus / Sonnet / Haiku / Fable</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">https://trymodel.chat/ offers the full Claude lineup. Pro: 40 requests/day + 200k tokens/day. Free logged-in daily requests are 0 (Claude needs Pro). DeepSeek V4 Flash always skips the daily quota.</p>
+            
+            <div class="hero-features">
+                <div class="feature-tag feature-tag-warn" data-i18n="hero.features.0">🎯 Claude needs Pro</div>
+                <div class="feature-tag feature-tag-new" data-i18n="hero.features.1">📊 Pro: 40/day · 200k tokens</div>
+                <div class="feature-tag feature-tag-fable" data-i18n="hero.features.2">🆓 Flash unlimited daily</div>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="https://trymodel.chat/zh/chat?model=claude-opus-5-5" target="_blank" rel="noopener" class="cta-button primary" data-i18n="hero.cta.primary">✨ Open trymodel.chat</a>
+                <a href="https://tryallapi.com/" target="_blank" rel="noopener" class="cta-button secondary" data-i18n="hero.cta.domestic">🇨🇳 국내 채널</a>
+                <a href="#usage-rules" class="cta-button secondary" data-i18n="hero.cta.secondary">📊 Daily quotas &amp; models</a>
+                <a href="#sessionkey-guide" class="cta-button secondary" data-i18n="hero.cta.sessionkey">📦 备选板块</a>
+                <a href="https://momoai.czvip.cn/products/m10" target="_blank" rel="noopener" class="cta-button ghost" data-i18n="hero.cta.tertiary">🛒 Previous mirror shop</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Fable highlight -->
+        <section class="fable-highlight">
+            <div class="container">
+                <div class="fable-card">
+                    <div class="fable-card-badge" data-i18n="fable.badge">Claude models</div>
+                    <h2 data-i18n="fable.title">Recommended: chat with Claude on trymodel.chat</h2>
+                    <p data-i18n="fable.description">Direct access, ready to use. Default model is DeepSeek V4 Flash. Claude lineup: Opus 5.5 / 5 / 4.8 / 4.7 / 4.6 / 4.5; Sonnet 5.5 / 5 / 4.6; Haiku 5.5 / 4.5; Fable 5.1 / 5 (just model IDs — no separate “standard vs Fable” track).</p>
+                    <a href="https://trymodel.chat/zh/chat?model=claude-opus-5-5" target="_blank" rel="noopener" class="cta-button primary" data-i18n="fable.cta">Open https://trymodel.chat/</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Claude Desktop Section -->
+        <section class="desktop-section">
+            <div class="container">
+                <div class="desktop-inner">
+                    <h2 data-i18n="desktop.title">💻 Claude Desktop</h2>
+                    <p class="desktop-lead" data-i18n="desktop.lead">Need local files and coding workflows? Try Claude Desktop.</p>
+                    
+                    <div class="desktop-grid">
+                        <div class="desktop-card">
+                            <h3 data-i18n="desktop.cards.0.title">⚡ Local files</h3>
+                            <p data-i18n="desktop.cards.0.text">Read and edit local project trees</p>
+                        </div>
+                        <div class="desktop-card">
+                            <h3 data-i18n="desktop.cards.1.title">🔒 Privacy</h3>
+                            <p data-i18n="desktop.cards.1.text">Conversations stored locally</p>
+                        </div>
+                        <div class="desktop-card">
+                            <h3 data-i18n="desktop.cards.2.title">🎨 Full features</h3>
+                            <p data-i18n="desktop.cards.2.text">Projects, Cowork, Artifacts, and more</p>
+                        </div>
+                        <div class="desktop-card">
+                            <h3 data-i18n="desktop.cards.3.title">📱 Cross-platform</h3>
+                            <p data-i18n="desktop.cards.3.text">Windows / macOS</p>
+                        </div>
+                    </div>
+                    
+                    <div class="desktop-actions">
+                        <a href="https://momoai.asia" target="_blank" rel="noopener" class="desktop-btn desktop-btn-primary" data-i18n="desktop.buy">🛒 Buy Claude Desktop API</a>
+                        <a href="https://github.com/xianyu110/claude.asia/blob/main/CLAUDE_DESKTOP.md" target="_blank" rel="noopener" class="desktop-btn desktop-btn-secondary" data-i18n="desktop.docs">📖 Full guide</a>
+                    </div>
+                    
+                    <div class="desktop-note">
+                        <p data-i18n="desktop.note">✅ Desktop direct connect | ✅ CC Switch tool | ✅ $2000-quota monthly card | ✅ Mainland direct access</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Alternate: Session Key + funclaude -->
+        <section id="sessionkey-guide" class="sessionkey-section">
+            <div class="container">
+                <div class="sessionkey-card">
+                    <div class="sessionkey-badge" data-i18n="sessionkey.badge">备选方案</div>
+                    <h2 data-i18n="sessionkey.title">备选：¥15 普号 + Session Key 登录 funclaude</h2>
+                    <p class="sessionkey-pain" data-i18n="sessionkey.pain">不想走 trymodel Pro，或想试试「不封号」向的 Session Key 登录？可用 Claude Mail 邮箱普号拿到 sk-ant-sid… 后在 funclaude 登录。</p>
+                    <p class="sessionkey-method" data-i18n="sessionkey.method">方法概要：买普号 ≈ ¥15 → 拿到 Session Key → 在 funclaude 用 Session Key 登录。本页为补充路径，主入口仍是 trymodel.chat。</p>
+
+                    <ol class="sessionkey-steps">
+                        <li data-i18n="sessionkey.steps.0">前往充值站购买「Claude Mail 邮箱普号」（约 ¥15），订单会给出 Session Key（sk-ant-sid…）。</li>
+                        <li data-i18n="sessionkey.steps.1">打开 funclaude 登录页，选择 Session Key 方式粘贴密钥并登录。</li>
+                        <li data-i18n="sessionkey.steps.2">登录后即可使用；额度不够可在同站用 organize id 选升 Pro（约 ¥199/月），但升级 Pro 同样不保证不封号。</li>
+                    </ol>
+
+                    <div class="sessionkey-actions">
+                        <a href="https://chongzhi.chatgpt-plus.top/claude/" target="_blank" rel="noopener" class="cta-button primary" data-i18n="sessionkey.buy">🛒 购买 Claude Mail 普号</a>
+                        <a href="https://fun.hugai.top/login" target="_blank" rel="noopener" class="cta-button secondary" data-i18n="sessionkey.login">🔑 Session Key 登录</a>
+                        <a href="https://maynor996.github.io/claude-sessionkey-funclaude-guide-2026/" target="_blank" rel="noopener" class="cta-button ghost" data-i18n="sessionkey.guide">📖 完整图文教程</a>
+                    </div>
+
+                    <div class="sessionkey-links">
+                        <p><span data-i18n="sessionkey.buyLabel">购买：</span><a href="https://chongzhi.chatgpt-plus.top/claude/" target="_blank" rel="noopener">https://chongzhi.chatgpt-plus.top/claude/</a></p>
+                        <p><span data-i18n="sessionkey.loginLabel">登录：</span><a href="https://fun.hugai.top/login" target="_blank" rel="noopener">https://fun.hugai.top/login</a></p>
+                        <p><span data-i18n="sessionkey.repoLabel">教程仓库：</span><a href="https://github.com/Maynor996/claude-sessionkey-funclaude-guide-2026" target="_blank" rel="noopener">github.com/Maynor996/claude-sessionkey-funclaude-guide-2026</a></p>
+                    </div>
+
+                    <figure class="sessionkey-figure">
+                        <img src="/assets/funclaude-sessionkey-login.png" alt="funclaude Session Key 登录示意" width="640" height="360" loading="lazy" decoding="async">
+                        <figcaption data-i18n="sessionkey.figureCaption">funclaude Session Key 登录示意（来自公开教程）</figcaption>
+                    </figure>
+
+                    <p class="sessionkey-disclaimer" data-i18n="sessionkey.disclaimer">⚠️ 个人学习笔记整理，风险自负：不保证长期不封号；Session Key 勿分享；封号售后通常不做。升级 Pro 同样不保证不封号。主推荐路径仍为 https://trymodel.chat/ 。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Announcement and usage rules -->
+        <section id="usage-rules" class="experience">
+            <div class="container">
+                <h2 data-i18n="experience.title">📊 trymodel.chat daily quotas</h2>
+                <p class="section-intro" data-i18n="experience.intro">Current daily rules on trymodel.chat. Old mirror “25 / 3 hours” tables are obsolete — do not use 3-hour windows. Chat itself does not consume credits.</p>
+                <div class="comparison-table usage-table">
+                    <div class="comparison-header"><div data-i18n="experience.col.model">Plan / model</div><div data-i18n="experience.col.limit">Daily requests</div><div data-i18n="experience.col.token">Tokens / notes</div></div>
+                    <div class="comparison-row"><div><strong data-i18n="experience.rows.0.name">Free (logged in, no sub)</strong></div><div data-i18n="experience.rows.0.limit">0 / day</div><div data-i18n="experience.rows.0.token">Quota-gated models unusable in practice; Claude needs Pro</div></div>
+                    <div class="comparison-row comparison-row-highlight"><div><strong data-i18n="experience.rows.1.name">Pro (subscription / Pass)</strong></div><div data-i18n="experience.rows.1.limit">40 / day</div><div data-i18n="experience.rows.1.token">200k tokens/day · Opus / Sonnet / Haiku / Fable</div></div>
+                    <div class="comparison-row"><div><strong data-i18n="experience.rows.2.name">DeepSeek V4 Flash</strong></div><div data-i18n="experience.rows.2.limit">No daily quota</div><div data-i18n="experience.rows.2.token">Always skips daily quota · site default · free</div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solutions usage-notes">
+            <div class="container">
+                <h2 data-i18n="notes.title">💡 Notes</h2>
+                <div class="solutions-grid">
+                    <div class="solution-card"><h3 data-i18n="notes.history.title">🆓 What free users get</h3><p data-i18n="notes.history.text">Free logged-in daily request quota is 0, so Claude / Sonnet / Haiku are not practically usable. Only DeepSeek V4 Flash always skips the daily quota. Guests: 1 cookie trial + 3 IP/day; unlimited Flash guest promo ended 2026-10-25.</p></div>
+                    <div class="solution-card"><h3 data-i18n="notes.device.title">💎 What Pro unlocks</h3><p data-i18n="notes.device.text">With Pro / Pass: 40 requests/day + 200k tokens/day for Claude Opus, Sonnet, Haiku, and Fable. Fable is just another model ID on the site.</p></div>
+                    <div class="solution-card"><h3 data-i18n="notes.abuse.title">ℹ️ Other</h3><p data-i18n="notes.abuse.text">Web chat does not consume credits. Quotas and models follow https://trymodel.chat/ live; this page is a Chinese-friendly pointer.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2 data-i18n="faq.title">❓ FAQ</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h3 class="faq-question">Do old mirror / 3-hour tables still apply?</h3>
+                        <p class="faq-answer">No. Old “standard account” and “25 / 3 hours” rules are obsolete. Use https://trymodel.chat/ daily quotas (Pro: 40/day, 200k tokens/day).</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Which Claude models are on trymodel.chat?</h3>
+                        <p class="faq-answer">Opus 5.5 / 5 / 4.8 / 4.7 / 4.6 / 4.5; Sonnet 5.5 / 5 / 4.6; Haiku 5.5 / 4.5; Fable 5.1 / 5. Default site model: DeepSeek V4 Flash.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can free users use Claude?</h3>
+                        <p class="faq-answer">Free daily requests are 0, so Claude needs Pro. Free unlimited daily use is DeepSeek V4 Flash only.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">VPN? Support?</h3>
+                        <p class="faq-answer">trymodel.chat 는 국내에서 직접 접속할 수 있습니다. 국내 API 채널은 https://tryallapi.com/ 입니다. 지원: WeChat claude-support 또는 QQ 1002569303.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h2 data-i18n="contact.title">📞 Contact</h2>
+                <p data-i18n="contact.description">Questions? Reach us:</p>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span class="contact-icon">💬</span>
+                        <span data-i18n="contact.wechat">WeChat: claude-support</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span data-i18n="contact.email">QQ: 1002569303</span>
+                    </div>
+                    <a class="contact-item" href="https://tryallapi.com/" target="_blank" rel="noopener">
+                        <span class="contact-icon">🛒</span>
+                        <span data-i18n="contact.store">공식 스토어 (국내 채널)</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="final-cta">
+            <div class="container">
+                <h2 data-i18n="finalCta.title">🎯 Use Claude on trymodel.chat</h2>
+                <p data-i18n="finalCta.description">Pro: 40 requests/day and 200k tokens/day for Opus / Sonnet / Haiku / Fable. Free: only DeepSeek V4 Flash skips the daily quota.</p>
+                <div class="final-buttons">
+                    <a href="https://trymodel.chat/zh/chat?model=claude-opus-5-5" target="_blank" rel="noopener" class="cta-button primary large" data-i18n="finalCta.primary">✨ Open trymodel.chat</a>
+                    <a href="https://tryallapi.com/" target="_blank" rel="noopener" class="cta-button secondary large" data-i18n="finalCta.domestic">🇨🇳 국내 채널</a>
+                    <a href="#usage-rules" class="cta-button secondary large" data-i18n="finalCta.secondary">📊 Daily quotas &amp; models</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copyright">© 2026 Claude.Asia. Quality AI chat access.</p>
+            <div class="footer-links">
+                <a href="#" data-i18n="footer.privacy">Privacy</a>
+                <a href="#" data-i18n="footer.terms">Terms</a>
+                <a href="#" data-i18n="footer.contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cs-widget" id="cs-widget">
+        <div class="cs-widget-panel" id="cs-widget-panel" hidden>
+            <p class="cs-widget-kicker" data-i18n="cs.toggle">고객센터 문의</p>
+            <p class="cs-widget-title" data-i18n="cs.title">고객 지원</p>
+            <div class="cs-widget-qq">
+                <span class="cs-widget-qq-label">QQ</span>
+                <span class="cs-widget-qq-number">1002569303</span>
+            </div>
+            <div class="cs-widget-actions">
+                <button type="button" class="cs-widget-copy" data-i18n="cs.copy">번호 복사</button>
+                <a class="cs-widget-open" href="https://wpa.qq.com/msgrd?v=3&uin=1002569303&site=qq&menu=yes" target="_blank" rel="noopener" data-i18n="cs.open">QQ 채팅 열기</a>
+            </div>
+        </div>
+        <button type="button" class="cs-widget-toggle" aria-expanded="false" aria-controls="cs-widget-panel" data-i18n-aria-label="cs.toggle" title="고객센터 문의" aria-label="고객센터 문의">
+            <svg class="cs-widget-icon-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M8 18.5 5 21v-4.2A8.5 8.5 0 1 1 19.2 16"></path>
+                <circle cx="9" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+                <circle cx="12.5" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+                <circle cx="16" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+            </svg>
+            <svg class="cs-widget-icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <path d="M6 6l12 12M18 6 6 18"></path>
+            </svg>
+        </button>
+    </div>
+
+
+    <script src="/js/i18n.js"></script>
+    <script src="/script.js"></script>
+    <script src="/contact-widget.js"></script>
+</body>
+</html>
