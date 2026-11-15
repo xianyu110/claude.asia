@@ -243,7 +243,9 @@
     "contact": "联系我们"
   },
   "ui": {
-    "languageSelector": "选择语言"
+    "languageSelector": "选择语言",
+    "themeToLight": "切换到浅色模式",
+    "themeToDark": "切换到深色模式"
   },
   "sessionkey": {
     "badge": "备选方案",

@@ -218,6 +218,8 @@
     "contact": "Contact"
   },
   "ui": {
-    "languageSelector": "Idioma"
+    "languageSelector": "Elegir idioma",
+    "themeToLight": "Cambiar a modo claro",
+    "themeToDark": "Cambiar a modo oscuro"
   }
 }

@@ -243,7 +243,9 @@
     "contact": "Contact"
   },
   "ui": {
-    "languageSelector": "Language"
+    "languageSelector": "Choose language",
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode"
   },
   "sessionkey": {
     "badge": "Alternate path",

@@ -11,23 +11,147 @@
     --gold-bright: #d4af37;
     --gold-soft: #e8d48b;
     --gold-dim: #8a7320;
-    --gold-glow: rgba(201, 162, 39, 0.35);
-    --gold-border: rgba(201, 162, 39, 0.35);
-    --gold-border-strong: rgba(212, 175, 55, 0.55);
+    --gold-glow: rgba(var(--gold-rgb), 0.35);
+    --gold-border: rgba(var(--gold-rgb), 0.35);
+    --gold-border-strong: rgba(var(--gold-bright-rgb), 0.55);
     --text-primary: #f2efe6;
     --text-secondary: #b8b0a0;
     --text-muted: #8a8378;
     --danger: #ef4444;
     --success: #22c55e;
-    --warn-bg: rgba(201, 162, 39, 0.12);
-    --warn-border: rgba(201, 162, 39, 0.45);
+    --warn-bg: rgba(var(--gold-rgb), 0.12);
+    --warn-border: rgba(var(--gold-rgb), 0.45);
     --warn-text: #e8d48b;
     --warn-title: #f0d878;
     --radius-lg: 16px;
     --radius-md: 12px;
-    --shadow-gold: 0 8px 28px rgba(201, 162, 39, 0.12);
+    --shadow-gold: 0 8px 28px rgba(var(--gold-rgb), 0.12);
     --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.45);
+    --nav-bg: rgba(11, 11, 13, 0.92);
+    --hero-glow: rgba(var(--gold-rgb), 0.18);
+    --hero-bg: linear-gradient(165deg, #121214 0%, #0b0b0d 55%, #14120c 100%);
+    --final-cta-glow: rgba(var(--gold-rgb), 0.2);
+    --final-cta-bg: linear-gradient(165deg, #16140e 0%, #0b0b0d 100%);
+    --footer-bg: #080809;
+    --code-bg: #0a0a0c;
+    --pain-bg: #1a1010;
+    --case-study-mid: #16140e;
+    --desktop-glow: rgba(var(--gold-rgb), 0.14);
+    --desktop-bg: linear-gradient(165deg, #14120c 0%, #0f0e0a 100%);
+    --desktop-card-bg: rgba(22, 22, 26, 0.9);
+    --comparison-header-bg: linear-gradient(135deg, #2a2410 0%, #1a160c 100%);
+    --on-gold: #1a1408;
+    --gold-rgb: 201, 162, 39;
+    --gold-bright-rgb: 212, 175, 55;
+    --cta-primary-bg: linear-gradient(135deg, #d4af37 0%, #c9a227 55%, #a8861f 100%);
+    --cta-primary-bg-simple: linear-gradient(135deg, #d4af37 0%, #c9a227 100%);
+    --shadow-deep: 0 20px 40px rgba(0, 0, 0, 0.5);
+    --shadow-soft: 0 15px 35px rgba(0, 0, 0, 0.5);
+    --shadow-warn: 0 10px 30px rgba(0, 0, 0, 0.35), 0 0 20px rgba(var(--gold-rgb), 0.08);
+    --toggle-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
+
+html {
+    color-scheme: dark;
+}
+
+html[data-theme="light"] {
+    color-scheme: light;
+    --bg-deep: #f6f1e4;
+    --bg-charcoal: #efe8d6;
+    --bg-elevated: #fffdf6;
+    --bg-card: #ffffff;
+    --bg-card-hover: #fff9ec;
+    --bg-muted: #f3edd9;
+    --gold: #9a7b16;
+    --gold-bright: #8a6d10;
+    --gold-soft: #7a6414;
+    --gold-dim: #6b5810;
+    --gold-glow: rgba(154, 123, 22, 0.28);
+    --gold-border: rgba(154, 123, 22, 0.32);
+    --gold-border-strong: rgba(138, 109, 16, 0.5);
+    --text-primary: #1c1914;
+    --text-secondary: #4a453c;
+    --text-muted: #6f685c;
+    --danger: #b91c1c;
+    --success: #15803d;
+    --warn-bg: rgba(154, 123, 22, 0.12);
+    --warn-border: rgba(154, 123, 22, 0.4);
+    --warn-text: #6b5810;
+    --warn-title: #5c4a0c;
+    --shadow-gold: 0 8px 28px rgba(154, 123, 22, 0.12);
+    --shadow-card: 0 10px 28px rgba(80, 60, 20, 0.1);
+    --nav-bg: rgba(255, 253, 246, 0.92);
+    --hero-glow: rgba(154, 123, 22, 0.12);
+    --hero-bg: linear-gradient(165deg, #f6f1e4 0%, #efe8d6 55%, #f3edd9 100%);
+    --final-cta-glow: rgba(154, 123, 22, 0.14);
+    --final-cta-bg: linear-gradient(165deg, #f3edd9 0%, #efe8d6 100%);
+    --footer-bg: #e9e0c8;
+    --code-bg: #f3edd9;
+    --pain-bg: #f7eee6;
+    --case-study-mid: #f3edd9;
+    --desktop-glow: rgba(154, 123, 22, 0.1);
+    --desktop-bg: linear-gradient(165deg, #f6f1e4 0%, #efe8d6 100%);
+    --desktop-card-bg: rgba(255, 253, 246, 0.94);
+    --comparison-header-bg: linear-gradient(135deg, #efe3bf 0%, #e8d9a8 100%);
+    --on-gold: #fffdf6;
+    --gold-rgb: 154, 123, 22;
+    --gold-bright-rgb: 138, 109, 16;
+    --cta-primary-bg: linear-gradient(135deg, #b08d20 0%, #9a7b16 55%, #8a6d10 100%);
+    --cta-primary-bg-simple: linear-gradient(135deg, #b08d20 0%, #9a7b16 100%);
+    --shadow-deep: 0 20px 40px rgba(80, 60, 20, 0.12);
+    --shadow-soft: 0 15px 35px rgba(80, 60, 20, 0.1);
+    --shadow-warn: 0 10px 30px rgba(80, 60, 20, 0.1), 0 0 20px rgba(154, 123, 22, 0.08);
+    --toggle-shadow: 0 2px 8px rgba(80, 60, 20, 0.08);
+}
+
+/* 导航右侧：日期 / 昼夜切换 / 语言 */
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.theme-toggle {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 2px solid var(--gold-border);
+    border-radius: 8px;
+    background: var(--bg-elevated);
+    color: var(--gold-soft);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--toggle-shadow);
+}
+
+.theme-toggle:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--gold-border-strong);
+}
+
+.theme-toggle:focus-visible {
+    outline: none;
+    border-color: var(--gold-bright);
+    box-shadow: 0 0 0 3px var(--gold-glow);
+}
+
+.theme-toggle svg {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.nav-meta {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    white-space: nowrap;
+}
+
 
 /* 重置和基础样式 */
 * {
@@ -46,7 +170,7 @@ body {
 
 /* 导航栏样式 */
 .navbar {
-    background: rgba(11, 11, 13, 0.92);
+    background: var(--nav-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     box-shadow: 0 1px 0 var(--gold-border);
@@ -102,8 +226,8 @@ body {
 /* Hero Section */
 .hero {
     background:
-        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(201, 162, 39, 0.18), transparent 55%),
-        linear-gradient(165deg, #121214 0%, #0b0b0d 55%, #14120c 100%);
+        radial-gradient(ellipse 80% 60% at 50% -10%, var(--hero-glow), transparent 55%),
+        var(--hero-bg);
     color: var(--text-primary);
     padding: 72px 0 88px;
     text-align: center;
@@ -118,7 +242,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1.2" fill="rgba(201,162,39,0.12)"/></pattern></defs><rect width="100" height="100" fill="url(%23dots)"/></svg>');
+    background-image: radial-gradient(circle, rgba(var(--gold-rgb), 0.16) 1.2px, transparent 1.2px);
+    background-size: 20px 20px;
     pointer-events: none;
 }
 
@@ -129,7 +254,7 @@ body {
 
 .hero-badge {
     display: inline-block;
-    background: rgba(201, 162, 39, 0.15);
+    background: rgba(var(--gold-rgb), 0.15);
     border: 2px solid var(--gold-border-strong);
     border-radius: 50px;
     padding: 8px 20px;
@@ -185,7 +310,7 @@ body {
 }
 
 .feature-tag {
-    background: rgba(201, 162, 39, 0.1);
+    background: rgba(var(--gold-rgb), 0.1);
     border: 1px solid var(--gold-border);
     border-radius: 25px;
     padding: 10px 20px;
@@ -218,18 +343,18 @@ body {
 }
 
 .cta-button.primary {
-    background: linear-gradient(135deg, #d4af37 0%, #c9a227 55%, #a8861f 100%);
-    color: #1a1408;
+    background: var(--cta-primary-bg);
+    color: var(--on-gold);
     box-shadow: 0 4px 18px var(--gold-glow), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .cta-button.primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 28px rgba(212, 175, 55, 0.45);
+    box-shadow: 0 8px 28px rgba(var(--gold-bright-rgb), 0.45);
 }
 
 .cta-button.secondary {
-    background: rgba(201, 162, 39, 0.08);
+    background: rgba(var(--gold-rgb), 0.08);
     color: var(--gold-soft);
     border: 2px solid var(--gold-border-strong);
     -webkit-backdrop-filter: blur(10px);
@@ -237,7 +362,7 @@ body {
 }
 
 .cta-button.secondary:hover {
-    background: rgba(201, 162, 39, 0.18);
+    background: rgba(var(--gold-rgb), 0.18);
     transform: translateY(-2px);
 }
 
@@ -250,7 +375,7 @@ body {
 }
 
 .cta-button.ghost:hover {
-    background: rgba(201, 162, 39, 0.1);
+    background: rgba(var(--gold-rgb), 0.1);
     border-style: solid;
     color: var(--gold-soft);
     transform: translateY(-1px);
@@ -261,16 +386,17 @@ body {
     font-size: 1.2rem;
 }
 
-/* 语言选择器 */
+/* 语言选择器：放在导航右侧集群里，不再绝对定位到角落 */
 .language-selector {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
+    position: relative;
+    top: auto;
+    right: auto;
+    z-index: 2;
 }
 
 .language-select {
-    padding: 10px 16px;
+    height: 40px;
+    padding: 8px 14px;
     border: 2px solid var(--gold-border);
     border-radius: 8px;
     background: var(--bg-elevated);
@@ -280,6 +406,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
+    box-shadow: var(--toggle-shadow);
 }
 
 .language-select:hover {
@@ -331,13 +458,13 @@ h2 {
 .experience-card.highlight {
     border-color: var(--gold-bright);
     transform: scale(1.05);
-    background: linear-gradient(135deg, rgba(201, 162, 39, 0.12) 0%, var(--bg-card) 100%);
+    background: linear-gradient(135deg, rgba(var(--gold-rgb), 0.12) 0%, var(--bg-card) 100%);
     box-shadow: var(--shadow-gold);
 }
 
 .experience-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--gold-border-strong);
+    box-shadow: var(--shadow-deep), 0 0 0 1px var(--gold-border-strong);
 }
 
 .card-header {
@@ -380,7 +507,7 @@ h2 {
     padding: 12px 0;
     font-size: 1rem;
     color: var(--text-secondary);
-    border-bottom: 1px solid rgba(201, 162, 39, 0.12);
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.12);
 }
 
 .feature-list li:last-child {
@@ -402,8 +529,8 @@ h2 {
 }
 
 .plan-button.featured {
-    background: linear-gradient(135deg, #d4af37 0%, #c9a227 100%);
-    color: #1a1408;
+    background: var(--cta-primary-bg-simple);
+    color: var(--on-gold);
     box-shadow: 0 4px 15px var(--gold-glow);
     border: none;
 }
@@ -522,7 +649,7 @@ a.plan-button {
 .comparison-header {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    background: linear-gradient(135deg, #2a2410 0%, #1a160c 100%);
+    background: var(--comparison-header-bg);
     color: var(--gold-soft);
     font-weight: 600;
     padding: 20px;
@@ -533,17 +660,17 @@ a.plan-button {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     padding: 20px;
-    border-bottom: 1px solid rgba(201, 162, 39, 0.12);
+    border-bottom: 1px solid rgba(var(--gold-rgb), 0.12);
     transition: all 0.3s ease;
     color: var(--text-secondary);
 }
 
 .comparison-row:hover {
-    background: rgba(201, 162, 39, 0.06);
+    background: rgba(var(--gold-rgb), 0.06);
 }
 
 .comparison-row.winner {
-    background: rgba(201, 162, 39, 0.1);
+    background: rgba(var(--gold-rgb), 0.1);
     border-left: 4px solid var(--gold-bright);
 }
 
@@ -590,7 +717,7 @@ a.plan-button {
 
 .advantage-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 24px var(--gold-glow);
+    box-shadow: var(--shadow-soft), 0 0 24px var(--gold-glow);
     border-color: var(--gold-border-strong);
 }
 
@@ -614,7 +741,7 @@ a.plan-button {
 
 /* Pain Points Section */
 .pain-points {
-    background: #1a1010;
+    background: var(--pain-bg);
 }
 
 .pain-grid {
@@ -664,7 +791,7 @@ a.plan-button {
 
 .solution-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 20px var(--gold-glow);
+    box-shadow: var(--shadow-soft), 0 0 20px var(--gold-glow);
 }
 
 .solution-card h3 {
@@ -681,7 +808,7 @@ a.plan-button {
 
 /* Case Study Section */
 .case-study {
-    background: linear-gradient(135deg, var(--bg-charcoal) 0%, #16140e 100%);
+    background: linear-gradient(135deg, var(--bg-charcoal) 0%, var(--case-study-mid) 100%);
 }
 
 .case-content {
@@ -752,14 +879,14 @@ a.plan-button {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--gold-soft);
-    background: linear-gradient(135deg, rgba(201, 162, 39, 0.08) 0%, var(--bg-card) 100%);
+    background: linear-gradient(135deg, rgba(var(--gold-rgb), 0.08) 0%, var(--bg-card) 100%);
 }
 
 .faq-answer {
     padding: 25px;
     color: var(--text-secondary);
     line-height: 1.7;
-    border-top: 1px solid rgba(201, 162, 39, 0.12);
+    border-top: 1px solid rgba(var(--gold-rgb), 0.12);
 }
 
 /* Contact Section */
@@ -816,8 +943,8 @@ a.contact-item:hover {
 /* Final CTA Section */
 .final-cta {
     background:
-        radial-gradient(ellipse 70% 80% at 50% 100%, rgba(201, 162, 39, 0.2), transparent 60%),
-        linear-gradient(165deg, #16140e 0%, #0b0b0d 100%);
+        radial-gradient(ellipse 70% 80% at 50% 100%, var(--final-cta-glow), transparent 60%),
+        var(--final-cta-bg);
     color: var(--text-primary);
     text-align: center;
     border-top: 1px solid var(--gold-border);
@@ -846,7 +973,7 @@ a.contact-item:hover {
 
 /* Footer */
 .footer {
-    background: #080809;
+    background: var(--footer-bg);
     color: var(--text-secondary);
     padding: 40px 0;
     text-align: center;
@@ -889,7 +1016,7 @@ a.contact-item:hover {
     background: var(--warn-bg);
     color: var(--warn-text);
     border: 1px solid var(--warn-border);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), 0 0 20px rgba(201, 162, 39, 0.08);
+    box-shadow: var(--shadow-warn);
 }
 
 .status-alert-icon {
@@ -915,14 +1042,14 @@ a.contact-item:hover {
 }
 
 .feature-tag-warn {
-    background: rgba(201, 162, 39, 0.18);
-    border-color: rgba(201, 162, 39, 0.5);
+    background: rgba(var(--gold-rgb), 0.18);
+    border-color: rgba(var(--gold-rgb), 0.5);
 }
 
 .feature-tag-new,
 .feature-tag-fable {
-    background: rgba(201, 162, 39, 0.14);
-    border-color: rgba(212, 175, 55, 0.45);
+    background: rgba(var(--gold-rgb), 0.14);
+    border-color: rgba(var(--gold-bright-rgb), 0.45);
 }
 
 /* Fable highlight card */
@@ -942,8 +1069,8 @@ a.contact-item:hover {
 
 .fable-card-badge {
     display: inline-block;
-    background: linear-gradient(135deg, #d4af37 0%, #c9a227 100%);
-    color: #1a1408;
+    background: var(--cta-primary-bg-simple);
+    color: var(--on-gold);
     font-weight: 700;
     font-size: 0.85rem;
     letter-spacing: 0.02em;
@@ -966,14 +1093,14 @@ a.contact-item:hover {
 }
 
 .fable-card .cta-button.primary {
-    color: #1a1408;
+    color: var(--on-gold);
 }
 
 /* Desktop section */
 .desktop-section {
     background:
-        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(201, 162, 39, 0.14), transparent 55%),
-        linear-gradient(165deg, #14120c 0%, #0f0e0a 100%);
+        radial-gradient(ellipse 80% 50% at 50% 0%, var(--desktop-glow), transparent 55%),
+        var(--desktop-bg);
     padding: 60px 0;
     margin: 24px 0 0;
     border-top: 1px solid var(--gold-border);
@@ -1009,12 +1136,12 @@ a.contact-item:hover {
 }
 
 .desktop-card {
-    background: rgba(22, 22, 26, 0.9);
+    background: var(--desktop-card-bg);
     padding: 20px;
     border-radius: var(--radius-md);
     backdrop-filter: blur(10px);
     border: 1px solid var(--gold-border);
-    box-shadow: 0 0 20px rgba(201, 162, 39, 0.06);
+    box-shadow: 0 0 20px rgba(var(--gold-rgb), 0.06);
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -1059,8 +1186,8 @@ a.contact-item:hover {
 }
 
 .desktop-btn-primary {
-    background: linear-gradient(135deg, #d4af37 0%, #c9a227 100%);
-    color: #1a1408;
+    background: var(--cta-primary-bg-simple);
+    color: var(--on-gold);
     box-shadow: 0 4px 18px var(--gold-glow);
 }
 
@@ -1072,13 +1199,13 @@ a.contact-item:hover {
 }
 
 .desktop-btn-secondary:hover {
-    background: rgba(201, 162, 39, 0.12);
+    background: rgba(var(--gold-rgb), 0.12);
 }
 
 .desktop-note {
     margin-top: 28px;
     padding: 18px 20px;
-    background: rgba(201, 162, 39, 0.08);
+    background: rgba(var(--gold-rgb), 0.08);
     border-radius: var(--radius-md);
     backdrop-filter: blur(10px);
     border: 1px solid var(--gold-border);
@@ -1092,7 +1219,7 @@ a.contact-item:hover {
 }
 
 .comparison-row-highlight {
-    background: rgba(201, 162, 39, 0.1);
+    background: rgba(var(--gold-rgb), 0.1);
     border-left: 3px solid var(--gold-bright);
 }
 
@@ -1133,7 +1260,7 @@ a.contact-item:hover {
 
 .sessionkey-badge {
     display: inline-block;
-    background: rgba(201, 162, 39, 0.18);
+    background: rgba(var(--gold-rgb), 0.18);
     color: var(--gold-soft);
     border: 1px solid var(--gold-border-strong);
     font-weight: 700;
@@ -1178,13 +1305,13 @@ a.contact-item:hover {
 }
 
 .sessionkey-actions .cta-button.primary {
-    color: #1a1408;
+    color: var(--on-gold);
 }
 
 .sessionkey-links {
     margin: 0 0 20px;
     padding: 14px 16px;
-    background: rgba(201, 162, 39, 0.06);
+    background: rgba(var(--gold-rgb), 0.06);
     border: 1px solid var(--gold-border);
     border-radius: var(--radius-md);
     font-size: 0.92rem;
@@ -1217,7 +1344,7 @@ a.contact-item:hover {
     border-radius: 12px;
     border: 1px solid var(--gold-border);
     display: block;
-    background: #0a0a0c;
+    background: var(--code-bg);
 }
 
 .sessionkey-figure figcaption {
@@ -1235,8 +1362,8 @@ a.contact-item:hover {
     opacity: 0.92;
     max-width: 860px;
     padding: 12px 14px;
-    border-left: 3px solid rgba(201, 162, 39, 0.55);
-    background: rgba(201, 162, 39, 0.06);
+    border-left: 3px solid rgba(var(--gold-rgb), 0.55);
+    background: rgba(var(--gold-rgb), 0.06);
     border-radius: 0 8px 8px 0;
 }
 
@@ -1305,12 +1432,31 @@ a.contact-item:hover {
         padding: 28px 18px;
     }
 
+    .nav-controls {
+        gap: 6px;
+    }
+
+    .nav-meta {
+        font-size: 0.75rem;
+        max-width: 7.5em;
+        white-space: normal;
+        line-height: 1.2;
+        text-align: right;
+    }
+
     .language-selector {
         position: relative;
         top: 0;
         right: 0;
-        margin: 20px 0;
+        margin: 0;
         text-align: center;
+    }
+
+    .language-select {
+        height: 40px;
+        max-width: 42vw;
+        padding: 8px 10px;
+        font-size: 13px;
     }
 
     .container {
@@ -1340,7 +1486,7 @@ a.contact-item:hover {
 
     .comparison-header > div:not(:last-child),
     .comparison-row > div:not(:last-child) {
-        border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+        border-bottom: 1px solid rgba(var(--gold-rgb), 0.15);
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
@@ -1368,13 +1514,13 @@ html {
 /* 选择文本样式 */
 ::selection {
     background: var(--gold);
-    color: #1a1408;
+    color: var(--on-gold);
 }
 
 /* 改善的焦点状态 - 可访问性 */
 .cta-button:focus,
 .plan-button:focus {
-    outline: 3px solid rgba(212, 175, 55, 0.55);
+    outline: 3px solid rgba(var(--gold-bright-rgb), 0.55);
     outline-offset: 2px;
 }
 

@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 页面加载动画
     initPageAnimations();
+
+    // 昼夜模式（替换已废弃的 initDarkMode）
+    initThemeToggle();
 });
 
 // 更新时间函数
@@ -75,13 +78,8 @@ function initNavbarScroll() {
     window.addEventListener('scroll', function() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         
-        if (scrollTop > 100) {
-            header.style.background = 'rgba(255, 255, 255, 0.95)';
-            header.style.backdropFilter = 'blur(10px)';
-        } else {
-            header.style.background = 'var(--white)';
-            header.style.backdropFilter = 'blur(10px)';
-        }
+        header.style.background = '';
+        header.style.backdropFilter = '';
         
         // 隐藏/显示导航栏
         if (scrollTop > lastScrollTop && scrollTop > 200) {
@@ -266,44 +264,52 @@ document.addEventListener('mousedown', function() {
     document.body.classList.remove('keyboard-navigation');
 });
 
-// 添加深色模式切换（可选功能）
-function initDarkMode() {
-    const darkModeToggle = document.createElement('button');
-    darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-    darkModeToggle.classList.add('dark-mode-toggle');
-    darkModeToggle.style.cssText = `
-        position: fixed;
-        top: 50%;
-        right: 20px;
-        transform: translateY(-50%);
-        background: var(--primary-color);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        box-shadow: var(--shadow-lg);
-        z-index: 1000;
-        transition: all 0.3s ease;
-    `;
-    
-    darkModeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
-        const isDark = document.body.classList.contains('dark-mode');
-        this.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-        
-        // 保存用户偏好
-        localStorage.setItem('darkMode', isDark);
-    });
-    
-    // 检查用户偏好
-    if (localStorage.getItem('darkMode') === 'true') {
-        document.body.classList.add('dark-mode');
-        darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+// 昼夜模式：按钮在导航栏，主题写在 html[data-theme]，偏好存 preferred-theme
+function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+}
+
+function themeLabel(theme) {
+    const goingLight = theme === 'dark';
+    const key = goingLight ? 'ui.themeToLight' : 'ui.themeToDark';
+    const fallback = goingLight ? '切换到浅色模式' : '切换到深色模式';
+    if (window.i18nManager && typeof window.i18nManager.t === 'function') {
+        const value = window.i18nManager.t(key, fallback);
+        if (typeof value === 'string' && value) return value;
     }
-    
-    document.body.appendChild(darkModeToggle);
+    return fallback;
+}
+
+const THEME_ICON_SUN = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+const THEME_ICON_MOON = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>';
+
+function syncThemeToggle() {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    const theme = currentTheme();
+    const label = themeLabel(theme);
+    btn.setAttribute('aria-label', label);
+    btn.setAttribute('title', label);
+    btn.innerHTML = theme === 'light' ? THEME_ICON_MOON : THEME_ICON_SUN;
+}
+
+function setTheme(theme) {
+    const next = theme === 'light' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try {
+        localStorage.setItem('preferred-theme', next);
+    } catch (e) { /* ignore quota / private mode */ }
+    syncThemeToggle();
+}
+
+function initThemeToggle() {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+        setTheme(currentTheme() === 'light' ? 'dark' : 'light');
+    });
+    syncThemeToggle();
+    window.addEventListener('languageChanged', syncThemeToggle);
 }
 
 // 复制促销码功能

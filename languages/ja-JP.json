@@ -218,6 +218,8 @@
     "contact": "Contact"
   },
   "ui": {
-    "languageSelector": "言語"
+    "languageSelector": "言語を選択",
+    "themeToLight": "ライトモードに切り替え",
+    "themeToDark": "ダークモードに切り替え"
   }
 }

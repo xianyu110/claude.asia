@@ -215,9 +215,17 @@ class EnhancedI18nManager {
             const key = element.getAttribute('data-i18n');
             if (key) {
                 const translation = this.t(key);
-                if (translation && translation !== key) {
+                if (typeof translation === 'string' && translation && translation !== key) {
                     element.textContent = translation;
                 }
+            }
+        });
+
+        document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+            const key = element.getAttribute('data-i18n-alt');
+            const translation = this.t(key);
+            if (typeof translation === 'string' && translation && translation !== key) {
+                element.setAttribute('alt', translation);
             }
         });
 
@@ -285,32 +293,34 @@ class EnhancedI18nManager {
                 }
                 
                 .language-select {
-                    padding: 8px 16px;
-                    border: 2px solid rgba(201, 162, 39, 0.35);
+                    height: 40px;
+                    padding: 8px 14px;
+                    border: 2px solid var(--gold-border);
                     border-radius: 8px;
-                    background: #1a1a1f;
-                    color: #e8d48b;
+                    background: var(--bg-elevated);
+                    color: var(--gold-soft);
                     font-size: 14px;
                     font-weight: 500;
                     cursor: pointer;
                     transition: all 0.3s ease;
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+                    box-shadow: var(--toggle-shadow);
                     outline: none;
                 }
                 
                 .language-select:hover {
-                    border-color: rgba(212, 175, 55, 0.55);
-                    box-shadow: 0 4px 12px rgba(201, 162, 39, 0.2);
+                    border-color: var(--gold-border-strong);
+                    background: var(--bg-card-hover);
+                    box-shadow: 0 4px 12px var(--gold-glow);
                 }
                 
                 .language-select:focus {
-                    border-color: #d4af37;
-                    box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.25);
+                    border-color: var(--gold-bright);
+                    box-shadow: 0 0 0 3px var(--gold-glow);
                 }
                 
                 .language-select option {
-                    background: #1a1a1f;
-                    color: #f2efe6;
+                    background: var(--bg-elevated);
+                    color: var(--text-primary);
                 }
                 
                 .sr-only {
@@ -335,8 +345,8 @@ class EnhancedI18nManager {
                     }
                     
                     .language-select {
-                        width: 200px;
-                        max-width: 100%;
+                        width: auto;
+                        max-width: 42vw;
                     }
                 }
             `;

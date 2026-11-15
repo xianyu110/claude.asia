@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    (function(){try{var q=new URLSearchParams(location.search).get('theme');var t=(q==='light'||q==='dark')?q:localStorage.getItem('preferred-theme');if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+    </script>
     <meta name="description" content="前往 https://trymodel.chat/ 使用 Claude Opus、Sonnet、Haiku、Fable。Pro：40 次/天、20 万 Token/天；免费仅 DeepSeek V4 Flash 不限日额度，Claude 需 Pro。">
     <meta name="keywords" content="Claude Opus, Claude Sonnet, Claude Haiku, Claude Fable, trymodel.chat, Claude 国内直连, DeepSeek V4 Flash">
     <title data-i18n="meta.title">Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia</title>
@@ -20,8 +23,11 @@
                 <img src="assets/claude-icon.png" alt="Claude" width="28" height="28" decoding="async">
                 <span data-i18n="nav.logo">Claude · trymodel.chat</span>
             </div>
-            <div id="language-selector-container" class="language-selector-container">
-                <!-- 语言选择器将由 i18n.js 自动创建 -->
+            <div class="nav-controls">
+                <button type="button" id="theme-toggle" class="theme-toggle" aria-label="切换到浅色模式" title="切换到浅色模式"></button>
+                <div id="language-selector-container" class="language-selector-container">
+                    <!-- 语言选择器将由 i18n.js 自动创建 -->
+                </div>
             </div>
         </div>
     </nav>
