@@ -221,5 +221,12 @@
     "languageSelector": "Elegir idioma",
     "themeToLight": "Cambiar a modo claro",
     "themeToDark": "Cambiar a modo oscuro"
+  },
+  "cs": {
+    "title": "Atención al cliente",
+    "copy": "Copiar número",
+    "open": "Abrir chat de QQ",
+    "toggle": "Contactar soporte",
+    "copied": "Copiado"
   }
 }

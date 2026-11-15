@@ -265,5 +265,12 @@
     "repoLabel": "教程仓库：",
     "figureCaption": "funclaude Session Key 登录示意（来自公开教程）",
     "disclaimer": "⚠️ 个人学习笔记整理，风险自负：不保证长期不封号；Session Key 勿分享；封号售后通常不做。升级 Pro 同样不保证不封号。主推荐路径仍为 https://trymodel.chat/ 。"
+  },
+  "cs": {
+    "title": "客服联系方式",
+    "copy": "复制号码",
+    "open": "打开 QQ 聊天",
+    "toggle": "联系客服",
+    "copied": "已复制"
   }
 }

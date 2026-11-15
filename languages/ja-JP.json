@@ -221,5 +221,12 @@
     "languageSelector": "言語を選択",
     "themeToLight": "ライトモードに切り替え",
     "themeToDark": "ダークモードに切り替え"
+  },
+  "cs": {
+    "title": "カスタマーサポート",
+    "copy": "番号をコピー",
+    "open": "QQチャットを開く",
+    "toggle": "サポートに連絡",
+    "copied": "コピーしました"
   }
 }

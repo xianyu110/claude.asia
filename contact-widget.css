@@ -1,0 +1,160 @@
+/* Floating QQ customer-service widget, bottom-right */
+.cs-widget {
+    position: fixed;
+    right: max(20px, env(safe-area-inset-right));
+    bottom: max(20px, env(safe-area-inset-bottom));
+    z-index: 1200;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-family: inherit;
+}
+
+.cs-widget-panel {
+    width: min(280px, calc(100vw - 40px));
+    padding: 16px 16px 14px;
+    border-radius: 16px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--gold-border);
+    box-shadow: var(--shadow-card), 0 0 0 1px rgba(0, 0, 0, 0.2);
+    color: var(--text-primary);
+    transform-origin: bottom right;
+}
+
+.cs-widget-panel[hidden] {
+    display: none;
+}
+
+.cs-widget-kicker {
+    margin: 0 0 4px;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+}
+
+.cs-widget-title {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    font-weight: 650;
+    color: var(--text-primary);
+}
+
+.cs-widget-qq {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: var(--bg-muted);
+    border: 1px solid var(--gold-border);
+}
+
+.cs-widget-qq-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.cs-widget-qq-number {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
+    color: var(--gold-soft);
+}
+
+.cs-widget-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.cs-widget-actions a,
+.cs-widget-actions button {
+    flex: 1;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.cs-widget-copy {
+    background: transparent;
+    color: var(--text-primary);
+    border-color: var(--gold-border) !important;
+}
+
+.cs-widget-copy:hover,
+.cs-widget-open:hover {
+    filter: brightness(1.08);
+}
+
+.cs-widget-open {
+    background: var(--gold);
+    color: var(--on-gold, #111);
+}
+
+.cs-widget-toggle {
+    appearance: none;
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--on-gold, #111);
+    box-shadow: var(--shadow-gold), 0 8px 24px rgba(0, 0, 0, 0.28);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cs-widget-toggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35), var(--shadow-gold);
+}
+
+.cs-widget-toggle:focus-visible {
+    outline: 2px solid var(--gold-bright);
+    outline-offset: 3px;
+}
+
+.cs-widget-toggle svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+.cs-widget-icon-close {
+    display: none;
+}
+
+.cs-widget.is-open .cs-widget-icon-chat {
+    display: none;
+}
+
+.cs-widget.is-open .cs-widget-icon-close {
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .cs-widget {
+        right: max(14px, env(safe-area-inset-right));
+        bottom: max(14px, env(safe-area-inset-bottom));
+    }
+    .cs-widget-toggle {
+        width: 52px;
+        height: 52px;
+    }
+}

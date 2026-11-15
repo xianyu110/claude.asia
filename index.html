@@ -10,6 +10,7 @@
     <meta name="keywords" content="Claude Opus, Claude Sonnet, Claude Haiku, Claude Fable, trymodel.chat, Claude 国内直连, DeepSeek V4 Flash">
     <title data-i18n="meta.title">Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-widget.css">
     <link rel="icon" href="assets/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="assets/claude-icon.svg">
@@ -258,7 +259,35 @@
         </div>
     </footer>
 
+    <div class="cs-widget" id="cs-widget">
+        <div class="cs-widget-panel" id="cs-widget-panel" hidden>
+            <p class="cs-widget-kicker" data-i18n="cs.toggle">联系客服</p>
+            <p class="cs-widget-title" data-i18n="cs.title">客服联系方式</p>
+            <div class="cs-widget-qq">
+                <span class="cs-widget-qq-label">QQ</span>
+                <span class="cs-widget-qq-number">1002569303</span>
+            </div>
+            <div class="cs-widget-actions">
+                <button type="button" class="cs-widget-copy" data-i18n="cs.copy">复制号码</button>
+                <a class="cs-widget-open" href="https://wpa.qq.com/msgrd?v=3&uin=1002569303&site=qq&menu=yes" target="_blank" rel="noopener" data-i18n="cs.open">打开 QQ 聊天</a>
+            </div>
+        </div>
+        <button type="button" class="cs-widget-toggle" aria-expanded="false" aria-controls="cs-widget-panel" data-i18n-aria-label="cs.toggle" title="联系客服" aria-label="联系客服">
+            <svg class="cs-widget-icon-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M8 18.5 5 21v-4.2A8.5 8.5 0 1 1 19.2 16"></path>
+                <circle cx="9" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+                <circle cx="12.5" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+                <circle cx="16" cy="11.5" r="0.9" fill="currentColor" stroke="none"></circle>
+            </svg>
+            <svg class="cs-widget-icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <path d="M6 6l12 12M18 6 6 18"></path>
+            </svg>
+        </button>
+    </div>
+
+
     <script src="js/i18n.js"></script>
     <script src="script.js"></script>
+    <script src="contact-widget.js"></script>
 </body>
 </html>

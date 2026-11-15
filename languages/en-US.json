@@ -265,5 +265,12 @@
     "repoLabel": "Guide repo: ",
     "figureCaption": "funclaude Session Key login (from the public guide)",
     "disclaimer": "⚠️ Personal notes only — use at your own risk. No long-term “no-ban” guarantee; never share your Key; ban-related after-sales usually unavailable. Pro upgrades also do not guarantee no bans. Primary path: https://trymodel.chat/ ."
+  },
+  "cs": {
+    "title": "Customer support",
+    "copy": "Copy number",
+    "open": "Open QQ chat",
+    "toggle": "Contact support",
+    "copied": "Copied"
   }
 }

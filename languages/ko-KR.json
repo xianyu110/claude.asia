@@ -221,5 +221,12 @@
     "languageSelector": "언어 선택",
     "themeToLight": "라이트 모드로 전환",
     "themeToDark": "다크 모드로 전환"
+  },
+  "cs": {
+    "title": "고객 지원",
+    "copy": "번호 복사",
+    "open": "QQ 채팅 열기",
+    "toggle": "고객센터 문의",
+    "copied": "복사됨"
   }
 }
