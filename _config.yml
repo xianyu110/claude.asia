@@ -25,6 +25,10 @@ kramdown:
 # 排除文件
 exclude:
   - README.md
+  - MULTILANG_GUIDE.md
+  - CLAUDE_DESKTOP.md
+  - index.html.backup
+  - index.html.seo-backup
   - Gemfile
   - Gemfile.lock
   - vendor/

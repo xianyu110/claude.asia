@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://claude-opus.top/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
@@ -11,10 +11,11 @@
     <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
     <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
   </url>
   <url>
     <loc>https://claude-opus.top/?lang=en-US</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
@@ -22,5 +23,42 @@
     <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
     <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
     <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+  </url>
+  <url>
+    <loc>https://claude-opus.top/?lang=ja-JP</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+  </url>
+  <url>
+    <loc>https://claude-opus.top/?lang=ko-KR</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
+  </url>
+  <url>
+    <loc>https://claude-opus.top/?lang=es-ES</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://claude-opus.top/" />
   </url>
 </urlset>

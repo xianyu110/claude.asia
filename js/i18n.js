@@ -41,22 +41,8 @@ class EnhancedI18nManager {
             return;
         }
 
-        // 浏览器语言最后
-        const browserLanguage = navigator.language || navigator.userLanguage;
-        if (this.supportedLanguages[browserLanguage]) {
-            this.currentLanguage = browserLanguage;
-            return;
-        }
-
-        // 语言代码匹配
-        const languageCode = browserLanguage.split('-')[0];
-        const matchedLanguage = Object.keys(this.supportedLanguages).find(key => 
-            key.startsWith(languageCode + '-')
-        );
-        
-        if (matchedLanguage) {
-            this.currentLanguage = matchedLanguage;
-        }
+        // 无参数时保持中文首页，避免爬虫按浏览器语言把 / 当成英文页
+        this.currentLanguage = 'zh-CN';
     }
 
     // 加载翻译文件
@@ -117,9 +103,16 @@ class EnhancedI18nManager {
             document.head.appendChild(canonical);
         }
         
-        const baseUrl = window.location.origin + window.location.pathname;
-        const canonicalUrl = this.currentLanguage === 'zh-CN' ? baseUrl : `${baseUrl}?lang=${this.currentLanguage}`;
+        const canonicalUrl = this.urlForLanguage(this.currentLanguage);
         canonical.href = canonicalUrl;
+    }
+
+    siteOrigin() {
+        return 'https://claude-opus.top';
+    }
+
+    urlForLanguage(lang) {
+        return lang === 'zh-CN' ? `${this.siteOrigin()}/` : `${this.siteOrigin()}/?lang=${lang}`;
     }
 
     // 更新Open Graph标签
@@ -127,7 +120,7 @@ class EnhancedI18nManager {
         const ogTags = {
             'og:title': this.seoConfig.title,
             'og:description': this.seoConfig.description,
-            'og:url': window.location.href,
+            'og:url': this.urlForLanguage(this.currentLanguage),
             'og:locale': this.currentLanguage.replace('-', '_')
         };
 
@@ -151,22 +144,18 @@ class EnhancedI18nManager {
             link.remove();
         });
 
-        const baseUrl = window.location.origin + window.location.pathname;
-        
-        // 为每种语言添加hreflang链接
         Object.keys(this.supportedLanguages).forEach(lang => {
             const link = document.createElement('link');
             link.rel = 'alternate';
             link.hreflang = lang;
-            link.href = lang === 'zh-CN' ? baseUrl : `${baseUrl}?lang=${lang}`;
+            link.href = this.urlForLanguage(lang);
             document.head.appendChild(link);
         });
 
-        // 添加x-default
         const defaultLink = document.createElement('link');
         defaultLink.rel = 'alternate';
         defaultLink.hreflang = 'x-default';
-        defaultLink.href = baseUrl;
+        defaultLink.href = this.urlForLanguage('zh-CN');
         document.head.appendChild(defaultLink);
     }
 

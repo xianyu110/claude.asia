@@ -27,10 +27,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
+      - name: Prepare public site
+        run: |
+          mkdir -p _public/assets _public/js _public/languages
+          cp index.html 404.html styles.css script.js robots.txt sitemap.xml CNAME .nojekyll favicon.ico apple-touch-icon.png apple-touch-icon-precomposed.png _public/
+          cp -r assets/. _public/assets/
+          cp -r js/. _public/js/
+          cp -r languages/. _public/languages/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_public'
       
       - name: Deploy to GitHub Pages
         id: deployment

@@ -14,6 +14,34 @@
     <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/svg+xml" href="assets/claude-icon.svg">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://claude-opus.top/">
+    <link rel="alternate" hreflang="zh-CN" href="https://claude-opus.top/">
+    <link rel="alternate" hreflang="en-US" href="https://claude-opus.top/?lang=en-US">
+    <link rel="alternate" hreflang="ja-JP" href="https://claude-opus.top/?lang=ja-JP">
+    <link rel="alternate" hreflang="ko-KR" href="https://claude-opus.top/?lang=ko-KR">
+    <link rel="alternate" hreflang="es-ES" href="https://claude-opus.top/?lang=es-ES">
+    <link rel="alternate" hreflang="x-default" href="https://claude-opus.top/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://claude-opus.top/">
+    <meta property="og:title" content="Claude 国内直连 · trymodel.chat（Opus / Sonnet / Haiku / Fable）- Claude.Asia">
+    <meta property="og:description" content="前往 https://trymodel.chat/ 使用 Claude Opus、Sonnet、Haiku、Fable。Pro：40 次/天、20 万 Token/天；免费仅 DeepSeek V4 Flash 不限日额度，Claude 需 Pro。">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:image" content="https://claude-opus.top/assets/claude-icon.png">
+    <script>
+    (function(){
+      var supported = { 'zh-CN': 1, 'en-US': 1, 'ja-JP': 1, 'ko-KR': 1, 'es-ES': 1 };
+      var lang = new URLSearchParams(location.search).get('lang');
+      var url = (lang && supported[lang] && lang !== 'zh-CN')
+        ? 'https://claude-opus.top/?lang=' + lang
+        : 'https://claude-opus.top/';
+      var canonical = document.querySelector('link[rel="canonical"]');
+      if (canonical) canonical.href = url;
+      var og = document.querySelector('meta[property="og:url"]');
+      if (og) og.setAttribute('content', url);
+    })();
+    </script>
 </head>
 <body>
     <!-- Navigation Bar -->
