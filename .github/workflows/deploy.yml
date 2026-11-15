@@ -30,7 +30,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p _public/assets _public/js _public/languages _public/en _public/ja _public/ko _public/es
-          cp index.html 404.html styles.css script.js contact-widget.css contact-widget.js robots.txt sitemap.xml CNAME .nojekyll favicon.ico apple-touch-icon.png apple-touch-icon-precomposed.png _public/
+          cp index.html 404.html styles.css script.js contact-widget.css contact-widget.js robots.txt sitemap.xml 1ee00019bfb4a35303702bd68126958c.txt CNAME .nojekyll favicon.ico apple-touch-icon.png apple-touch-icon-precomposed.png _public/
           cp -r assets/. _public/assets/
           cp -r js/. _public/js/
           cp -r languages/. _public/languages/
